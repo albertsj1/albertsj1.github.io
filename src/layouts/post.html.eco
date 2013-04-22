@@ -7,4 +7,5 @@ layout: default
 	<div class="post-date"><%= @document.date.toLocaleDateString() %></div>
 	<div class="post-content"><%- @content %></div>
 
+  <div class="post-comments"><%- @getDisqus() %></div>
 </article>
