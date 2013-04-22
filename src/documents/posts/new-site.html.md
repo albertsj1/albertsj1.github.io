@@ -1,0 +1,10 @@
+---
+title: New Website
+layout: post
+tags: ['site','general']
+date: 04/21/2013
+---
+
+I've decided to give Github pages a try, so that meant I needed to give a static website generator a try.  I'm using Docpad right now.  It seems like it has a lot of cool features and pretty easy to use.  This template is pretty nice and was shamelessly borrowed from [Ben Delarre's blog][1].
+
+[1]: https://github.com/benjamind/delarre.docpad

@@ -1,0 +1,10 @@
+---
+layout: default
+---
+
+<article id="post" class="post">
+	<h2><%= @document.title %></h2>
+	<div class="post-date"><%= @document.date.toLocaleDateString() %></div>
+	<div class="post-content"><%- @content %></div>
+
+</article>
