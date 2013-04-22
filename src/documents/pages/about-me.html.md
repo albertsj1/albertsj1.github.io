@@ -3,6 +3,7 @@ title: About Me
 layout: page
 tags: ['about-me']
 pageOrder: 1
+isPage: true
 date: 04/21/2013
 ---
 

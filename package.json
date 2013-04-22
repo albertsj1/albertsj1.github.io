@@ -1,8 +1,8 @@
 {
-  "name": "delarre.docpad",
+  "name": "alberts.docpad",
   "version": "0.1.0",
-  "description": "Docpad based website to be hosted at www.delarre.net for my personal blog.",
-  "homepage": "https://github.com/benjamind/delarre.docpad",
+  "description": "Docpad based website to be hosted at alberts.me for my personal blog.",
+  "homepage": "http://alberts.me",
   "keywords": [
     "docpad-skeleton",
     "docpad",
@@ -11,19 +11,19 @@
     "twitter bootstrap",
     "blog"
   ],
-  "author": "Ben Delarre <ben@delarre.net> (http://delarre.net)",
+  "author": "John Alberts <john@alberts.me> (http://alberts.me)",
   "maintainers": [
-    "Ben Delarre <ben@delarre.net> (http://delarre.net)"
+    "John Alberts <john@alberts.me> (http://alberts.me)"
   ],
   "contributors": [
-    "Ben Delarre <ben@delarre.net> (http://delarre.net)"
+    "John Alberts <john@alberts.me> (http://alberts.me)"
   ],
   "bugs": {
-    "url": "https://github.com/benjamind/delarre.docpad/issues"
+    "url": ""
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/benjamind/delarre.docpad.git"
+    "url": ""
   },
   "engines": {
     "node": "0.10.x",
@@ -33,16 +33,17 @@
     "docpad": "*",
     "docpad-plugin-coffeescript": "*",
     "docpad-plugin-eco": "*",
-    "docpad-plugin-marked": "*",
     "docpad-plugin-partials": "*",
     "docpad-plugin-stylus": "*",
     "docpad-plugin-text": "*",
-    "docpad-plugin-highlightjs": "*",
+    "docpad-plugin-highlightjs": "~2.1.4",
     "docpad-plugin-related": "*",
     "docpad-plugin-paged": "*",
     "docpad-plugin-sitemap": "*",
-    "docpad-plugin-cleanurls": "*",
-    "docpad-plugin-services": "~2.2.4"
+    "docpad-plugin-cleanurls": "~2.4.3",
+    "docpad-plugin-services": "~2.2.4",
+    "docpad-plugin-robotskirt": "*",
+    "docpad-plugin-ghpages": "~2.0.2"
   },
   "devDependencies": {
     "docpad-plugin-livereload": "*"
