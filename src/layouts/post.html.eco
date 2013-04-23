@@ -6,6 +6,7 @@ layout: default
 	<h2><%= @document.title %></h2>
 	<div class="post-date"><%= @document.date.toLocaleDateString() %></div>
 	<div class="post-content"><%- @content %></div>
+  <div class="post-tags"><b>Tags:</b> <%= @document.tags %></div>
 
   <div class="post-comments"><%- @getDisqus() %></div>
 </article>

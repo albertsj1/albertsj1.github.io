@@ -1,6 +1,6 @@
 ---
 author: alberts
-tags: ['post']
+tags: ['git', 'configuration management']
 comments: true
 date: 2012-08-17 14:18:51
 layout: post
