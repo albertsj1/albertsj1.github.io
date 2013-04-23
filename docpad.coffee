@@ -42,6 +42,10 @@
             twitterTweetButton: 'alberts'
             twitterFollowButton: 'alberts'
             githubFollowButton: 'albertsj1'
+        ghpages:
+          config:
+            deployBranch: 'master'
+            environment: 'static'
 
         # -----------------------------
         # Helper Functions
@@ -67,9 +71,6 @@
           # Merge the document keywords with the site keywords
           @site.keywords.concat(@document.keywords or @document.tags or []).join(', ')
 
-      ghpages:
-        deployBranch: 'master'
-        environment: 'static'
 
 
       # =================================
