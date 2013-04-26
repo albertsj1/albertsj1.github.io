@@ -47,11 +47,17 @@
         <div class='nameplate'>
           <a href='/'>
             <img class='nameplate-image img-rounded' src='/images/me.png'/>
+            </a>
             <div class='nameplate-details'>
               <h1>John Alberts</h1>
               <div class='tagline'>Ramblings from a busy devops/sysadmin</div>
+              <div>
+          <a target='_blank' href='http://www.github.com/albertsj1'><img src='/images/social/github.png' width='32px' height='32px'/></a>
+          <a target='_blank' href='http://www.twitter.com/alberts'><img src='/images/social/twitter.png' width='32px' height='32px'/></a>
+          <a target='_blank' href='http://www.linkedin.com/in/johnmalberts'><img src='/images/social/linkedin.png' width='32px' height='32px'/></a>
+          </div>
             </div>
-          </a>
+
         </div>
         <ul class="nav nav-list">
           <li class='nav-header'>Resources</li>
@@ -60,7 +66,6 @@
             <a href="<%= document.url %>" property="dc:title"><%= document.title %></a>
           </li>
           <% end %>
-          <li><a target='_blank' href='http://www.github.com/albertsj1'>GitHub</a></li>
 
           <li class='divider'></li>
 
