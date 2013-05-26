@@ -1,20 +1,17 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2009-01-02 21:40:10
 layout: post
 slug: using-cpan-unattended
 title: Using CPAN Unattended
-wordpress_id: 105
 categories:
 - Gentoo
 - Linux
 - Tips and Tricks
 tags:
 - cpan
-- Linux
-- tips
+- Linux tips
 - unattended
 ---
 

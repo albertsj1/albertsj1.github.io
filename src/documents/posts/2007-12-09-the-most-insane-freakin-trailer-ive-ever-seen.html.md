@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2007-12-09 22:17:33
 layout: post
 slug: the-most-insane-freakin-trailer-ive-ever-seen
 title: The Most Insane Freakin' Trailer I've Ever Seen!
-wordpress_id: 13
 ---
 
 High school girl, ninja, yakuza… a fucking drill bra! Instant win.

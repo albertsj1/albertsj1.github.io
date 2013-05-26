@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2006-01-12 01:26:45
 layout: post
 slug: hard-drive-recovery-utilities-when-you-cant-afford-to-lose-that-data
 title: 'Hard drive recovery utilities: when you can''t afford to lose that data'
-wordpress_id: 51
 ---
 
 Just imagine this: you've been working on that important paper for the past 2 weeks, and you are just about to finish it. The deadline is in a few days. You save your document, go for a coffee and when you get back, your screen is black[...]  

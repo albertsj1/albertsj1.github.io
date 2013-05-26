@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2007-08-29 06:54:51
 layout: post
 slug: what-the-flock
 title: New NightSources
-wordpress_id: 11
 categories:
 - Gentoo
 ---

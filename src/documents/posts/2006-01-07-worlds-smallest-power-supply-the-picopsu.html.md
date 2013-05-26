@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2006-01-07 02:43:31
 layout: post
 slug: worlds-smallest-power-supply-the-picopsu
 title: World's smallest power supply - the picoPSU
-wordpress_id: 49
 ---
 
 This thing is 120W and is barely bigger than the ATX connector it hooks into.  Think of the modding possibilities!  bit-tech has some close up pictures and information.  

@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2007-01-30 16:26:26
 layout: post
 slug: the-gentoo-debate-continues
 title: The Gentoo Debate Continues
-wordpress_id: 10
 categories:
 - Gentoo
 - Linux

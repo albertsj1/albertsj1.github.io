@@ -1,18 +1,14 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2009-01-27 10:10:34
 layout: post
 slug: new-gentoo-home-page-coming-soon
 title: New Gentoo Home Page Coming Soon?
-wordpress_id: 122
 categories:
 - Gentoo
 tags:
 - Gentoo
-- home page
-- website
 ---
 
 I saw a posting today on one of the Gentoo listservs about the recent lack of newsletters and website updates.  Unfortunately, the lack of updates isn't unusual, but I did pickup an interesting bit of information.

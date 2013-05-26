@@ -1,12 +1,13 @@
 ---
 author: alberts
-tags: ['git', 'configuration management']
+tags:
+  - git
+  - configuration management
 comments: true
 date: 2012-08-17 14:18:51
 layout: post
 slug: always-keep-your-copy-of-a-particular-file-in-a-git-merge
 title: Always keep your copy of a particular file in a git merge
-wordpress_id: 228
 categories:
 - configuration management
 - git

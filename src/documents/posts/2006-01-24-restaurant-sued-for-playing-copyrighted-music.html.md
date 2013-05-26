@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2006-01-24 16:01:57
 layout: post
 slug: restaurant-sued-for-playing-copyrighted-music
 title: Restaurant Sued For Playing Copyrighted Music
-wordpress_id: 56
 ---
 
 A restaurant is being sued in federal court by a group representing songwriters for playing tunes written by Van Morrison, Dwight Yoakam and others without a license.

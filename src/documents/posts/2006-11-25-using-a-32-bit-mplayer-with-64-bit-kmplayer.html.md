@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2006-11-25 02:28:15
 layout: post
 slug: using-a-32-bit-mplayer-with-64-bit-kmplayer
 title: Using a 32-bit mplayer with 64-bit kmplayer
-wordpress_id: 70
 categories:
 - Tips and Tricks
 ---

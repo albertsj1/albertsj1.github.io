@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2006-11-25 10:36:43
 layout: post
 slug: the-search-for-a-good-desktop-blog-editor
 title: The Search For a Good Desktop Blog Editor
-wordpress_id: 71
 categories:
 - Personal
 ---

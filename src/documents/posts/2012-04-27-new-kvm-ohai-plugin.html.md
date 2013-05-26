@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2012-04-27 08:23:49
 layout: post
 slug: new-kvm-ohai-plugin
 title: New KVM Ohai Plugin
-wordpress_id: 211
 categories:
 - Chef
 - Ohai

@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2007-01-09 15:25:43
 layout: post
 slug: official-apple-iphone-website
 title: Official Apple iPhone Website
-wordpress_id: 78
 ---
 
 OMG I want one of these.  Looks like it doesn't actually come out until June.  So, I guess June will be a good time to buy my next phone. ;)

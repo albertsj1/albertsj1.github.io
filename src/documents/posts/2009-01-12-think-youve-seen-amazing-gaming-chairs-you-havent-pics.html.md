@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2009-01-12 21:00:26
 layout: post
 slug: think-youve-seen-amazing-gaming-chairs-you-havent-pics
 title: Think You've Seen Amazing Gaming Chairs? You Haven't. [PICS]
-wordpress_id: 116
 ---
 
 Wow!  I have to have one of these chairs!

@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2012-08-07 09:02:34
 layout: post
 slug: checking-file-permissions-with-ruby
 title: Checking file permissions with Ruby
-wordpress_id: 218
 categories:
 - ruby
 ---

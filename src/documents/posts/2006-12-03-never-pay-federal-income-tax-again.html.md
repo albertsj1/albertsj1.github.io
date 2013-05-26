@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2006-12-03 19:39:06
 layout: post
 slug: never-pay-federal-income-tax-again
 title: Never pay federal income tax again?
-wordpress_id: 73
 ---
 
 If this documentary is correct, Americans should never have to pay federal income tax again.  Digg this up and let's get this on the home page.  I, for one, would love to not have to file!

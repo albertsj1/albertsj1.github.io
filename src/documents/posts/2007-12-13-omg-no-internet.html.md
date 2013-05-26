@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2007-12-13 13:55:56
 layout: post
 slug: omg-no-internet
 title: OMG, No Internet
-wordpress_id: 16
 ---
 
   

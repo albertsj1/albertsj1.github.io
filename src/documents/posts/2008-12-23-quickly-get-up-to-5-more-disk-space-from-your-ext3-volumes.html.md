@@ -1,20 +1,17 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2008-12-23 12:30:37
 layout: post
 slug: quickly-get-up-to-5-more-disk-space-from-your-ext3-volumes
 title: Quickly get up to 5% more disk space from your ext3 volumes
-wordpress_id: 97
 categories:
 - Gentoo
 - Linux
 - Tips and Tricks
 tags:
 - ext3
-- Linux
-- tips
+- Linux tips
 ---
 
 I've seen many websites that have pretty much the same ext3 performance tips, but I just came across [this one](http://wiki.archlinux.org/index.php/Ext3_Filesystem_Tips) today that had something very useful on it.

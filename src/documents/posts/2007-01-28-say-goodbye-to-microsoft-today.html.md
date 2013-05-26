@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2007-01-28 07:51:36
 layout: post
 slug: say-goodbye-to-microsoft-today
 title: Say goodbye to Microsoft today ...
-wordpress_id: 9
 categories:
 - Linux
 ---

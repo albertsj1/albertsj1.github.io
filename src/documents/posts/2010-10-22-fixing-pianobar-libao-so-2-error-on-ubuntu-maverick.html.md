@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2010-10-22 08:27:56
 layout: post
 slug: fixing-pianobar-libao-so-2-error-on-ubuntu-maverick
 title: Fixing pianobar libao.so.2 error on Ubuntu Maverick
-wordpress_id: 169
 categories:
 - Linux
 tags:

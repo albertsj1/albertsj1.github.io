@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2012-03-01 21:16:32
 layout: post
 slug: using-pagerdutys-nagios-integration-without-the-extra-load
 title: Using Pagerduty's Nagios integration without the extra load
-wordpress_id: 202
 categories:
 - monitoring
 - Nagios

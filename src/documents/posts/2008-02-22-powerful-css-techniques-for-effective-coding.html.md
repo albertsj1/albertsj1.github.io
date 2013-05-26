@@ -1,20 +1,16 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2008-02-22 15:41:23
 layout: post
 slug: powerful-css-techniques-for-effective-coding
 title: Powerful CSS-Techniques For Effective Coding
-wordpress_id: 31
 categories:
 - Gentoo
 - Linux
 - Tips and Tricks
 tags:
-- css
-- techniques
-- tips
+- css techniques
 ---
 
 In this post we present 50 new CSS-techniques, ideas and ready-to-use solutions for effective coding. ...

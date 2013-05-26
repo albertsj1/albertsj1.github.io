@@ -1,16 +1,13 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2008-01-15 18:08:46
 layout: post
 slug: discussion-of-foundation-status
 title: Discussion of Foundation Status
-wordpress_id: 26
 categories:
 - Gentoo
 tags:
-- None
 - foundation
 - trustees
 ---

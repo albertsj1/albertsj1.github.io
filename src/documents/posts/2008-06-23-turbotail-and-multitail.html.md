@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2008-06-23 20:32:44
 layout: post
 slug: turbotail-and-multitail
 title: Turbotail and multitail
-wordpress_id: 34
 categories:
 - Gentoo
 - Linux

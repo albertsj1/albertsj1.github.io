@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2006-05-08 19:55:04
 layout: post
 slug: vonage-to-reserve-a-portion-of-common-stock-for-customers
 title: Vonage to Reserve a Portion of Common Stock for Customers
-wordpress_id: 64
 ---
 
 Vonage announced the launch of a Directed Share Program as part of its proposed initial public offering (IPO) of common stock, which will allow eligible customers to purchase shares at the IPO price.

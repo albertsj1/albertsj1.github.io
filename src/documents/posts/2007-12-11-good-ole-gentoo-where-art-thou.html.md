@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2007-12-11 23:25:42
 layout: post
 slug: good-ole-gentoo-where-art-thou
 title: Good ole Gentoo.  Where art thou?
-wordpress_id: 15
 categories:
 - Gentoo
 - Linux

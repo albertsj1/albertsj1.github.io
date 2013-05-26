@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2009-01-10 10:09:31
 layout: post
 slug: linux-2628s-five-best-features
 title: Linux 2.6.28's five best features
-wordpress_id: 115
 ---
 
 Nice little summary of great features of the 2.6.28 kernel.  I have to agree.  I just installed the 2.6.28 kernel as part of my new Funtoo install a few days ago, and I haven't run into any problems yet.  I'm about to give ext4 a try.  Hopefully all goes well.

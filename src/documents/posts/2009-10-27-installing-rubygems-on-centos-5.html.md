@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2009-10-27 12:37:47
 layout: post
 slug: installing-rubygems-on-centos-5
 title: Installing RubyGems on Centos 5
-wordpress_id: 159
 categories:
 - Gentoo
 - Linux
@@ -15,7 +13,7 @@ categories:
 tags:
 - gems
 - ruby
-- script
+- scripting
 ---
 
 This should apply to RHEL5 as well, but I haven't verified yet.

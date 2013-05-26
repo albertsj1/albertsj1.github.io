@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2011-06-20 21:59:32
 layout: post
 slug: new-ohai-plugin-for-linux-vserver
 title: New Ohai Plugin for Linux VServer
-wordpress_id: 184
 categories:
 - Chef
 - Linux

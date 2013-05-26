@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2009-01-03 23:21:47
 layout: post
 slug: funtoo-articles
 title: Funtoo Articles
-wordpress_id: 107
 categories:
 - Gentoo
 - Linux

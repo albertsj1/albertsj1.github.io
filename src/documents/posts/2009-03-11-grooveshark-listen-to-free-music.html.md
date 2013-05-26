@@ -1,18 +1,15 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2009-03-11 21:45:35
 layout: post
 slug: grooveshark-listen-to-free-music
 title: Grooveshark -- Listen to Free Music
-wordpress_id: 125
 categories:
 - Cool Websites
 - general
 - web
 tags:
-- free music
 - music
 ---
 

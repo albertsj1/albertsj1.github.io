@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2008-01-11 16:42:40
 layout: post
 slug: gentoo-linux-founder-offers-to-help-fix-recent-problems
 title: Gentoo Linux Founder Offers To Help Fix Recent Problems
-wordpress_id: 25
 ---
 
 There's a poll in the Gentoo forums regarding Daniel Robbins offer today to help get Gentoo Linux back on it's feet.  Gentoo is in serious need of a leader that is not afraid to take action.  Please follow the link and vote yes.  

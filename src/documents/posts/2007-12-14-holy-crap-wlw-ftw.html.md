@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2007-12-14 15:31:04
 layout: post
 slug: holy-crap-wlw-ftw
 title: Holy Crap! WLW FTW
-wordpress_id: 21
 ---
 
 I just realized the Windows Live Writer works with other blogs, such as WordPress, etc. I thought it only supported MS blogging services. This is very cool. It seems to be a nice blog editor.

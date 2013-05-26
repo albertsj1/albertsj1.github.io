@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2008-07-31 15:32:23
 layout: post
 slug: very-thorough-gentoo-ebook
 title: Very Thorough Gentoo Ebook
-wordpress_id: 38
 categories:
 - Gentoo
 ---

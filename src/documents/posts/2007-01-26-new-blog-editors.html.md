@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2007-01-26 04:03:49
 layout: post
 slug: new-blog-editors
 title: New Blog Editors
-wordpress_id: 4
 ---
 
 

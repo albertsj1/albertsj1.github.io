@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2007-01-27 01:50:57
 layout: post
 slug: wetpaint-wiki-create-a-free-wiki-many-looks-no-code-required
 title: Wetpaint | Wiki - Create a free wiki. Many looks. No code required.
-wordpress_id: 8
 categories:
 - Cool Websites
 ---

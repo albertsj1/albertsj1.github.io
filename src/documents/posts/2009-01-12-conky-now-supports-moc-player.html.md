@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2009-01-12 22:46:34
 layout: post
 slug: conky-now-supports-moc-player
 title: Conky now supports MOC player
-wordpress_id: 117
 categories:
 - Gentoo
 - Linux

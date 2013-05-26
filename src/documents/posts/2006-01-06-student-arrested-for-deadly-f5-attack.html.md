@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2006-01-06 11:25:51
 layout: post
 slug: student-arrested-for-deadly-f5-attack
 title: Student arrested for deadly F5 attack
-wordpress_id: 48
 ---
 
 What a joke.  This is absolutely ridiculous.  How can you charge a student with a felony because of the stupidity of others to do what he says?

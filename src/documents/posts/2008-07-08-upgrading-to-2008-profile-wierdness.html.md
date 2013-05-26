@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2008-07-08 18:11:32
 layout: post
 slug: upgrading-to-2008-profile-wierdness
 title: Upgrading to 2008 profile wierdness
-wordpress_id: 36
 categories:
 - Gentoo
 ---

@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2008-01-10 19:42:03
 layout: post
 slug: gwn-to-be-revived-soon
 title: GWN to be revived soon?
-wordpress_id: 23
 categories:
 - Gentoo
 ---

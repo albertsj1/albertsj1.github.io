@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2008-01-11 14:22:01
 layout: post
 slug: daniel-to-the-rescue
 title: Daniel to the rescue?
-wordpress_id: 24
 categories:
 - Gentoo
 ---

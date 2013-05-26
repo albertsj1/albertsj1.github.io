@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2007-12-11 14:15:34
 layout: post
 slug: the-least-used-page-on-microsoftcom
 title: The least used page on microsoft.com
-wordpress_id: 14
 ---
 
 a guide no one has ever used.

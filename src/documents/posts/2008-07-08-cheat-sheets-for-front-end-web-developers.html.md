@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2008-07-08 18:01:48
 layout: post
 slug: cheat-sheets-for-front-end-web-developers
 title: Cheat Sheets for Front-end Web Developers
-wordpress_id: 35
 categories:
 - Gentoo
 - Linux

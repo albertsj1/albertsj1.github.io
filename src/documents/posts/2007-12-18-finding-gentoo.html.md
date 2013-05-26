@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2007-12-18 15:07:46
 layout: post
 slug: finding-gentoo
 title: Finding Gentoo
-wordpress_id: 22
 categories:
 - Gentoo
 - Linux
@@ -16,10 +14,9 @@ tags:
 - gwn
 - information
 - stale
-- web+page
 ---
 
-This is more or less a follow-up to my previous blog post [Good ole Gentoo.  Where art thou?](http://blog.mindlesstechie.net/2007/12/11/good-ole-gentoo-where-art-thou/)  Anyone can just complain about the status of things, so I thought I would provide a little help with finding out more about Gentoo and what's going on with the distro.
+This is more or less a follow-up to my previous blog post [Good ole Gentoo.  Where art thou?](good-ole-gentoo-where-art-thou)  Anyone can just complain about the status of things, so I thought I would provide a little help with finding out more about Gentoo and what's going on with the distro.
 So, you're a long time Gentoo user getting tired of the [old stale web page](http://www.gentoo.org) that shows a [2 month old GWN](http://www.gentoo.org/news/en/gwn/20071015-newsletter.xml) as the latest news.  What to do?  Well, you can make your voice heard in the forums.  Lots of other folks have had the same concern lately.  There has been some talk about[ changing the name of the GWN](http://forums.gentoo.org/viewtopic-p-4631621.html) in the forums, as well as questions of [whether Gentoo is even practical](http://forums.gentoo.org/viewtopic-t-632090.html).
 Ok, you've voiced your opinion, now what?  Find out what's going on in Gentoo yourself by using the huge amount of resources that are available.
 

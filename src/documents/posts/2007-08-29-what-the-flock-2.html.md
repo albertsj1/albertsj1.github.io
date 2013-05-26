@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2007-08-29 07:00:32
 layout: post
 slug: what-the-flock-2
 title: What the Flock?
-wordpress_id: 12
 categories:
 - web
 ---

@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2009-03-11 22:42:25
 layout: post
 slug: balance-through-extremism-%c2%bb-redhat-perl-what-a-tragedy
 title: Balance Through Extremism » Redhat perl. What a tragedy.
-wordpress_id: 127
 categories:
 - Linux
 tags:

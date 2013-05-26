@@ -1,18 +1,14 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2008-01-30 12:15:46
 layout: post
 slug: back-in-business
 title: Back in Business
-wordpress_id: 28
 categories:
 - general
 tags:
-- server
-- template
-- website
+- general
 ---
 
 Hmm... So the site was down for about a week while I waited for a paycheck to pay the server bill.  Jeez, paying bills just sucks. ;)

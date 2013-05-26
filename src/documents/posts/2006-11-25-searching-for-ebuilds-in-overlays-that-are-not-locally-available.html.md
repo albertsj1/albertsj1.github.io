@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2006-11-25 02:23:50
 layout: post
 slug: searching-for-ebuilds-in-overlays-that-are-not-locally-available
 title: Searching For Ebuilds In Overlays That Are Not Locally Available
-wordpress_id: 69
 categories:
 - Tips and Tricks
 ---

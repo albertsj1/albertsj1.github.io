@@ -1,12 +1,10 @@
 ---
 author: alberts
-tags: ['post']
 comments: true
 date: 2009-01-19 17:55:10
 layout: post
 slug: combine-your-partition-space-with-mhddfs
 title: Combine your partition space with mhddfs.
-wordpress_id: 120
 categories:
 - Gentoo
 - Linux
