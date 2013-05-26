@@ -37,13 +37,14 @@
     "docpad-plugin-stylus": "*",
     "docpad-plugin-text": "*",
     "docpad-plugin-highlightjs": "~2.1.4",
-    "docpad-plugin-related": "*",
+    "docpad-plugin-related": "~2.0.5",
     "docpad-plugin-paged": "*",
     "docpad-plugin-sitemap": "*",
     "docpad-plugin-cleanurls": "~2.4.3",
     "docpad-plugin-services": "~2.2.4",
     "docpad-plugin-robotskirt": "*",
-    "docpad-plugin-ghpages": "~2.0.2"
+    "docpad-plugin-ghpages": "~2.0.2",
+    "docpad-plugin-tagging": "~2.0.1"
   },
   "devDependencies": {
     "docpad-plugin-livereload": "*"

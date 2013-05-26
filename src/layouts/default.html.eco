@@ -52,9 +52,9 @@
               <h1>John Alberts</h1>
               <div class='tagline'>Ramblings from a busy devops/sysadmin</div>
               <div>
-          <a target='_blank' href='http://www.github.com/albertsj1'><img src='/images/social/github.png' width='32px' height='32px'/></a>
-          <a target='_blank' href='http://www.twitter.com/alberts'><img src='/images/social/twitter.png' width='32px' height='32px'/></a>
-          <a target='_blank' href='http://www.linkedin.com/in/johnmalberts'><img src='/images/social/linkedin.png' width='32px' height='32px'/></a>
+          <a target='_blank' href='http://www.github.com/albertsj1'><img class="img-bump" src='/images/social/github.png' width='32px' height='32px'/></a>
+          <a target='_blank' href='http://www.twitter.com/alberts'><img class="bump" src='/images/social/twitter.png' width='32px' height='32px'/></a>
+          <a target='_blank' href='http://www.linkedin.com/in/johnmalberts'><img class="bump" src='/images/social/linkedin.png' width='32px' height='32px'/></a>
           </div>
             </div>
 
@@ -78,7 +78,11 @@
           </li>
           <% end %>
           <li class='nav-header'>Tags</li>
-          <li>coming soon...</li>
+	  <% for tag, data of @getTagCloud(): %>
+	    <a href="<%= data.url %>" data-tag-count="<%= data.count %>" data-tag-weight="<%= data.weight %>">
+              <%= tag %>
+	    </a>
+	  <% end %>
 
           <li class='divider'></li>
 
