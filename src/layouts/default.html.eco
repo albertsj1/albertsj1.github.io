@@ -79,7 +79,7 @@
           <% end %>
           <li class='nav-header'>Tags</li>
 	  <% for tag, data of @getTagCloud(): %>
-	    <a style="font-size: <%= (data.weight + 1)* 100 %>%" href="<%= data.url %>" data-tag-count="<%= data.count %>" data-tag-weight="<%= data.weight %>">
+	    <a style="font-size: <%= (data.weight + 1)* 100 %>%" href="<%= data.url.replace ".html","" %>" data-tag-count="<%= data.count %>" data-tag-weight="<%= data.weight %>">
               <%= tag %>
 	    </a>
 	  <% end %>
