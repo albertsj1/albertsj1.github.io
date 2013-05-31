@@ -42,10 +42,6 @@
             twitterTweetButton: 'alberts'
             twitterFollowButton: 'alberts'
             githubFollowButton: 'albertsj1'
-        ghpages:
-          config:
-            deployBranch: 'master'
-            environment: 'static'
 
         # -----------------------------
         # Helper Functions
@@ -114,6 +110,15 @@
               res.redirect(newUrl+req.url, 301)
             else
               next()
+
+      # ================================
+      # Plugin configuration
+
+      plugins:
+        'ghpages':
+          deployBranch: 'master'
+          environment: 'static'
+
   }
 
 
