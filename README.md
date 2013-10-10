@@ -1,4 +1,4 @@
-# Personal site of [Ben Delarre](http://www.delarre.net)
+# Personal site of [John Alberts](http://www.alberts.me)
 
 This is a website built using the [Twitter Bootstrap](http://twitter.github.com/bootstrap/) skeleton for [DocPad](https://github.com/bevry/docpad).
 
