@@ -116,6 +116,7 @@
 
       plugins:
         'ghpages':
+          deployRemote: 'origin'
           deployBranch: 'master'
           environment: 'static'
 
