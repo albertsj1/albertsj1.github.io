@@ -9,6 +9,7 @@ layoutdir = "layouts"
 publishdir = "public"
 [indexes]
   category = "categories"
+canonifyurls = true
 
 [Params]
   nodate = true
