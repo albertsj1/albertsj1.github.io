@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal on John Alberts&#39; Blog</title>
+    <link>http://localhost:1313/categories/personal/</link>
+    <description>Recent content in Personal on John Alberts&#39; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Nov 2006 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/personal/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Oh Well</title>
+      <link>http://localhost:1313/post/oh-well/</link>
+      <pubDate>Sun, 26 Nov 2006 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/oh-well/</guid>
+      <description>&lt;p&gt;It seems that Wordpress.com really won&amp;rsquo;t let me customize the themes very much.  I can&amp;rsquo;t install any addons either.  I really like the admin interface, and the free blog of course.  I&amp;rsquo;m thinking that maybe I&amp;rsquo;ll keep my personal blog here and create a seperate blog elsewhere for the Tips and Tricks.  That way I can customize the look and feel to better suit it for the tips.  Hopefully it&amp;rsquo;ll make it easier for me to post the tips, categorize them, format them better and provide better search capability.&lt;/p&gt;
+
+&lt;p&gt;I hope to do it this week.  Now I need to think of a good domain name.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Finally</title>
+      <link>http://localhost:1313/post/finally/</link>
+      <pubDate>Sat, 25 Nov 2006 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/finally/</guid>
+      <description>&lt;p&gt;I finally hope to start using this blog.  At the very least, I want to start putting Linux tips and tricks in here.  Most will probably be from the &lt;a href=&#34;http://www.gentoo.org/news/en/gwn/gwn.xml&#34;&gt;Gentoo Weekly Newsletter&lt;/a&gt;, while others may be original. :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Search For a Good Desktop Blog Editor</title>
+      <link>http://localhost:1313/post/the-search-for-a-good-desktop-blog-editor/</link>
+      <pubDate>Sat, 25 Nov 2006 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/the-search-for-a-good-desktop-blog-editor/</guid>
+      <description>&lt;p&gt;Now that I have decided to start blogging regularly, I&amp;rsquo;ve been looking for a good blogging editor.  I&amp;rsquo;ve tried some of the post editors that go into the Gnome and KDE panels.  They are nice for quick posts, but I am looking for something more full featured.&lt;br /&gt;
+As far as full featured blogging editors go, so far I&amp;rsquo;ve only tried ones that work in Windows.  Even though I love Linux,  I still spend most of my time in Windows.  So far, I&amp;rsquo;ve tried: Ecto, W.Bloggar and Qumana.&lt;br /&gt;
+Between Ecto and W.Bloggar, I think I liked Ecto the best.  It had a very intuitive interface and I found it easy to use.  Since I&amp;rsquo;m a cheap bastard ;) I decided to keep looking for something free.&lt;br /&gt;
+W.Bloggar seemed full featured; however, I really hated the interface.  I&amp;rsquo;m sure once I used it for a while, it would be great.  Unfortunately, I&amp;rsquo;m not that patient.&lt;br /&gt;
+Lastly, I found Qumana.  It&amp;rsquo;s a free editor that also has integrated support for their QAds.  The interface is actually very nice and pretty intuitive.  I think I&amp;rsquo;lll stick with Qumana for now.&lt;/p&gt;
+
+&lt;p&gt;Tags: &lt;a href=&#34;http://technorati.com/tag/blog&#34;&gt;blog&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tag/editor&#34;&gt;editor&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tag/ecto&#34;&gt;ecto&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tag/w.bloggar&#34;&gt;w.bloggar&lt;/a&gt;, &lt;a href=&#34;http://technorati.com/tag/qumana&#34;&gt;qumana&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

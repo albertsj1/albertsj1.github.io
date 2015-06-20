@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Information on John Alberts&#39; Blog</title>
+    <link>http://localhost:1313/tags/information/</link>
+    <description>Recent content in Information on John Alberts&#39; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Dec 2007 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/information/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Finding Gentoo</title>
+      <link>http://localhost:1313/post/finding-gentoo/</link>
+      <pubDate>Tue, 18 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/finding-gentoo/</guid>
+      <description>&lt;p&gt;This is more or less a follow-up to my previous blog post &lt;a href=&#34;good-ole-gentoo-where-art-thou&#34;&gt;Good ole Gentoo.  Where art thou?&lt;/a&gt;  Anyone can just complain about the status of things, so I thought I would provide a little help with finding out more about Gentoo and what&amp;rsquo;s going on with the distro.
+So, you&amp;rsquo;re a long time Gentoo user getting tired of the &lt;a href=&#34;http://www.gentoo.org&#34;&gt;old stale web page&lt;/a&gt; that shows a &lt;a href=&#34;http://www.gentoo.org/news/en/gwn/20071015-newsletter.xml&#34;&gt;2 month old GWN&lt;/a&gt; as the latest news.  What to do?  Well, you can make your voice heard in the forums.  Lots of other folks have had the same concern lately.  There has been some talk about&lt;a href=&#34;http://forums.gentoo.org/viewtopic-p-4631621.html&#34;&gt; changing the name of the GWN&lt;/a&gt; in the forums, as well as questions of &lt;a href=&#34;http://forums.gentoo.org/viewtopic-t-632090.html&#34;&gt;whether Gentoo is even practical&lt;/a&gt;.
+Ok, you&amp;rsquo;ve voiced your opinion, now what?  Find out what&amp;rsquo;s going on in Gentoo yourself by using the huge amount of resources that are available.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://forums.gentoo.org&#34;&gt;Use the forums&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This should really go without saying.  If you&amp;rsquo;re a Gentoo user and you don&amp;rsquo;t use the forums, you&amp;rsquo;re not really a true Gentoo user.  The forums are the just about the best source out there.  Whether you&amp;rsquo;re looking for information on fixing a problem or just chatting about politics, the forums has it all.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://planet.gentoo.org&#34;&gt;Look in the planet&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Planet Gentoo is a collection of rss feeds from various Gentoo developer blogs.  There&amp;rsquo;s lots of good information on there about various Gentoo related topics.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://planet.gentoo.org/universe&#34;&gt;Look in the universe&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I&amp;rsquo;ve noticed lately that there are less and less posts on Planet Gentoo.  It turns out, the main planet page only shows blog posts specifically in the Gentoo category.  There&amp;rsquo;s another section of the planet that includes all posts from the developers.  I&amp;rsquo;ve found that quite often there is very good information in these other posts.  Sometime there is quite important information that doesn&amp;rsquo;t make it in the main planet feed because it&amp;rsquo;s not just Gentoo specific.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://planetlarry.org&#34;&gt;Look at Larry&amp;rsquo;s Planet&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Planet Larry is a collection of rss feeds from Gentoo users (not developers).  I have my feed on there and there are lots of other users blogs on there as well.  This is a great place to find out what other Gentoo users are talking about.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.gentoo.org/main/en/lists.xml&#34;&gt;Find an interesting mailing list&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Gentoo has lots of mailing lists for just about every topic you can think of.  So&amp;hellip; if you are a Gentoo server admin, subscribing to the gentoo-server list would keep your inbox up to date with the latest discussions about running Gentoo on your server.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.gentoo.org/main/en/irc.xml&#34;&gt;Get on IRC&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Just like the mailing lists, there are lots of IRC channels for just about every topic and project.  If you stuck on something and your hoping to get some quick help, IRC is the place to do it.  The #gentoo channel usually has about 1000 users on at any given time.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.gentoo.org/proj/en/index.xml&#34;&gt;RTFM&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Well, this should really be RTFD, but you get the point.  Gentoo has tons of documentation.  There are docs for each project and each project usually has many docs related to the project.  For instance, if you curious about how the Gentoo release process works, take a look at the &lt;a href=&#34;http://www.gentoo.org/proj/en/releng/index.xml&#34;&gt;releng documentation&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Of course, there&amp;rsquo;s lots of other ways to get information about Gentoo, these are just a few that I use regularly. Occasionally, I find some good stuff just by googling for Gentoo.
+Hope this helps some of the frustrated users out there.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

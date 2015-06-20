@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tips And Tricks on John Alberts&#39; Blog</title>
+    <link>http://localhost:1313/categories/tips-and-tricks/</link>
+    <description>Recent content in Tips And Tricks on John Alberts&#39; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Oct 2009 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/tips-and-tricks/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Installing RubyGems on Centos 5</title>
+      <link>http://localhost:1313/post/installing-rubygems-on-centos-5/</link>
+      <pubDate>Tue, 27 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/installing-rubygems-on-centos-5/</guid>
+      <description>&lt;p&gt;This should apply to RHEL5 as well, but I haven&amp;rsquo;t verified yet.&lt;/p&gt;
+
+&lt;p&gt;The easiest solution I&amp;rsquo;ve found is to simply install Ruby and it&amp;rsquo;s dependencies and then install RubyGems from source.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve written a small script which installs Ruby and it&amp;rsquo;s dependencies.  It then grabs the RubyGems source tarball and installs Gems from source.  As I wrote this to get a working &lt;a href=&#34;http://github.com/albertsj1/Misc-Scripts/raw/master/install_gems.sh&#34;&gt;Chef&lt;/a&gt; install, it also adds an opscode gems source.&lt;/p&gt;
+
+&lt;p&gt;You can get the script &lt;a href=&#34;http://github.com/albertsj1/Misc-Scripts/raw/master/install_gems.sh&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Changing the from field when sending email</title>
+      <link>http://localhost:1313/post/changing-the-from-field-when-sending-email/</link>
+      <pubDate>Thu, 10 Sep 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/changing-the-from-field-when-sending-email/</guid>
+      <description>&lt;p&gt;This is simple, but I always forget how to do it when I need it and it&amp;rsquo;s hard to find on google for some reason.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;echo &amp;quot;hi&amp;quot; | mail -s &amp;quot;My Subject&amp;quot; to@someone.com -- -f from@someone.com
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dress-up your Firefox</title>
+      <link>http://localhost:1313/post/dress-up-your-firefox/</link>
+      <pubDate>Mon, 07 Sep 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/dress-up-your-firefox/</guid>
+      <description>&lt;p&gt;I just stumbled across a &lt;a href=&#34;http://labs.mozilla.com/&#34;&gt;Mozilla Labs&lt;/a&gt; project called &lt;a href=&#34;http://labs.mozilla.com/personas/&#34;&gt;Personas&lt;/a&gt;.  It&amp;rsquo;s  light-weight theming for Firefox that can be changed without restarting the browser.  After you install Personas, you get a new menu entry Tools-&amp;gt;Personas for Firefox, where you can quickly change the persona you are using.  From what I can tell, Personas seem to change the your browser toolbar and menu font colors and usually add a lightweight background picture.  According to the website, the project has been going since Dec 2007, so there&amp;rsquo;s a lot of Personas to choose from.  I guess I&amp;rsquo;m a little slow sometimes. :)&lt;/p&gt;
+
+&lt;p&gt;One thing that is really cool is you can visit the personas gallery and see a bunch of different personas and when you hover your cursor over a persona, your browser will temporarily use that persona.  If you want to use that persona now, just click on it and it&amp;rsquo;s your active persona.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Combine your partition space with mhddfs.</title>
+      <link>http://localhost:1313/post/combine-your-partition-space-with-mhddfs/</link>
+      <pubDate>Mon, 19 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/combine-your-partition-space-with-mhddfs/</guid>
+      <description>&lt;p&gt;As I was browsing the &lt;a href=&#34;http://forums.gentoo.org&#34;&gt;Gentoo forums&lt;/a&gt; today, I came across a &lt;a href=&#34;http://forums.gentoo.org/viewtopic-t-728753.html&#34;&gt;very interesting post&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A user had 2 partitions on different hard drives that he wanted to combine the space on.  Ok, well the interesting part was &lt;a href=&#34;http://forums.gentoo.org/viewtopic-p-5402993.html#5402993&#34;&gt;one persons reply&lt;/a&gt; about a new fuse filesystem called &lt;a href=&#34;http://svn.uvw.ru/mhddfs/trunk/README&#34;&gt;mhddfs&lt;/a&gt;.  He pointed out &lt;a href=&#34;http://debaday.debian.net/2008/05/25/mhddfs-join-several-real-filesystems-together-to-form-a-single-larger-one/&#34;&gt;an article&lt;/a&gt; on debian.net that explained a bit about this new filesystem and how to use it.&lt;/p&gt;
+
+&lt;p&gt;Sure, there&amp;rsquo;s multiple ways to combine the two drives, but this one is pretty intesting.  You can use mhddfs to combine 2 partitions into one virtual partition.  Mhddfs will automatically merge (overlay) the contents of both partitions so it looks like one big partition.&lt;/p&gt;
+
+&lt;p&gt;The advantages are:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;No need to move and backup existing data on the partitions.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Easily implemented in fuse.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Allows a regular user to mount and unmount the filesystem.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;According to the forum thread poster, his tests show there is virtually no speed difference when using mhddfs, which is very surprising.  My experience with using fuse in the past with NTFS, was that it was painfully slow.  I&amp;rsquo;m sure things have matured greatly since I tried it a few years ago.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Conky now supports MOC player</title>
+      <link>http://localhost:1313/post/conky-now-supports-moc-player/</link>
+      <pubDate>Mon, 12 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/conky-now-supports-moc-player/</guid>
+      <description>&lt;p&gt;So, I found myself tweaking my Conky rc file today.  I&amp;rsquo;ve been using &lt;a href=&#34;http://www.google.com/url?sa=t&amp;amp;source=web&amp;amp;ct=res&amp;amp;cd=1&amp;amp;url=http%3A%2F%2Fmoc.daper.net%2F&amp;amp;ei=JBtsSZeABojINLuHpfUM&amp;amp;usg=AFQjCNEXfItHPaL2OA8gKWYwzeMelTPutg&amp;amp;sig2=XMGnh1GeJS8fjDR4r2_baQ&#34;&gt;mocp&lt;/a&gt; for playing music becuase it&amp;rsquo;s a really lightweight, versatile and can run detached from the console.  I really wanted to see my currently playing music info on my desktop in &lt;a href=&#34;http://conky.sourceforge.net/&#34;&gt;Conky&lt;/a&gt;, but Conky&amp;rsquo;s documentation shows no mention of any support for moc and thier are no mention of variables to use for the config.&lt;/p&gt;
+
+&lt;p&gt;So, in doing some googling, I found a website that has &lt;a href=&#34;http://henux.nor.fi/coding/contrib/14-foss/8-conky-moc&#34;&gt;a patch for moc support&lt;/a&gt; and also mentions that it&amp;rsquo;s been in Conky since September 28th!  I guess they haven&amp;rsquo;t updated the documentation yet.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s a list of the new variables you can use in your conkyrc file to add moc support.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_state&lt;/strong&gt;: Current state of MOC; playing, stopped etc.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_file&lt;/strong&gt;: File name of the current MOC song.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_title&lt;/strong&gt;: Title of the current MOC song.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_artist&lt;/strong&gt;: Artist of the current MOC song.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_song&lt;/strong&gt;: The current song name being played in MOC.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_album&lt;/strong&gt;: Album of the current MOC song.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_totaltime&lt;/strong&gt;: Total length of the current MOC song.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_timeleft&lt;/strong&gt;: Time left in the current MOC song&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_curtime&lt;/strong&gt;: Current time of the current MOC song.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_bitrate:&lt;/strong&gt; Bitrate in the current MOC song.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_rate&lt;/strong&gt;: Rate of the current MOC song.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Huge List of Tips and Tricks</title>
+      <link>http://localhost:1313/post/huge-list-of-tips-and-tricks/</link>
+      <pubDate>Thu, 08 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/huge-list-of-tips-and-tricks/</guid>
+      <description>&lt;p&gt;I can&amp;rsquo;t believe I never saw this before.  Sourceforge has an absolutely &lt;a href=&#34;http://superb-east.dl.sourceforge.net/sourceforge/souptonuts/How_to_Linux_and_Open_Source.txt&#34;&gt;HUGE list of tips and tricks&lt;/a&gt;.  There&amp;rsquo;s hundreds of Linux tips and lots of programming tips as well.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using CPAN Unattended</title>
+      <link>http://localhost:1313/post/using-cpan-unattended/</link>
+      <pubDate>Fri, 02 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/using-cpan-unattended/</guid>
+      <description>&lt;p&gt;CPAN is great for easily installing and updating Perl modules.  I use it all of the time on my servers.  It&amp;rsquo;s a lot easier than managing Perl modules through the systems package manager.  The problem is, when you want to install or update a Perl module, it asks you if you want to follow and install all of the dependencies and the dependencies for that&amp;hellip; and so on.  Sometimes you want to be anal and make sure it doesn&amp;rsquo;t install any extra crap, but quite often, it would be nice to just have it install what it needs automatically, so you can walk away and do other things while it&amp;rsquo;s installing.
+I found &lt;a href=&#34;http://rackerhacker.com/2009/01/01/cpan-automatically-install-dependencies-without-confirmation/&#34;&gt;this nice little blog post&lt;/a&gt; that shows you how to have CPAN automatically install all of the dependencies without prompting you.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Quick and Dirty Linux Load Testing</title>
+      <link>http://localhost:1313/post/quick-and-dirty-linux-load-testing/</link>
+      <pubDate>Wed, 31 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/quick-and-dirty-linux-load-testing/</guid>
+      <description>&lt;p&gt;Today I had a need to keep the load on a server at 20 for an extended period of time.  I was doing this to test notification escalations in Nagios.  So, I found a nice little program call &lt;a href=&#34;http://users.bigpond.net.au/CPUburn/&#34;&gt;cpuburn-i&lt;/a&gt;n that will load a processor at 100%.  It&amp;rsquo;s just a tarball with an executable and a single README file included.  To run the program, call the executable and supply the number of minutes you want it to run.  So, to run it for 60 minutes, just use:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;./cpuburn-in 60
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Since I wanted to generate a 20 load on the server for 60 minutes, I just put this in a loop and spawned 20 processes.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;i=1; while [ $i -le 20 ];do ./cpuburn-in 60 &amp;amp; i=$(( $i + 1 ));done
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This worked nicely for keeping the load right around 20 for me.  If you want to kill things off early, just do the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ps a | grep cpuburn-in | awk &#39;{print $1}&#39; | xargs kill
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Quickly get up to 5% more disk space from your ext3 volumes</title>
+      <link>http://localhost:1313/post/quickly-get-up-to-5-more-disk-space-from-your-ext3-volumes/</link>
+      <pubDate>Tue, 23 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/quickly-get-up-to-5-more-disk-space-from-your-ext3-volumes/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve seen many websites that have pretty much the same ext3 performance tips, but I just came across &lt;a href=&#34;http://wiki.archlinux.org/index.php/Ext3_Filesystem_Tips&#34;&gt;this one&lt;/a&gt; today that had something very useful on it.&lt;/p&gt;
+
+&lt;p&gt;It turns out that the ext3 filesystem by default reserves 5% of the disk space of the volume just in case the volume fills up.  This would allow the system to continue running and allow the root user to still log in and clean things up.  The problem is, 5% of a 300G drive is 15G, which is pretty excessive.  Like most things, this setting can be changed uisng the tune2fs program.  I changed my percentage of reserved blocks to 1% instead of 5% which freed up 10G on my drive.&lt;/p&gt;
+
+&lt;p&gt;This was very easy to do with the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# tune2fs -m 1 /dev/sda1
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cheat Sheets for Front-end Web Developers</title>
+      <link>http://localhost:1313/post/cheat-sheets-for-front-end-web-developers/</link>
+      <pubDate>Tue, 08 Jul 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/cheat-sheets-for-front-end-web-developers/</guid>
+      <description>&lt;p&gt;In this article, you’ll find 23 excellent, print-ready cheat sheets for HTML/HTML, CSS, and JavaScript (including MooTools and jQuery).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sixrevisions.com/resources/cheat_sheets_web_developer/&#34;&gt;read more&lt;/a&gt; | &lt;a href=&#34;http://digg.com/programming/Cheat_Sheets_for_Front_end_Web_Developers&#34;&gt;digg story&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Powerful CSS-Techniques For Effective Coding</title>
+      <link>http://localhost:1313/post/powerful-css-techniques-for-effective-coding/</link>
+      <pubDate>Fri, 22 Feb 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/powerful-css-techniques-for-effective-coding/</guid>
+      <description>&lt;p&gt;In this post we present 50 new CSS-techniques, ideas and ready-to-use solutions for effective coding. &amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;There are some very nice techniques here.  Item #43 is very cool.  It might come in handy for a site I&amp;rsquo;m currently working on.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.smashingmagazine.com/2008/02/21/powerful-css-techniques-for-effective-coding/&#34;&gt;read more&lt;/a&gt; | &lt;a href=&#34;http://digg.com/programming/Powerful_CSS_Techniques_For_Effective_Coding&#34;&gt;digg story&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Finally</title>
+      <link>http://localhost:1313/post/finally/</link>
+      <pubDate>Sat, 25 Nov 2006 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/finally/</guid>
+      <description>&lt;p&gt;I finally hope to start using this blog.  At the very least, I want to start putting Linux tips and tricks in here.  Most will probably be from the &lt;a href=&#34;http://www.gentoo.org/news/en/gwn/gwn.xml&#34;&gt;Gentoo Weekly Newsletter&lt;/a&gt;, while others may be original. :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Searching For Ebuilds In Overlays That Are Not Locally Available</title>
+      <link>http://localhost:1313/post/searching-for-ebuilds-in-overlays-that-are-not-locally-available/</link>
+      <pubDate>Sat, 25 Nov 2006 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/searching-for-ebuilds-in-overlays-that-are-not-locally-available/</guid>
+      <description>
+
+&lt;p&gt;With the diverse array of overlays now available to the community, one of the issues a person might have is finding that overlay that is just right for the package they are looking to install. Unfortunately, the default search capabilities of portage are only able to search though overlays that have already been installed on your system. Stefan Schweizer has written an excellent article at his Planet Gentoo blog this week detailing the workings of a tool that makes searching through remote overlays a much easier task than ever before.&lt;/p&gt;
+
+&lt;p&gt;The package for this task is app-portage/eix. You will need to unmask it to get all the latest and greatest features:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Code Listing 4.1: Installing app-portage/eix&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;h1 id=&#34;echo-app-portage-eix-etc-portage-package-keywords:2dc63f0a21786a60b45a06425327ce09&#34;&gt;echo app-portage/eix &amp;gt;&amp;gt; /etc/portage/package.keywords&lt;/h1&gt;
+
+&lt;h1 id=&#34;emerge-eix:2dc63f0a21786a60b45a06425327ce09&#34;&gt;emerge eix&lt;/h1&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Then, to make sure that eix has all the information it needs about all the available overlays, you can issue the following commands to update it:&lt;/p&gt;
+
+&lt;p&gt;**Code Listing 4.2: Updating eix&amp;rsquo;s global overlay list
+**&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;h1 id=&#34;update-eix:2dc63f0a21786a60b45a06425327ce09&#34;&gt;update-eix&lt;/h1&gt;
+
+&lt;h1 id=&#34;update-eix-remote-update:2dc63f0a21786a60b45a06425327ce09&#34;&gt;update-eix-remote update&lt;/h1&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;eix is now able to search for packages in all of the available overlays in the global layman list as well the official portage tree.&lt;/p&gt;
+
+&lt;p&gt;**Code Listing 4.3: Searching for packages
+**&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;h1 id=&#34;eix-e-xmms:2dc63f0a21786a60b45a06425327ce09&#34;&gt;eix -e xmms&lt;/h1&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;[D] media-sound/xmms
+Available versions:  [M]1.2.8-r5[2] [M]1.2.10-r6[2] [M]1.2.10-r8[2]
+[M]1.2.10-r14 [M]1.2.10-r14[3] [M]1.2.10-r15 [M]1.2.10-r15[3]
+[M]1.2.10-r16 [M]1.2.10-r16[3] [M]20101010[1]
+Installed:           1.2.10-r15[01:54:46 08/29/06][nls esd mmx
+vorbis 3dnow mikmod -directfb alsa oss arts -jack -sndfile -lirc
+-flac mad mp3]
+Homepage:            &lt;a href=&#34;http://xmms.org&#34;&gt;http://xmms.org&lt;/a&gt;
+Description:         X Multimedia System&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;layman/fluidportage&#34;&gt;1&lt;/a&gt;
+&lt;a href=&#34;layman/gentoojp&#34;&gt;2&lt;/a&gt;
+&lt;a href=&#34;layman/zugaina&#34;&gt;3&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For more information, refer to the eix man page and the original blog post linked below.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;* http://planet.gentoo.org/developers/genstef/2006/11/03/searching_for_ebuilds_in_overlays_that_a
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using a 32-bit mplayer with 64-bit kmplayer</title>
+      <link>http://localhost:1313/post/using-a-32-bit-mplayer-with-64-bit-kmplayer/</link>
+      <pubDate>Sat, 25 Nov 2006 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/using-a-32-bit-mplayer-with-64-bit-kmplayer/</guid>
+      <description>&lt;p&gt;On amd64 systems, you can use media-video/mplayer-bin to play multimedia files that require 32-bit only codecs (win32codecs), but mplayer doesn&amp;rsquo;t look as good as the 64-bit native version and it doesn&amp;rsquo;t integrate very well with the system. KDE users can emerge kmplayer - a KDE based &amp;ldquo;front end&amp;rdquo;. If you use konqueror, kmplayer adds a plugin to the browser. For this tip to work, you will need to unmerge your native mplayer, if you have it. When you install kmplayer it will not work as there is no /usr/bin/mplayer.&lt;/p&gt;
+
+&lt;p&gt;**Code Listing 4.4: Creating the mplayer link
+**&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;ln -sf /usr/bin/mplayer-bin /usr/local/bin/mplayer&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Now, the native kmplayer will play wmv files and you can &amp;ldquo;preview&amp;rdquo; them in konqueror.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

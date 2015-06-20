@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cool Websites on John Alberts&#39; Blog</title>
+    <link>http://localhost:1313/categories/cool-websites/</link>
+    <description>Recent content in Cool Websites on John Alberts&#39; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Mar 2009 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/cool-websites/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Grooveshark -- Listen to Free Music</title>
+      <link>http://localhost:1313/post/grooveshark-listen-to-free-music/</link>
+      <pubDate>Wed, 11 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/grooveshark-listen-to-free-music/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://listen.grooveshark.com/#&#34;&gt;Grooveshark &amp;ndash; Listen to Free Music&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Just found this website tonight for playing music online for free.  It&amp;rsquo;s a community based service where you can have friends to share music with.  It&amp;rsquo;s kind of like &lt;a href=&#34;http://last.fm&#34;&gt;Last.fm&lt;/a&gt; and&lt;a href=&#34;http://pandora.com&#34;&gt; Pandora&lt;/a&gt;, but with a much nicer interface.  It seems to load very quickly and the music seems like decent quality.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Wetpaint | Wiki - Create a free wiki. Many looks. No code required.</title>
+      <link>http://localhost:1313/post/wetpaint-wiki-create-a-free-wiki-many-looks-no-code-required/</link>
+      <pubDate>Sat, 27 Jan 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/wetpaint-wiki-create-a-free-wiki-many-looks-no-code-required/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.wetpaint.com/&#34;&gt;Wetpaint | Wiki - Create a free wiki. Many looks. No code required.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This looks like a really nice site as an alternative to using MySpace.  You can create web pages without using any code at all and the pages look pretty good.  Best of all, it&amp;rsquo;s FREE!&lt;/p&gt;
+
+&lt;p&gt;I did notice one problem though.  I took a look at one persons site and it let me edit their site.  Hopefully there are options to disable that.&lt;a href=&#34;http://www.wetpaint.com&#34;&gt;&lt;img src=&#34;http://www.mindlesstechie.net/blog/wp-content/uploads/2007/01/wetpaintsm1.jpg&#34; alt=&#34;wetpaintsm.jpg&#34; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruby on John Alberts&#39; Blog</title>
+    <link>http://localhost:1313/tags/ruby/</link>
+    <description>Recent content in Ruby on John Alberts&#39; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Oct 2009 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Installing RubyGems on Centos 5</title>
+      <link>http://localhost:1313/post/installing-rubygems-on-centos-5/</link>
+      <pubDate>Tue, 27 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/installing-rubygems-on-centos-5/</guid>
+      <description>&lt;p&gt;This should apply to RHEL5 as well, but I haven&amp;rsquo;t verified yet.&lt;/p&gt;
+
+&lt;p&gt;The easiest solution I&amp;rsquo;ve found is to simply install Ruby and it&amp;rsquo;s dependencies and then install RubyGems from source.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve written a small script which installs Ruby and it&amp;rsquo;s dependencies.  It then grabs the RubyGems source tarball and installs Gems from source.  As I wrote this to get a working &lt;a href=&#34;http://github.com/albertsj1/Misc-Scripts/raw/master/install_gems.sh&#34;&gt;Chef&lt;/a&gt; install, it also adds an opscode gems source.&lt;/p&gt;
+
+&lt;p&gt;You can get the script &lt;a href=&#34;http://github.com/albertsj1/Misc-Scripts/raw/master/install_gems.sh&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

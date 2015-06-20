@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Load Testing on John Alberts&#39; Blog</title>
+    <link>http://localhost:1313/tags/load-testing/</link>
+    <description>Recent content in Load Testing on John Alberts&#39; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Dec 2008 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/load-testing/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Quick and Dirty Linux Load Testing</title>
+      <link>http://localhost:1313/post/quick-and-dirty-linux-load-testing/</link>
+      <pubDate>Wed, 31 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/quick-and-dirty-linux-load-testing/</guid>
+      <description>&lt;p&gt;Today I had a need to keep the load on a server at 20 for an extended period of time.  I was doing this to test notification escalations in Nagios.  So, I found a nice little program call &lt;a href=&#34;http://users.bigpond.net.au/CPUburn/&#34;&gt;cpuburn-i&lt;/a&gt;n that will load a processor at 100%.  It&amp;rsquo;s just a tarball with an executable and a single README file included.  To run the program, call the executable and supply the number of minutes you want it to run.  So, to run it for 60 minutes, just use:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;./cpuburn-in 60
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Since I wanted to generate a 20 load on the server for 60 minutes, I just put this in a loop and spawned 20 processes.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;i=1; while [ $i -le 20 ];do ./cpuburn-in 60 &amp;amp; i=$(( $i + 1 ));done
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This worked nicely for keeping the load right around 20 for me.  If you want to kill things off early, just do the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ps a | grep cpuburn-in | awk &#39;{print $1}&#39; | xargs kill
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

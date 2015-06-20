@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gentoo on John Alberts&#39; Blog</title>
+    <link>http://localhost:1313/tags/gentoo/</link>
+    <description>Recent content in Gentoo on John Alberts&#39; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Jan 2009 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/gentoo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>New Gentoo Home Page Coming Soon?</title>
+      <link>http://localhost:1313/post/new-gentoo-home-page-coming-soon/</link>
+      <pubDate>Tue, 27 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/new-gentoo-home-page-coming-soon/</guid>
+      <description>&lt;p&gt;I saw a posting today on one of the Gentoo listservs about the recent lack of newsletters and website updates.  Unfortunately, the lack of updates isn&amp;rsquo;t unusual, but I did pickup an interesting bit of information.&lt;/p&gt;
+
+&lt;p&gt;It looks like there is &lt;a href=&#34;http://www.gentoo.org/index2.xml&#34;&gt;a new index page&lt;/a&gt; coming soon to the Gentoo website.  It looks like it&amp;rsquo;s just a matter of when it gets committed.  The new page appears to provide automated news updates with information such as:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Latest GLSA&amp;rsquo;s&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;compilation of dev blog posts from p.g.o&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;latest package additions&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The look of the page is pretty much the same as the old page.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.gentoo.org/index2.xml&#34;&gt;Take a look for yourself&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Combine your partition space with mhddfs.</title>
+      <link>http://localhost:1313/post/combine-your-partition-space-with-mhddfs/</link>
+      <pubDate>Mon, 19 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/combine-your-partition-space-with-mhddfs/</guid>
+      <description>&lt;p&gt;As I was browsing the &lt;a href=&#34;http://forums.gentoo.org&#34;&gt;Gentoo forums&lt;/a&gt; today, I came across a &lt;a href=&#34;http://forums.gentoo.org/viewtopic-t-728753.html&#34;&gt;very interesting post&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A user had 2 partitions on different hard drives that he wanted to combine the space on.  Ok, well the interesting part was &lt;a href=&#34;http://forums.gentoo.org/viewtopic-p-5402993.html#5402993&#34;&gt;one persons reply&lt;/a&gt; about a new fuse filesystem called &lt;a href=&#34;http://svn.uvw.ru/mhddfs/trunk/README&#34;&gt;mhddfs&lt;/a&gt;.  He pointed out &lt;a href=&#34;http://debaday.debian.net/2008/05/25/mhddfs-join-several-real-filesystems-together-to-form-a-single-larger-one/&#34;&gt;an article&lt;/a&gt; on debian.net that explained a bit about this new filesystem and how to use it.&lt;/p&gt;
+
+&lt;p&gt;Sure, there&amp;rsquo;s multiple ways to combine the two drives, but this one is pretty intesting.  You can use mhddfs to combine 2 partitions into one virtual partition.  Mhddfs will automatically merge (overlay) the contents of both partitions so it looks like one big partition.&lt;/p&gt;
+
+&lt;p&gt;The advantages are:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;No need to move and backup existing data on the partitions.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Easily implemented in fuse.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Allows a regular user to mount and unmount the filesystem.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;According to the forum thread poster, his tests show there is virtually no speed difference when using mhddfs, which is very surprising.  My experience with using fuse in the past with NTFS, was that it was painfully slow.  I&amp;rsquo;m sure things have matured greatly since I tried it a few years ago.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Conky now supports MOC player</title>
+      <link>http://localhost:1313/post/conky-now-supports-moc-player/</link>
+      <pubDate>Mon, 12 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/conky-now-supports-moc-player/</guid>
+      <description>&lt;p&gt;So, I found myself tweaking my Conky rc file today.  I&amp;rsquo;ve been using &lt;a href=&#34;http://www.google.com/url?sa=t&amp;amp;source=web&amp;amp;ct=res&amp;amp;cd=1&amp;amp;url=http%3A%2F%2Fmoc.daper.net%2F&amp;amp;ei=JBtsSZeABojINLuHpfUM&amp;amp;usg=AFQjCNEXfItHPaL2OA8gKWYwzeMelTPutg&amp;amp;sig2=XMGnh1GeJS8fjDR4r2_baQ&#34;&gt;mocp&lt;/a&gt; for playing music becuase it&amp;rsquo;s a really lightweight, versatile and can run detached from the console.  I really wanted to see my currently playing music info on my desktop in &lt;a href=&#34;http://conky.sourceforge.net/&#34;&gt;Conky&lt;/a&gt;, but Conky&amp;rsquo;s documentation shows no mention of any support for moc and thier are no mention of variables to use for the config.&lt;/p&gt;
+
+&lt;p&gt;So, in doing some googling, I found a website that has &lt;a href=&#34;http://henux.nor.fi/coding/contrib/14-foss/8-conky-moc&#34;&gt;a patch for moc support&lt;/a&gt; and also mentions that it&amp;rsquo;s been in Conky since September 28th!  I guess they haven&amp;rsquo;t updated the documentation yet.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s a list of the new variables you can use in your conkyrc file to add moc support.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_state&lt;/strong&gt;: Current state of MOC; playing, stopped etc.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_file&lt;/strong&gt;: File name of the current MOC song.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_title&lt;/strong&gt;: Title of the current MOC song.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_artist&lt;/strong&gt;: Artist of the current MOC song.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_song&lt;/strong&gt;: The current song name being played in MOC.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_album&lt;/strong&gt;: Album of the current MOC song.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_totaltime&lt;/strong&gt;: Total length of the current MOC song.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_timeleft&lt;/strong&gt;: Time left in the current MOC song&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_curtime&lt;/strong&gt;: Current time of the current MOC song.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_bitrate:&lt;/strong&gt; Bitrate in the current MOC song.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_rate&lt;/strong&gt;: Rate of the current MOC song.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Funtoo Articles</title>
+      <link>http://localhost:1313/post/funtoo-articles/</link>
+      <pubDate>Sat, 03 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/funtoo-articles/</guid>
+      <description>&lt;p&gt;This is really old news, but it’s new news to me because I just noticed this.&lt;/p&gt;
+
+&lt;p&gt;Daniel Robbins &lt;a href=&#34;http://funtoo.org/&#34;&gt;Funtoo site&lt;/a&gt; now has some articles on it that he recently created. Right now, he has posted some of the articles that we’ve previously seen on the IBM Developer Works website, but there’s also now a quide for installing Funtoo.&lt;/p&gt;
+
+&lt;p&gt;Technorati Tags: &lt;a href=&#34;http://technorati.com/tags/gentoo&#34;&gt;gentoo&lt;/a&gt;,&lt;a href=&#34;http://technorati.com/tags/funtoo&#34;&gt;funtoo&lt;/a&gt;,&lt;a href=&#34;http://technorati.com/tags/linux&#34;&gt;linux&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Finding Gentoo</title>
+      <link>http://localhost:1313/post/finding-gentoo/</link>
+      <pubDate>Tue, 18 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/finding-gentoo/</guid>
+      <description>&lt;p&gt;This is more or less a follow-up to my previous blog post &lt;a href=&#34;good-ole-gentoo-where-art-thou&#34;&gt;Good ole Gentoo.  Where art thou?&lt;/a&gt;  Anyone can just complain about the status of things, so I thought I would provide a little help with finding out more about Gentoo and what&amp;rsquo;s going on with the distro.
+So, you&amp;rsquo;re a long time Gentoo user getting tired of the &lt;a href=&#34;http://www.gentoo.org&#34;&gt;old stale web page&lt;/a&gt; that shows a &lt;a href=&#34;http://www.gentoo.org/news/en/gwn/20071015-newsletter.xml&#34;&gt;2 month old GWN&lt;/a&gt; as the latest news.  What to do?  Well, you can make your voice heard in the forums.  Lots of other folks have had the same concern lately.  There has been some talk about&lt;a href=&#34;http://forums.gentoo.org/viewtopic-p-4631621.html&#34;&gt; changing the name of the GWN&lt;/a&gt; in the forums, as well as questions of &lt;a href=&#34;http://forums.gentoo.org/viewtopic-t-632090.html&#34;&gt;whether Gentoo is even practical&lt;/a&gt;.
+Ok, you&amp;rsquo;ve voiced your opinion, now what?  Find out what&amp;rsquo;s going on in Gentoo yourself by using the huge amount of resources that are available.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://forums.gentoo.org&#34;&gt;Use the forums&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This should really go without saying.  If you&amp;rsquo;re a Gentoo user and you don&amp;rsquo;t use the forums, you&amp;rsquo;re not really a true Gentoo user.  The forums are the just about the best source out there.  Whether you&amp;rsquo;re looking for information on fixing a problem or just chatting about politics, the forums has it all.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://planet.gentoo.org&#34;&gt;Look in the planet&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Planet Gentoo is a collection of rss feeds from various Gentoo developer blogs.  There&amp;rsquo;s lots of good information on there about various Gentoo related topics.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://planet.gentoo.org/universe&#34;&gt;Look in the universe&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I&amp;rsquo;ve noticed lately that there are less and less posts on Planet Gentoo.  It turns out, the main planet page only shows blog posts specifically in the Gentoo category.  There&amp;rsquo;s another section of the planet that includes all posts from the developers.  I&amp;rsquo;ve found that quite often there is very good information in these other posts.  Sometime there is quite important information that doesn&amp;rsquo;t make it in the main planet feed because it&amp;rsquo;s not just Gentoo specific.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://planetlarry.org&#34;&gt;Look at Larry&amp;rsquo;s Planet&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Planet Larry is a collection of rss feeds from Gentoo users (not developers).  I have my feed on there and there are lots of other users blogs on there as well.  This is a great place to find out what other Gentoo users are talking about.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.gentoo.org/main/en/lists.xml&#34;&gt;Find an interesting mailing list&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Gentoo has lots of mailing lists for just about every topic you can think of.  So&amp;hellip; if you are a Gentoo server admin, subscribing to the gentoo-server list would keep your inbox up to date with the latest discussions about running Gentoo on your server.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.gentoo.org/main/en/irc.xml&#34;&gt;Get on IRC&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Just like the mailing lists, there are lots of IRC channels for just about every topic and project.  If you stuck on something and your hoping to get some quick help, IRC is the place to do it.  The #gentoo channel usually has about 1000 users on at any given time.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.gentoo.org/proj/en/index.xml&#34;&gt;RTFM&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Well, this should really be RTFD, but you get the point.  Gentoo has tons of documentation.  There are docs for each project and each project usually has many docs related to the project.  For instance, if you curious about how the Gentoo release process works, take a look at the &lt;a href=&#34;http://www.gentoo.org/proj/en/releng/index.xml&#34;&gt;releng documentation&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Of course, there&amp;rsquo;s lots of other ways to get information about Gentoo, these are just a few that I use regularly. Occasionally, I find some good stuff just by googling for Gentoo.
+Hope this helps some of the frustrated users out there.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

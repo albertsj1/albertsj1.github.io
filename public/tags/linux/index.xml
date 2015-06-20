@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on John Alberts&#39; Blog</title>
+    <link>http://localhost:1313/tags/linux/</link>
+    <description>Recent content in Linux on John Alberts&#39; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Jan 2009 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Combine your partition space with mhddfs.</title>
+      <link>http://localhost:1313/post/combine-your-partition-space-with-mhddfs/</link>
+      <pubDate>Mon, 19 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/combine-your-partition-space-with-mhddfs/</guid>
+      <description>&lt;p&gt;As I was browsing the &lt;a href=&#34;http://forums.gentoo.org&#34;&gt;Gentoo forums&lt;/a&gt; today, I came across a &lt;a href=&#34;http://forums.gentoo.org/viewtopic-t-728753.html&#34;&gt;very interesting post&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A user had 2 partitions on different hard drives that he wanted to combine the space on.  Ok, well the interesting part was &lt;a href=&#34;http://forums.gentoo.org/viewtopic-p-5402993.html#5402993&#34;&gt;one persons reply&lt;/a&gt; about a new fuse filesystem called &lt;a href=&#34;http://svn.uvw.ru/mhddfs/trunk/README&#34;&gt;mhddfs&lt;/a&gt;.  He pointed out &lt;a href=&#34;http://debaday.debian.net/2008/05/25/mhddfs-join-several-real-filesystems-together-to-form-a-single-larger-one/&#34;&gt;an article&lt;/a&gt; on debian.net that explained a bit about this new filesystem and how to use it.&lt;/p&gt;
+
+&lt;p&gt;Sure, there&amp;rsquo;s multiple ways to combine the two drives, but this one is pretty intesting.  You can use mhddfs to combine 2 partitions into one virtual partition.  Mhddfs will automatically merge (overlay) the contents of both partitions so it looks like one big partition.&lt;/p&gt;
+
+&lt;p&gt;The advantages are:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;No need to move and backup existing data on the partitions.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Easily implemented in fuse.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Allows a regular user to mount and unmount the filesystem.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;According to the forum thread poster, his tests show there is virtually no speed difference when using mhddfs, which is very surprising.  My experience with using fuse in the past with NTFS, was that it was painfully slow.  I&amp;rsquo;m sure things have matured greatly since I tried it a few years ago.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Conky now supports MOC player</title>
+      <link>http://localhost:1313/post/conky-now-supports-moc-player/</link>
+      <pubDate>Mon, 12 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/conky-now-supports-moc-player/</guid>
+      <description>&lt;p&gt;So, I found myself tweaking my Conky rc file today.  I&amp;rsquo;ve been using &lt;a href=&#34;http://www.google.com/url?sa=t&amp;amp;source=web&amp;amp;ct=res&amp;amp;cd=1&amp;amp;url=http%3A%2F%2Fmoc.daper.net%2F&amp;amp;ei=JBtsSZeABojINLuHpfUM&amp;amp;usg=AFQjCNEXfItHPaL2OA8gKWYwzeMelTPutg&amp;amp;sig2=XMGnh1GeJS8fjDR4r2_baQ&#34;&gt;mocp&lt;/a&gt; for playing music becuase it&amp;rsquo;s a really lightweight, versatile and can run detached from the console.  I really wanted to see my currently playing music info on my desktop in &lt;a href=&#34;http://conky.sourceforge.net/&#34;&gt;Conky&lt;/a&gt;, but Conky&amp;rsquo;s documentation shows no mention of any support for moc and thier are no mention of variables to use for the config.&lt;/p&gt;
+
+&lt;p&gt;So, in doing some googling, I found a website that has &lt;a href=&#34;http://henux.nor.fi/coding/contrib/14-foss/8-conky-moc&#34;&gt;a patch for moc support&lt;/a&gt; and also mentions that it&amp;rsquo;s been in Conky since September 28th!  I guess they haven&amp;rsquo;t updated the documentation yet.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s a list of the new variables you can use in your conkyrc file to add moc support.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_state&lt;/strong&gt;: Current state of MOC; playing, stopped etc.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_file&lt;/strong&gt;: File name of the current MOC song.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_title&lt;/strong&gt;: Title of the current MOC song.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_artist&lt;/strong&gt;: Artist of the current MOC song.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_song&lt;/strong&gt;: The current song name being played in MOC.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_album&lt;/strong&gt;: Album of the current MOC song.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_totaltime&lt;/strong&gt;: Total length of the current MOC song.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_timeleft&lt;/strong&gt;: Time left in the current MOC song&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_curtime&lt;/strong&gt;: Current time of the current MOC song.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_bitrate:&lt;/strong&gt; Bitrate in the current MOC song.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_rate&lt;/strong&gt;: Rate of the current MOC song.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Funtoo Articles</title>
+      <link>http://localhost:1313/post/funtoo-articles/</link>
+      <pubDate>Sat, 03 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/funtoo-articles/</guid>
+      <description>&lt;p&gt;This is really old news, but it’s new news to me because I just noticed this.&lt;/p&gt;
+
+&lt;p&gt;Daniel Robbins &lt;a href=&#34;http://funtoo.org/&#34;&gt;Funtoo site&lt;/a&gt; now has some articles on it that he recently created. Right now, he has posted some of the articles that we’ve previously seen on the IBM Developer Works website, but there’s also now a quide for installing Funtoo.&lt;/p&gt;
+
+&lt;p&gt;Technorati Tags: &lt;a href=&#34;http://technorati.com/tags/gentoo&#34;&gt;gentoo&lt;/a&gt;,&lt;a href=&#34;http://technorati.com/tags/funtoo&#34;&gt;funtoo&lt;/a&gt;,&lt;a href=&#34;http://technorati.com/tags/linux&#34;&gt;linux&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

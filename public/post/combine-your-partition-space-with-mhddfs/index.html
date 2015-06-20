@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <title>
+    Combine your partition space with mhddfs. // John Alberts&#39; Blog
+  </title>
+
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="alberts">
+<meta name="generator" content="Hugo 0.14" />
+
+  <meta property="og:title" content="Combine your partition space with mhddfs." />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:url" content="http://localhost:1313/post/combine-your-partition-space-with-mhddfs/" />
+
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/base-min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/pure-min.css">
+  
+  
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/grids-responsive-min.css">
+  
+  
+
+  <link rel="stylesheet" href="http://localhost:1313//css/redlounge.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='//fonts.googleapis.com/css?family=Raleway:400,200,100,700,300,500,600,800' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="John Alberts&#39; Blog" />
+
+    
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/tomorrow-night-bright.min.css">
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+
+  
+
+  
+
+  
+</head>
+
+<body>
+	
+
+	<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+    <div class="header">
+        <hgroup>
+            <h1 class="brand-title"><a href="http://localhost:1313/">John Alberts&#39; Blog</a></h1>
+            <h2 class="brand-tagline"></h2>
+        </hgroup>
+
+        <nav class="nav">
+            <ul class="nav-list">
+                
+                <li class="nav-item">
+                    <a class="pure-button" href="http://twitter.com/alberts"><i class="fa fa-twitter"></i> Twitter</a>
+                </li>
+                
+                
+                <li class="nav-item">
+                    <a class="pure-button" href="http://github.com/albertsj1 "><i class="fa fa-github-alt"></i> github</a>
+                </li>
+                
+                
+                <li class="nav-item">
+                    <a class="pure-button" href="http://linkedin.com/in/johnmalberts "><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+</div>
+
+	
+	
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+		<a name="top"></a>
+		
+
+		
+			
+	    
+  		<section class="post">
+            <h1 class="post-title">
+              <a href="/post/combine-your-partition-space-with-mhddfs/">Combine your partition space with mhddfs.</a>
+            </h1>
+            <h3 class="post-subtitle">
+            	
+            </h3>
+            
+            	<span class="post-date">
+                	<span class="post-date-day"><sup>19</sup></span><span class="post-date-separator">/</span><span class="post-date-month">Jan</span> <span class="post-date-year">2009</span>
+            	</span>
+            	
+            
+            	
+            		<span class="post-author-single">By <a class="post-author"  target="">alberts</a></span>
+            		
+
+
+
+
+            	
+            
+
+			
+			
+				<div class="post-categories">
+				
+					<a class="post-category post-category-gentoo" href="http://localhost:1313//categories/gentoo">Gentoo</a>
+				
+					<a class="post-category post-category-linux" href="http://localhost:1313//categories/linux">Linux</a>
+				
+					<a class="post-category post-category-tips-and-tricks" href="http://localhost:1313//categories/tips-and-tricks">Tips and Tricks</a>
+				
+				</div>
+			
+
+			
+
+			
+
+            <p>As I was browsing the <a href="http://forums.gentoo.org">Gentoo forums</a> today, I came across a <a href="http://forums.gentoo.org/viewtopic-t-728753.html">very interesting post</a>.</p>
+
+<p>A user had 2 partitions on different hard drives that he wanted to combine the space on.  Ok, well the interesting part was <a href="http://forums.gentoo.org/viewtopic-p-5402993.html#5402993">one persons reply</a> about a new fuse filesystem called <a href="http://svn.uvw.ru/mhddfs/trunk/README">mhddfs</a>.  He pointed out <a href="http://debaday.debian.net/2008/05/25/mhddfs-join-several-real-filesystems-together-to-form-a-single-larger-one/">an article</a> on debian.net that explained a bit about this new filesystem and how to use it.</p>
+
+<p>Sure, there&rsquo;s multiple ways to combine the two drives, but this one is pretty intesting.  You can use mhddfs to combine 2 partitions into one virtual partition.  Mhddfs will automatically merge (overlay) the contents of both partitions so it looks like one big partition.</p>
+
+<p>The advantages are:</p>
+
+<ol>
+<li><p>No need to move and backup existing data on the partitions.</p></li>
+
+<li><p>Easily implemented in fuse.</p></li>
+
+<li><p>Allows a regular user to mount and unmount the filesystem.</p></li>
+</ol>
+
+<p>According to the forum thread poster, his tests show there is virtually no speed difference when using mhddfs, which is very surprising.  My experience with using fuse in the past with NTFS, was that it was painfully slow.  I&rsquo;m sure things have matured greatly since I tried it a few years ago.</p>
+
+	
+			
+
+			
+				<div class="tags-list">
+					<span class="dark-red">Tags</span><span class="decorative-marker">//</span>
+					
+	                <a class="post-tag post-tag-filesystems" href="http://localhost:1313//tags/filesystems">filesystems</a>,
+	                
+	                <a class="post-tag post-tag-fuse" href="http://localhost:1313//tags/fuse">fuse</a>,
+	                
+	                <a class="post-tag post-tag-gentoo" href="http://localhost:1313//tags/gentoo">Gentoo</a>,
+	                
+	                <a class="post-tag post-tag-linux" href="http://localhost:1313//tags/linux">Linux</a>,
+	                
+	                <a class="post-tag post-tag-mhddfs" href="http://localhost:1313//tags/mhddfs">mhddfs</a>,
+	                
+	                <a class="post-tag post-tag-tips" href="http://localhost:1313//tags/tips">tips</a>,
+	                
+				</div>
+			
+
+			
+				<div class="paging">
+					<span class="paging-label">More Reading</span>
+					
+					<div class="paging-newer">
+						<span class="dark-red">Newer</span><span class="decorative-marker">//</span>
+						<a class="paging-link" href="/post/new-gentoo-home-page-coming-soon/">New Gentoo Home Page Coming Soon?</a>
+		            </div>
+		            
+
+					
+					<div class="paging-older">
+						<span class="dark-red">Older</span><span class="decorative-marker">//</span>
+			            <a class="paging-link" href="/post/think-youve-seen-amazing-gaming-chairs-you-havent-pics/">Think You&#39;ve Seen Amazing Gaming Chairs? You Haven&#39;t. [PICS]</a>
+		            </div>
+		            
+	            </div>
+            
+          </section>
+          
+          	<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'alberts';
+    var disqus_identifier = 'http:\/\/localhost:1313\/post\/combine-your-partition-space-with-mhddfs\/';
+    var disqus_title = 'Combine your partition space with mhddfs.';
+    var disqus_url = 'http:\/\/localhost:1313\/post\/combine-your-partition-space-with-mhddfs\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+          
+        
+      <div class="footer">
+	<hr class="thin" />
+	<div class="pure-menu pure-menu-horizontal pure-menu-open">
+		<ul class="footer-menu">
+		
+		</ul>
+	</div>
+
+	<p>&copy; 2015. All rights reserved.</p>
+</div>
+    </div>
+  </div>
+	
+
+	
+
+  
+<script data-no-instant>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
+</html>

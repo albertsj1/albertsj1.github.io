@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux Tips on John Alberts&#39; Blog</title>
+    <link>http://localhost:1313/tags/linux-tips/</link>
+    <description>Recent content in Linux Tips on John Alberts&#39; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Jan 2009 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/linux-tips/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Huge List of Tips and Tricks</title>
+      <link>http://localhost:1313/post/huge-list-of-tips-and-tricks/</link>
+      <pubDate>Thu, 08 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/huge-list-of-tips-and-tricks/</guid>
+      <description>&lt;p&gt;I can&amp;rsquo;t believe I never saw this before.  Sourceforge has an absolutely &lt;a href=&#34;http://superb-east.dl.sourceforge.net/sourceforge/souptonuts/How_to_Linux_and_Open_Source.txt&#34;&gt;HUGE list of tips and tricks&lt;/a&gt;.  There&amp;rsquo;s hundreds of Linux tips and lots of programming tips as well.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using CPAN Unattended</title>
+      <link>http://localhost:1313/post/using-cpan-unattended/</link>
+      <pubDate>Fri, 02 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/using-cpan-unattended/</guid>
+      <description>&lt;p&gt;CPAN is great for easily installing and updating Perl modules.  I use it all of the time on my servers.  It&amp;rsquo;s a lot easier than managing Perl modules through the systems package manager.  The problem is, when you want to install or update a Perl module, it asks you if you want to follow and install all of the dependencies and the dependencies for that&amp;hellip; and so on.  Sometimes you want to be anal and make sure it doesn&amp;rsquo;t install any extra crap, but quite often, it would be nice to just have it install what it needs automatically, so you can walk away and do other things while it&amp;rsquo;s installing.
+I found &lt;a href=&#34;http://rackerhacker.com/2009/01/01/cpan-automatically-install-dependencies-without-confirmation/&#34;&gt;this nice little blog post&lt;/a&gt; that shows you how to have CPAN automatically install all of the dependencies without prompting you.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Quick and Dirty Linux Load Testing</title>
+      <link>http://localhost:1313/post/quick-and-dirty-linux-load-testing/</link>
+      <pubDate>Wed, 31 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/quick-and-dirty-linux-load-testing/</guid>
+      <description>&lt;p&gt;Today I had a need to keep the load on a server at 20 for an extended period of time.  I was doing this to test notification escalations in Nagios.  So, I found a nice little program call &lt;a href=&#34;http://users.bigpond.net.au/CPUburn/&#34;&gt;cpuburn-i&lt;/a&gt;n that will load a processor at 100%.  It&amp;rsquo;s just a tarball with an executable and a single README file included.  To run the program, call the executable and supply the number of minutes you want it to run.  So, to run it for 60 minutes, just use:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;./cpuburn-in 60
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Since I wanted to generate a 20 load on the server for 60 minutes, I just put this in a loop and spawned 20 processes.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;i=1; while [ $i -le 20 ];do ./cpuburn-in 60 &amp;amp; i=$(( $i + 1 ));done
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This worked nicely for keeping the load right around 20 for me.  If you want to kill things off early, just do the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ps a | grep cpuburn-in | awk &#39;{print $1}&#39; | xargs kill
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Quickly get up to 5% more disk space from your ext3 volumes</title>
+      <link>http://localhost:1313/post/quickly-get-up-to-5-more-disk-space-from-your-ext3-volumes/</link>
+      <pubDate>Tue, 23 Dec 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/quickly-get-up-to-5-more-disk-space-from-your-ext3-volumes/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve seen many websites that have pretty much the same ext3 performance tips, but I just came across &lt;a href=&#34;http://wiki.archlinux.org/index.php/Ext3_Filesystem_Tips&#34;&gt;this one&lt;/a&gt; today that had something very useful on it.&lt;/p&gt;
+
+&lt;p&gt;It turns out that the ext3 filesystem by default reserves 5% of the disk space of the volume just in case the volume fills up.  This would allow the system to continue running and allow the root user to still log in and clean things up.  The problem is, 5% of a 300G drive is 15G, which is pretty excessive.  Like most things, this setting can be changed uisng the tune2fs program.  I changed my percentage of reserved blocks to 1% instead of 5% which freed up 10G on my drive.&lt;/p&gt;
+
+&lt;p&gt;This was very easy to do with the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# tune2fs -m 1 /dev/sda1
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Knife on John Alberts&#39; Blog</title>
+    <link>http://localhost:1313/tags/knife/</link>
+    <description>Recent content in Knife on John Alberts&#39; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 27 Oct 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/knife/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>New knife-convert Knife Plugin</title>
+      <link>http://localhost:1313/post/2013-10-27-new-knife-convert-plugin.html/</link>
+      <pubDate>Sun, 27 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2013-10-27-new-knife-convert-plugin.html/</guid>
+      <description>
+
+&lt;p&gt;At my last job, I saw the light a while ago and switched from a monolithic Chef repo to individual repositories per cookbook.  In addition, I also stopped using roles and started using &lt;a href=&#34;http://realityforge.org/code/2012/11/19/role-cookbooks-and-wrapper-cookbooks.html&#34;&gt;role cookbooks&lt;/a&gt;.  Converting my roles to cookbooks wasn&amp;rsquo;t a huge deal because I mostly used roles as a way of identifying server types and setting a runlist.  Most of my roles also didn&amp;rsquo;t have any attributes specified and I didn&amp;rsquo;t have a whole lot of roles.  A manual conversion only took an hour or so.  This is vastly different from my current job.  We have quite a few roles and those roles often have attributes specified and also have enviromental runlists specified.  In addition, our environment definitions contain hundreds of default attribute settings.&lt;/p&gt;
+
+&lt;p&gt;Manually converting these roles and environments to cookbooks was not an option.  So began my search for something to automate the conversion.  I happened to come accross a very nice knife plugin called &lt;a href=&#34;https://github.com/kisoku/knife-role-convert&#34;&gt;knife-role-convert&lt;/a&gt;.  It did a great job of converting roles to a recipe; however, it did not support converting environments.  There were also some features missing that I needed for creating the new role and environment cookbooks that I needed in the format I wanted to use.  Hence, &lt;a href=&#34;https://github.com/albertsj1/knife-convert&#34;&gt;knife-convert&lt;/a&gt; was born.  It borrows very heavily from the knife-role-convert codebase, but adds a few additional features for converting roles and also adds the ability to convert environments.  The plugin doesn&amp;rsquo;t create any files.  It instead prints the recipe to stdout.  I considered having the plugin directly create a cookbook based on the role or environment file specified; however, I felt this would severely limit the flexability of the plugin and the use cases.  Since the output goes to stdout, you can easily redirect the output to any place of your choice and easiliy manipulate the output before writing it to a file.  For my use case, I plan to write a wrapper script that will automatically parse my role and environment files, and call the knife plugin to produce the output I need and then redirect that to the appropriate cookbook and recipe structure for my organization.  I haven&amp;rsquo;t written the wrapper script yet, hopefully I&amp;rsquo;ll get that done today. :)&lt;/p&gt;
+
+&lt;h1 id=&#34;usage:9f91a9cda21708f9f7f119ae90892612&#34;&gt;USAGE:&lt;/h1&gt;
+
+&lt;h2 id=&#34;knife-convert-role:9f91a9cda21708f9f7f119ae90892612&#34;&gt;knife convert role&lt;/h2&gt;
+
+&lt;p&gt;knife convert take a single role and spits an equivalent recipe to stdout.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;knife convert role ROLE (options)
+    -r, --recipe RECIPE              Recipe name you want the role to be ceonverted to
+    -C, --comment_enabled            Enable a comment at the top of the generated recipe
+    -c, --cookbook COOKBOOK          Cookbook name you want the role to be added to
+    -d, --no_default                 Don&#39;t output default attributes
+    -o, --no_override                Don&#39;t output override attributes
+    -R, --no_runlist                 Don&#39;t output runlist lines
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;knife-convert-environment:9f91a9cda21708f9f7f119ae90892612&#34;&gt;knife convert environment&lt;/h2&gt;
+
+&lt;p&gt;knife convert takes a single environment and spits an equivalent recipe to stdout.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;knife convert environment ENVIRONMENT (options)
+    -a, --author Author name         Author name to use in the comment of the generated recipe
+    -C, --comment_enabled            Enable a comment at the top of the generated recipe
+    -c, --cookbook COOKBOOK          Cookbook name you want the environment to be added to
+    -E, --environment ENVIRONMENT    Set the Chef environment
+    -d, --no_default                 Don&#39;t output default attributes
+    -o, --no_override                Don&#39;t output override attributes
+    -r, --recipe RECIPE              Recipe name you want the environment to be converted to
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

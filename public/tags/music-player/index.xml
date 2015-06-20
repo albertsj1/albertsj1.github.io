@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Music Player on John Alberts&#39; Blog</title>
+    <link>http://localhost:1313/tags/music-player/</link>
+    <description>Recent content in Music Player on John Alberts&#39; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Jan 2009 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/music-player/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Conky now supports MOC player</title>
+      <link>http://localhost:1313/post/conky-now-supports-moc-player/</link>
+      <pubDate>Mon, 12 Jan 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/conky-now-supports-moc-player/</guid>
+      <description>&lt;p&gt;So, I found myself tweaking my Conky rc file today.  I&amp;rsquo;ve been using &lt;a href=&#34;http://www.google.com/url?sa=t&amp;amp;source=web&amp;amp;ct=res&amp;amp;cd=1&amp;amp;url=http%3A%2F%2Fmoc.daper.net%2F&amp;amp;ei=JBtsSZeABojINLuHpfUM&amp;amp;usg=AFQjCNEXfItHPaL2OA8gKWYwzeMelTPutg&amp;amp;sig2=XMGnh1GeJS8fjDR4r2_baQ&#34;&gt;mocp&lt;/a&gt; for playing music becuase it&amp;rsquo;s a really lightweight, versatile and can run detached from the console.  I really wanted to see my currently playing music info on my desktop in &lt;a href=&#34;http://conky.sourceforge.net/&#34;&gt;Conky&lt;/a&gt;, but Conky&amp;rsquo;s documentation shows no mention of any support for moc and thier are no mention of variables to use for the config.&lt;/p&gt;
+
+&lt;p&gt;So, in doing some googling, I found a website that has &lt;a href=&#34;http://henux.nor.fi/coding/contrib/14-foss/8-conky-moc&#34;&gt;a patch for moc support&lt;/a&gt; and also mentions that it&amp;rsquo;s been in Conky since September 28th!  I guess they haven&amp;rsquo;t updated the documentation yet.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s a list of the new variables you can use in your conkyrc file to add moc support.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_state&lt;/strong&gt;: Current state of MOC; playing, stopped etc.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_file&lt;/strong&gt;: File name of the current MOC song.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_title&lt;/strong&gt;: Title of the current MOC song.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_artist&lt;/strong&gt;: Artist of the current MOC song.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_song&lt;/strong&gt;: The current song name being played in MOC.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_album&lt;/strong&gt;: Album of the current MOC song.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_totaltime&lt;/strong&gt;: Total length of the current MOC song.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_timeleft&lt;/strong&gt;: Time left in the current MOC song&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_curtime&lt;/strong&gt;: Current time of the current MOC song.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_bitrate:&lt;/strong&gt; Bitrate in the current MOC song.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$moc_rate&lt;/strong&gt;: Rate of the current MOC song.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

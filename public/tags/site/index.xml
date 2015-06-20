@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Site on John Alberts&#39; Blog</title>
+    <link>http://localhost:1313/tags/site/</link>
+    <description>Recent content in Site on John Alberts&#39; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Apr 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/site/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>New Website</title>
+      <link>http://localhost:1313/post/2013-04-22-new-site.html/</link>
+      <pubDate>Mon, 22 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2013-04-22-new-site.html/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve decided to give Github pages a try, so that meant I needed to give a static website generator a try.  I&amp;rsquo;m using Docpad right now.  It seems like it has a lot of cool features and pretty easy to use.  This template is pretty nice and was shamelessly borrowed from &lt;a href=&#34;https://github.com/benjamind/delarre.docpad&#34;&gt;Ben Delarre&amp;rsquo;s blog&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

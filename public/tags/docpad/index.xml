@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docpad on John Alberts&#39; Blog</title>
+    <link>http://localhost:1313/tags/docpad/</link>
+    <description>Recent content in Docpad on John Alberts&#39; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Sep 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/docpad/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Docpad working again</title>
+      <link>http://localhost:1313/post/2013-10-09-working_again.html/</link>
+      <pubDate>Tue, 10 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2013-10-09-working_again.html/</guid>
+      <description>&lt;p&gt;So&amp;hellip; it&amp;rsquo;s been quite a long time since I posted anything.  Since my last post, I no longer work for &lt;a href=&#34;http://samsungmusic.com&#34;&gt;Exlibris&lt;/a&gt; and am now working as a full time Devops consultant at &lt;a href=&#34;http://www.exlibris-usa.com&#34;&gt;Samsung Music&lt;/a&gt; in Palo Alto.  Yeah&amp;hellip; devops is an overloaded word, oh well.  It&amp;rsquo;s short than System Configuration and Automation Engineer or anything else that resembles what I do. ;)
+It sucks being away from my home and family in NW Indiana, but at least I&amp;rsquo;m able to go home and visit every couple of weeks.  Hopefully this thing switches to full time remote and I&amp;rsquo;ll be thrilled.  I certainly can&amp;rsquo;t complain about the weather out here except maybe to say it&amp;rsquo;s a bit boring.  No rain, sunny and ~78F every day.
+I&amp;rsquo;ve been here for almost a couple months now, so the initial new job learning curve is gone now.  I&amp;rsquo;m finally writing some new Chef cookbooks to get new things done instead of just tweaking or adding small features to existing cookbooks.  I&amp;rsquo;m hoping to find time to write up some blog posts about some of the work I&amp;rsquo;m doing with Chef and other tools we&amp;rsquo;re using.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slowly working on my new site</title>
+      <link>http://localhost:1313/post/2013-05-31-tags.html/</link>
+      <pubDate>Fri, 31 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2013-05-31-tags.html/</guid>
+      <description>&lt;p&gt;I finally spent a tiny amount of time working on my new &lt;a href=&#34;http://docpad.org&#34;&gt;docpad&lt;/a&gt; site and figured out how to get a tags working how I wanted them.  Notice the tag cloud on the side. :) Yeah, it uses inline css. Oh well, it was the quickest way to just get it done.
+Now, if I can only find some time to write a post on the &lt;a href=&#34;http://community.opscode.com/cookbooks/ebs&#34;&gt;EBS cookbook&lt;/a&gt; I&amp;rsquo;ve been working on&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

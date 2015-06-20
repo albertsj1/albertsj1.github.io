@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramblings from a busy devops / sysadmin &middot; Ramblings from a busy devops / sysadmin</title>
+
+    <meta name="description" content="">
+
+    <meta name="generator" content="Hugo 0.14" />
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="alberts" />
+    <meta name="twitter:title" content="Ramblings from a busy devops / sysadmin &middot; Ramblings from a busy devops / sysadmin">
+    <meta name="twitter:description" content="">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Ramblings from a busy devops / sysadmin &middot; Ramblings from a busy devops / sysadmin">
+    <meta property="og:description" content="">
+
+    <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Oxygen:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
+    <!--<![endif]-->
+
+    <link rel="stylesheet" href="http://localhost:1313//css/all.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="alternate" type="application/rss+xml" title="Ramblings from a busy devops / sysadmin" href="http://localhost:1313//index.xml" />
+</head>
+<body>
+
+
+<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+    <div class="header">
+        <hgroup>
+            <h1 class="brand-title"><a href="http://localhost:1313/">Ramblings from a busy devops / sysadmin</a></h1>
+            <h2 class="brand-tagline"></h2>
+        </hgroup>
+
+        <nav class="nav">
+            <ul class="nav-list">
+                
+                <li class="nav-item">
+                    <a class="pure-button" href="http://twitter.com/alberts"><i class="fa fa-twitter"></i> Twitter</a>
+                </li>
+                
+                
+                <li class="nav-item">
+                    <a class="pure-button" href="http://github.com/albertsj1 "><i class="fa fa-github-alt"></i> github</a>
+                </li>
+                
+                
+                <li class="nav-item">
+                    <a class="pure-button" href="http://linkedin.com/in/johnmalberts "><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+</div>
+
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+        <div>
+            
+            <div class="posts">
+                
+                <h1 class="content-subhead">08 Jul 2008, 00:00</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://localhost:1313/post/cheat-sheets-for-front-end-web-developers/" class="post-title">Cheat Sheets for Front-end Web Developers</a>
+
+                        <p class="post-meta">
+                            
+                                By <strong class="post-author">alberts</strong>
+                            
+                            
+                                under 
+                                
+                                <a class="post-category post-category-Gentoo" href="http://localhost:1313//categories/gentoo">Gentoo</a><a class="post-category post-category-Linux" href="http://localhost:1313//categories/linux">Linux</a><a class="post-category post-category-Tips and Tricks" href="http://localhost:1313//categories/tips-and-tricks">Tips and Tricks</a>
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>In this article, you’ll find 23 excellent, print-ready cheat sheets for HTML/HTML, CSS, and JavaScript (including MooTools and jQuery).</p>
+
+<p><a href="http://sixrevisions.com/resources/cheat_sheets_web_developer/">read more</a> | <a href="http://digg.com/programming/Cheat_Sheets_for_Front_end_Web_Developers">digg story</a></p>
+
+                    </div>
+                </section>
+                
+                <h1 class="content-subhead">08 Jul 2008, 00:00</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://localhost:1313/post/upgrading-to-2008-profile-wierdness/" class="post-title">Upgrading to 2008 profile wierdness</a>
+
+                        <p class="post-meta">
+                            
+                                By <strong class="post-author">alberts</strong>
+                            
+                            
+                                under 
+                                
+                                <a class="post-category post-category-Gentoo" href="http://localhost:1313//categories/gentoo">Gentoo</a>
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>At long last, Gentoo 2008.0 is out.  Yeah, I know.  If you already have Gentoo installed, who cares about a new release?  Releases are good for the distribution as a whole.  It stirs interest from people who haven&rsquo;t tried Gentoo and also inspires articles on websites and magazines.</p>
+
+<p>Anyway&hellip; I decided to switch to the 2008.0 profile.  Usually, I just delete the /etc/make.profile symlink and create a new one to the latest and greatest profile.  This time I figured I would give eselect a try.  It changed the symlink fine, but I got the following error when trying to use emerge:</p>
+
+<p><code>!!! Unable to parse profile: '/etc/make.profile'</code></p>
+
+<p><code>!!! ParseError: Parent '/usr/portage/profiles/releases/2008.0' not found: '/usr/portage/profiles/default/linux/amd64/2008.0/parent'.</code></p>
+
+<p>So, I deleted the symlink it created and did it manually.  Got the same error.  It turns out, some rsync servers either don&rsquo;t have or aren&rsquo;t propagating the new /usr/portage/profiles/releases directory.  After doing another emerge &ndash;sync, it created the releases directory for me and I was good to go. :)</p>
+
+                    </div>
+                </section>
+                
+                <h1 class="content-subhead">23 Jun 2008, 00:00</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://localhost:1313/post/turbotail-and-multitail/" class="post-title">Turbotail and multitail</a>
+
+                        <p class="post-meta">
+                            
+                                By <strong class="post-author">alberts</strong>
+                            
+                            
+                                under 
+                                
+                                <a class="post-category post-category-Gentoo" href="http://localhost:1313//categories/gentoo">Gentoo</a><a class="post-category post-category-Linux" href="http://localhost:1313//categories/linux">Linux</a>
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>I just found a couple cool programs called <a href="http://www.vanheusden.com/turbotail/">turbotail</a> and <a href="http://www.vanheusden.com/multitail/">multitail</a> while searching for rbot using eix.</p>
+
+<p>Turbotail is just like tail, but it uses dnotify instead of auto refreshing a defined number of seconds.  I always thought it was kind of silly to keep refreshing the screen searching for new content with tail.  Turbotail just sits there until the kernel notifies of a change in the file that you are tail&rsquo;ing and then it updates what you see.</p>
+
+<p>Multitail looks like a VERY robust way of viewing multiple files.  It can tail any number of files and supports text filtering and even syntax highlighting.</p>
+
+<p>Turbotail works great, but unfortunately multitail crashes when I try to run it from my Yakuake console.  I get this:</p>
+
+<pre><code>--*- multitail 5.2.0 (C) 2003-2007 by folkert@vanheusden.com -*--
+
+A problem occured at line 511 in function mynewwin (from file term.c):
+
+Failed to create window with dimensions 55x9 at offset -27,-4 (terminal size: 167,19)
+</code></pre>
+
+<p>Seems to work just fine from a regular console though.  It will take me a while to actually learn all of the features of multitail.</p>
+
+                    </div>
+                </section>
+                
+                <h1 class="content-subhead">23 Jun 2008, 00:00</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://localhost:1313/post/new-job/" class="post-title">New Job!</a>
+
+                        <p class="post-meta">
+                            
+                                By <strong class="post-author">alberts</strong>
+                            
+                            
+                                under 
+                                
+                                <a class="post-category post-category-Work" href="http://localhost:1313//categories/work">Work</a>
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>After a while of looking for a new job, I finally got a new job. Well, actually, I&rsquo;ve been working my new job for about 3 months now. So&hellip; I guess it&rsquo;s not really a new job anymore.</p>
+
+<p>I&rsquo;m now a full time Linux administrator with ExLibris. Unfortunately, <a href="http://www.knowledgerush.com/kr/encyclopedia/Red_Hat/">Red Hat</a> is the preferred distribution. That&rsquo;s to be expected. Most business want to make sure they use something that&rsquo;s proven and has a clear line of support.</p>
+
+<p>The new job is in Des Plaines, Il, which means I&rsquo;ll have to sell my house and move a little closer. So far, the job seems pretty good. It&rsquo;s doing something I like and the people are nice, and most of them seem pretty smart.</p>
+
+                    </div>
+                </section>
+                
+                <h1 class="content-subhead">19 Mar 2008, 00:00</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://localhost:1313/post/google-code-university-free-training-from-google/" class="post-title">Google Code University - Free Training from Google</a>
+
+                        <p class="post-meta">
+                            
+                                By <strong class="post-author">alberts</strong>
+                            
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>Want to learn how to program? Develop in mySQL? Enhance your skills as a developer or programmer or just learn the lingo.  Tutorials, lecture slides, and problem sets for a variety of topic areas including AJAX, Distributed Systems, Web Security, Languages and a ton of other great classes - at no cost!</p>
+
+<p>I&rsquo;m glad this was posted on Digg.  I found it a while ago and completely forgot about it.  There is really a lot of good information there, especially some good information about distributed computing.</p>
+
+<p><a href="http://code.google.com/edu/">read more</a> | <a href="/programming/Google_Code_University_Free_Training_from_Google">digg story</a></p>
+
+                    </div>
+                </section>
+                
+                <h1 class="content-subhead">22 Feb 2008, 00:00</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://localhost:1313/post/powerful-css-techniques-for-effective-coding/" class="post-title">Powerful CSS-Techniques For Effective Coding</a>
+
+                        <p class="post-meta">
+                            
+                                By <strong class="post-author">alberts</strong>
+                            
+                            
+                                under 
+                                
+                                <a class="post-category post-category-Gentoo" href="http://localhost:1313//categories/gentoo">Gentoo</a><a class="post-category post-category-Linux" href="http://localhost:1313//categories/linux">Linux</a><a class="post-category post-category-Tips and Tricks" href="http://localhost:1313//categories/tips-and-tricks">Tips and Tricks</a>
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>In this post we present 50 new CSS-techniques, ideas and ready-to-use solutions for effective coding. &hellip;</p>
+
+<p>There are some very nice techniques here.  Item #43 is very cool.  It might come in handy for a site I&rsquo;m currently working on.</p>
+
+<p><a href="http://www.smashingmagazine.com/2008/02/21/powerful-css-techniques-for-effective-coding/">read more</a> | <a href="http://digg.com/programming/Powerful_CSS_Techniques_For_Effective_Coding">digg story</a></p>
+
+                    </div>
+                </section>
+                
+                <h1 class="content-subhead">30 Jan 2008, 00:00</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://localhost:1313/post/back-in-business/" class="post-title">Back in Business</a>
+
+                        <p class="post-meta">
+                            
+                                By <strong class="post-author">alberts</strong>
+                            
+                            
+                                under 
+                                
+                                <a class="post-category post-category-general" href="http://localhost:1313//categories/general">general</a>
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>Hmm&hellip; So the site was down for about a week while I waited for a paycheck to pay the server bill.  Jeez, paying bills just sucks. ;)</p>
+
+<p>You know, the more I look at this site, the more I don&rsquo;t like the look of it.  A while back, I thought this was a nice template to use for the site, but now it just looks cluttered and very disorganized.</p>
+
+<p>All I have to do now is find some free time to get things looking better.</p>
+
+                    </div>
+                </section>
+                
+                <h1 class="content-subhead">15 Jan 2008, 00:00</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://localhost:1313/post/problems-at-gentoo-wiki-article/" class="post-title">&#34;Problems at Gentoo&#34; Wiki Article</a>
+
+                        <p class="post-meta">
+                            
+                                By <strong class="post-author">alberts</strong>
+                            
+                            
+                                under 
+                                
+                                <a class="post-category post-category-Gentoo" href="http://localhost:1313//categories/gentoo">Gentoo</a>
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>There&rsquo;s a <a href="http://gentoo-wiki.com/Problems_at_Gentoo">wiki article</a> that attempts to consolidate and explain a lot of the information found on the forums about the current status of various things at Gentoo.  If you haven&rsquo;t yet, <a href="http://gentoo-wiki.com/Problems_at_Gentoo">take a look at it</a> and contribute.</p>
+
+                    </div>
+                </section>
+                
+                <h1 class="content-subhead">15 Jan 2008, 00:00</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://localhost:1313/post/discussion-of-foundation-status/" class="post-title">Discussion of Foundation Status</a>
+
+                        <p class="post-meta">
+                            
+                                By <strong class="post-author">alberts</strong>
+                            
+                            
+                                under 
+                                
+                                <a class="post-category post-category-Gentoo" href="http://localhost:1313//categories/gentoo">Gentoo</a>
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>For those of you whom haven&rsquo;t subscribed to the gentoo-nfp mailing list, Alec Warner (aka antarus) just sent an informative email that explains a little more about what is going on with the foundation status.  He also requests for suggestions on how to proceed regarding the foundation status.</p>
+
+<blockquote>
+<p>There are a number of folks working on this issue; this thread is an
+attempt to move conversations off of gentoo-core (internal only) and
+onto gentoo-ftp (a more public list).</p>
+</blockquote>
+
+<p>Renat is currently working on getting our expired New Mexico filings
+so he can show them to some lawyers he knows in order to get some
+recent advice on how we could proceed.</p>
+
+<p>See [1] for more info.</p>
+
+<p>There has been talk internally about whether accepting Daniel&rsquo;s offer
+is a good idea.  I think the only conclusion we can really draw at
+this point is that the timeframe alloted is currently too short to
+make a good choice in the matter.  Some people want to vote, others
+want more details regarding Daniel&rsquo;s plans, etc.</p>
+
+<p>I believe there are a group of folks working to formulate the
+necessary communique to Daniel to get their concerns addressed (I&rsquo;m
+not going to list them here or leak the contents of the request but I
+will say it is going on).</p>
+
+<p>A number of folks have volunteered to get the Foundation back in order
+should Daniel not grant a time extension or should the existing
+Trustees reject his request.</p>
+
+<p>I want to try to make the point of this thread clear; I&rsquo;m trying to
+keep the general community informed about the internal progress of
+what is going on.  I&rsquo;d appreciate useful feedback about how we could
+proceed on the matter.</p>
+
+<p>The intention of this list is to be about the non-profit foundation;
+if you have problems with the distribution itself or other technical
+matters, please direct them to gentoo-dev or gentoo-project.</p>
+
+<p>Thanks,</p>
+
+<p>-Alec</p>
+
+<p>[1] <a href="http://bugs.gentoo.org/show_bug.cgi?id=205905">http://bugs.gentoo.org/show_bug.cgi?id=205905</a></p>
+
+                    </div>
+                </section>
+                
+                <h1 class="content-subhead">11 Jan 2008, 00:00</h1>
+                <section class="post">
+                    <header class="post-header">
+
+                        <a href="http://localhost:1313/post/gentoo-linux-founder-offers-to-help-fix-recent-problems/" class="post-title">Gentoo Linux Founder Offers To Help Fix Recent Problems</a>
+
+                        <p class="post-meta">
+                            
+                                By <strong class="post-author">alberts</strong>
+                            
+                            
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>There&rsquo;s a poll in the Gentoo forums regarding Daniel Robbins offer today to help get Gentoo Linux back on it&rsquo;s feet.  Gentoo is in serious need of a leader that is not afraid to take action.  Please follow the link and vote yes.</p>
+
+<p><a href="http://forums.gentoo.org/viewtopic.php?p=4714748">read more</a> | <a href="http://digg.com/linux_unix/Gentoo_Linux_Founder_Offers_To_Help_Fix_Recent_Problems">digg story</a></p>
+
+                    </div>
+                </section>
+                
+            </div>
+            
+<div class="pagination">
+  <nav role="pagination" class="post-list-pagination">
+      
+      <a href="/page/3/" class="post-list-pagination-item pure-button post-list-pagination-item-prev">
+        <i class="fa fa-angle-double-left"></i>&nbsp;Newer
+      </a>
+      
+    <span class="post-list-pagination-item post-list-pagination-item-current">Page 4 of 9</span>
+    
+      <a href="/page/5/" class="post-list-pagination-item pure-button post-list-pagination-item-next">
+        Older&nbsp;<i class="fa fa-angle-double-right"></i>
+      </a>
+    
+  </nav>
+</div>
+
+
+            <div class="footer">
+    <div class="pure-menu pure-menu-horizontal pure-menu-open">
+        <ul>
+            <li>Powered by <a class="hugo" href="http://hugo.spf13.com/" target="_blank">hugo</a></li>
+        </ul>
+    </div>
+</div>
+<script src="http://localhost:1313//js/all.min.js"></script>
+        </div>
+    </div>
+</div>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', '', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+<script data-no-instant>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
+</html>
