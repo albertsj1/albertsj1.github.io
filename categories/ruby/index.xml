@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruby on John Alberts&#39; Blog</title>
+    <link>http://www.alberts.me/categories/ruby/</link>
+    <description>Recent content in Ruby on John Alberts&#39; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Aug 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://www.alberts.me/categories/ruby/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Checking file permissions with Ruby</title>
+      <link>http://www.alberts.me/post/checking-file-permissions-with-ruby/</link>
+      <pubDate>Tue, 07 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.alberts.me/post/checking-file-permissions-with-ruby/</guid>
+      <description>&lt;p&gt;I just noticed today you can easily check file permissions by selecting the appropriate bits using an array format with a range.  For example, if I want to make sure that the permissions of /etc/sudoers is 440, I could do the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;File.stat(&amp;quot;/etc/sudoers&amp;quot;).mode.to_s(8)[3..5] == &amp;quot;440&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;So, you&amp;rsquo;re converting the mode to octal format and then selecting characters 3 thur 5.  Characters start at 0 from the &lt;strong&gt;left&lt;/strong&gt; side of the string.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New Ohai Plugin for Linux VServer</title>
+      <link>http://www.alberts.me/post/new-ohai-plugin-for-linux-vserver/</link>
+      <pubDate>Mon, 20 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.alberts.me/post/new-ohai-plugin-for-linux-vserver/</guid>
+      <description>&lt;p&gt;Today I posted my first Ohai plugin to &lt;a href=&#34;https://github.com/albertsj1/ohai-plugins/blob/master/vserver.rb&#34;&gt;Github&lt;/a&gt; and put a link on the Opscode &lt;a href=&#34;http://wiki.opscode.com/display/chef/Community+Plugins&#34;&gt;Community Plugins wiki page&lt;/a&gt;.  I know not a whole lot of people use&lt;a href=&#34;http://linux-vserver.org&#34;&gt; VServer&lt;/a&gt;, but hopefully some will find it useful. :)&lt;/p&gt;
+
+&lt;p&gt;#opschef&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Installing RubyGems on Centos 5</title>
+      <link>http://www.alberts.me/post/installing-rubygems-on-centos-5/</link>
+      <pubDate>Tue, 27 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.alberts.me/post/installing-rubygems-on-centos-5/</guid>
+      <description>&lt;p&gt;This should apply to RHEL5 as well, but I haven&amp;rsquo;t verified yet.&lt;/p&gt;
+
+&lt;p&gt;The easiest solution I&amp;rsquo;ve found is to simply install Ruby and it&amp;rsquo;s dependencies and then install RubyGems from source.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve written a small script which installs Ruby and it&amp;rsquo;s dependencies.  It then grabs the RubyGems source tarball and installs Gems from source.  As I wrote this to get a working &lt;a href=&#34;http://github.com/albertsj1/Misc-Scripts/raw/master/install_gems.sh&#34;&gt;Chef&lt;/a&gt; install, it also adds an opscode gems source.&lt;/p&gt;
+
+&lt;p&gt;You can get the script &lt;a href=&#34;http://github.com/albertsj1/Misc-Scripts/raw/master/install_gems.sh&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
