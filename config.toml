@@ -15,6 +15,7 @@ canonifyurls = true
   nodate = true
   socialsharing = true
   sidebartitle = "John Alberts' Blog"
+  description = "Random Thoughts"
   AuthorName = "John"
   github = "albertsj1"
   bitbucket = "jalberts"
