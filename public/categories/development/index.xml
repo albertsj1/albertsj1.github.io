@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on John Alberts&#39; Blog</title>
+    <link>http://www.alberts.me/categories/development/</link>
+    <description>Recent content in Development on John Alberts&#39; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Dec 2015 10:25:51 -0800</lastBuildDate>
+    <atom:link href="http://www.alberts.me/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>its been a while</title>
+      <link>http://www.alberts.me/post/its-been-a-while/</link>
+      <pubDate>Tue, 29 Dec 2015 10:25:51 -0800</pubDate>
+      
+      <guid>http://www.alberts.me/post/its-been-a-while/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

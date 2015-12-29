@@ -3,8 +3,13 @@
   
   <url>
     <loc>http://www.alberts.me/</loc>
-    <lastmod>2015-03-01T22:10:39-08:00</lastmod>
+    <lastmod>2015-12-29T10:25:51-08:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/post/its-been-a-while/</loc>
+    <lastmod>2015-12-29T10:25:51-08:00</lastmod>
   </url>
   
   <url>
@@ -103,12 +108,12 @@
   </url>
   
   <url>
-    <loc>http://www.alberts.me/post/think-youve-seen-amazing-gaming-chairs-you-havent-pics/</loc>
+    <loc>http://www.alberts.me/post/conky-now-supports-moc-player/</loc>
     <lastmod>2009-01-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.alberts.me/post/conky-now-supports-moc-player/</loc>
+    <loc>http://www.alberts.me/post/think-youve-seen-amazing-gaming-chairs-you-havent-pics/</loc>
     <lastmod>2009-01-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -193,22 +198,22 @@
   </url>
   
   <url>
-    <loc>http://www.alberts.me/post/discussion-of-foundation-status/</loc>
-    <lastmod>2008-01-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.alberts.me/post/problems-at-gentoo-wiki-article/</loc>
     <lastmod>2008-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.alberts.me/post/gentoo-linux-founder-offers-to-help-fix-recent-problems/</loc>
-    <lastmod>2008-01-11T00:00:00+00:00</lastmod>
+    <loc>http://www.alberts.me/post/discussion-of-foundation-status/</loc>
+    <lastmod>2008-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.alberts.me/post/daniel-to-the-rescue/</loc>
+    <lastmod>2008-01-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/post/gentoo-linux-founder-offers-to-help-fix-recent-problems/</loc>
     <lastmod>2008-01-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -238,12 +243,12 @@
   </url>
   
   <url>
-    <loc>http://www.alberts.me/post/the-least-used-page-on-microsoftcom/</loc>
+    <loc>http://www.alberts.me/post/good-ole-gentoo-where-art-thou/</loc>
     <lastmod>2007-12-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.alberts.me/post/good-ole-gentoo-where-art-thou/</loc>
+    <loc>http://www.alberts.me/post/the-least-used-page-on-microsoftcom/</loc>
     <lastmod>2007-12-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -253,12 +258,12 @@
   </url>
   
   <url>
-    <loc>http://www.alberts.me/post/what-the-flock-2/</loc>
+    <loc>http://www.alberts.me/post/what-the-flock/</loc>
     <lastmod>2007-08-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.alberts.me/post/what-the-flock/</loc>
+    <loc>http://www.alberts.me/post/what-the-flock-2/</loc>
     <lastmod>2007-08-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -313,12 +318,12 @@
   </url>
   
   <url>
-    <loc>http://www.alberts.me/post/searching-for-ebuilds-in-overlays-that-are-not-locally-available/</loc>
+    <loc>http://www.alberts.me/post/finally/</loc>
     <lastmod>2006-11-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.alberts.me/post/finally/</loc>
+    <loc>http://www.alberts.me/post/searching-for-ebuilds-in-overlays-that-are-not-locally-available/</loc>
     <lastmod>2006-11-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -358,12 +363,12 @@
   </url>
   
   <url>
-    <loc>http://www.alberts.me/post/website-coloring/</loc>
+    <loc>http://www.alberts.me/post/free-video-flash-tutorials-these-are-awesome/</loc>
     <lastmod>2006-04-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.alberts.me/post/free-video-flash-tutorials-these-are-awesome/</loc>
+    <loc>http://www.alberts.me/post/website-coloring/</loc>
     <lastmod>2006-04-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -373,17 +378,17 @@
   </url>
   
   <url>
+    <loc>http://www.alberts.me/post/restaurant-sued-for-playing-copyrighted-music-2/</loc>
+    <lastmod>2006-01-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.alberts.me/post/restaurant-sued-for-playing-copyrighted-music/</loc>
     <lastmod>2006-01-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.alberts.me/post/tutorial-hacking-with-metasploit-whax-30-bootable-linux-cd-2/</loc>
-    <lastmod>2006-01-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/restaurant-sued-for-playing-copyrighted-music-2/</loc>
     <lastmod>2006-01-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -398,12 +403,12 @@
   </url>
   
   <url>
-    <loc>http://www.alberts.me/post/nubuntu-stable-is-out/</loc>
+    <loc>http://www.alberts.me/post/mpaa-steals-code-for-anti-piracy-website/</loc>
     <lastmod>2006-01-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.alberts.me/post/mpaa-steals-code-for-anti-piracy-website/</loc>
+    <loc>http://www.alberts.me/post/nubuntu-stable-is-out/</loc>
     <lastmod>2006-01-17T00:00:00+00:00</lastmod>
   </url>
   
