@@ -6,8 +6,22 @@
     <description>Recent content in Personal on John Alberts&#39; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Nov 2006 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Dec 2015 10:25:51 -0800</lastBuildDate>
     <atom:link href="http://www.alberts.me/categories/personal/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>It&#39;s been a while</title>
+      <link>http://www.alberts.me/post/its-been-a-while/</link>
+      <pubDate>Tue, 29 Dec 2015 10:25:51 -0800</pubDate>
+      
+      <guid>http://www.alberts.me/post/its-been-a-while/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s been quite a while since my last real post. Let&amp;rsquo;s just ignore that &lt;a href=&#34;http://www.alberts.me/post/now-with-more-hugo/&#34;&gt;&amp;lsquo;Now with more Hugo&amp;rsquo;&lt;/a&gt; post. :) I&amp;rsquo;ve always wanted to write about all the cool things I&amp;rsquo;m working on in my blog, but there&amp;rsquo;s just never enough time in the day.&lt;/p&gt;
+
+&lt;p&gt;Since my last post, I&amp;rsquo;ve left my consulting position with Covestic and hired in directly at Samsung MSCA (part of &lt;a href=&#34;http://www.sra.samsung.com&#34;&gt;Samsung SRA&lt;/a&gt;) as a senior DevOps engineer working on the &lt;a href=&#34;http://milk.samsung.com&#34;&gt;Milk Music&lt;/a&gt; project.  Although I don&amp;rsquo;t care for the name &amp;lsquo;Milk Music&amp;rsquo;, the app is really nice. There is a native app for all recent Samsung phones, tablets, TVs and some other misc devices.  You can also listen on your computer via &lt;a href=&#34;http://milk.samsung.com&#34;&gt;your web browser&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve been working on a lot of different technologies lately, such as: Cassandra, Hadoop, Elasticsearch, Kibana, Sensu, &amp;hellip; Hopefully I&amp;rsquo;ll find some time to write about them soon. :)&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Oh Well</title>
