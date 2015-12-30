@@ -9,17 +9,22 @@
             <ul class="nav-list">
                 {{ with .Site.Params.twitter }}
                 <li class="nav-item">
-                    <a class="pure-button" href="http://twitter.com/{{ . }}"><i class="fa fa-twitter"></i> Twitter</a>
+                    <a class="pure-button" href="http://twitter.com/{{ . }}" target="_blank"><i class="fa fa-twitter-square"></i> Twitter</a>
                 </li>
                 {{ end }}
                 {{ with .Site.Params.github }}
                 <li class="nav-item">
-                    <a class="pure-button" href="http://github.com/{{ . }} "><i class="fa fa-github-alt"></i> github</a>
+                    <a class="pure-button" href="http://github.com/{{ . }} " target="_blank"><i class="fa fa-github-square"></i> github</a>
                 </li>
                 {{ end }}
                 {{ with .Site.Params.linkedin }}
                 <li class="nav-item">
-                    <a class="pure-button" href="http://linkedin.com/in/{{ . }} "><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+                    <a class="pure-button" href="http://linkedin.com/in/{{ . }} " target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+                </li>
+                {{ end }}
+                {{ if .RSSlink }}
+                <li class="nav-item">
+                    <a class="pure-button" href="{{ .RSSlink }}" type="application/rss+xml" target="_blank"><i class="fa fa-rss-square"></i> RSS</a>
                 </li>
                 {{ end }}
             </ul>
