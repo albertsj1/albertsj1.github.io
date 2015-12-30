@@ -38,3 +38,13 @@ canonifyurls = true
   pre = "<i class='fa fa-linkedin'></i>"
   url = "http://www.linkedin.com/in/johnmalberts/en"
   identifier = "linkedin"
+
+[[menu.main]]
+    name = "FeedBurner"
+    identifier = "FeedBurner"
+    url = "http://feeds.feedburner.com/JohnAlbertsBlog"
+    
+[[menu.main]]
+    name = "Get Email Updates"
+    url = "https://feedburner.google.com/fb/a/mailverify?uri=JohnAlbertsBlog&amp;loc=en_US"
+    identifier = "Get-Email-Updates"
