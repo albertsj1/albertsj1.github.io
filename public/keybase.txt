@@ -1,0 +1,51 @@
+https://keybase.io/jalberts
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://alberts.me
+  * I am jalberts (https://keybase.io/jalberts) on keybase.
+  * I have a public key ASDOVmhgBfzlfkIiFWrKxK1wNTICWb3hjdspBTbw9aH1-wo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101cd6e6158536ee9a0f3114f5dd1a78df798fed782d74279a5219f973161dbb2740a",
+            "host": "keybase.io",
+            "kid": "0120ce56686005fce57e4222156acac4ad7035320259bde18ddb290536f0f5a1f5fb0a",
+            "uid": "1fa217cde3f1d5272c8427f7e1a37500",
+            "username": "jalberts"
+        },
+        "service": {
+            "hostname": "alberts.me",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.16"
+    },
+    "ctime": 1464838496,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1464838454,
+        "hash": "c0ae28a5b2167442f7b36abee66bbc464f85793c0f37e559730773b9bd3af948e160bcd7f7fe823a18651ac15f8f32734a303d9481161ba31af1f2ea84b96e56",
+        "seqno": 475910
+    },
+    "prev": "701afc1158a4543385fc1f74e321fa597165b7f6fa36b57a787afd386a632e41",
+    "seqno": 14,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgzlZoYAX85X5CIhVqysStcDUyAlm94Y3bKQU28PWh9fsKp3BheWxvYWTFAvN7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxY2Q2ZTYxNTg1MzZlZTlhMGYzMTE0ZjVkZDFhNzhkZjc5OGZlZDc4MmQ3NDI3OWE1MjE5Zjk3MzE2MWRiYjI3NDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwY2U1NjY4NjAwNWZjZTU3ZTQyMjIxNTZhY2FjNGFkNzAzNTMyMDI1OWJkZTE4ZGRiMjkwNTM2ZjBmNWExZjVmYjBhIiwidWlkIjoiMWZhMjE3Y2RlM2YxZDUyNzJjODQyN2Y3ZTFhMzc1MDAiLCJ1c2VybmFtZSI6ImphbGJlcnRzIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJhbGJlcnRzLm1lIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTYifSwiY3RpbWUiOjE0NjQ4Mzg0OTYsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ2NDgzODQ1NCwiaGFzaCI6ImMwYWUyOGE1YjIxNjc0NDJmN2IzNmFiZWU2NmJiYzQ2NGY4NTc5M2MwZjM3ZTU1OTczMDc3M2I5YmQzYWY5NDhlMTYwYmNkN2Y3ZmU4MjNhMTg2NTFhYzE1ZjhmMzI3MzRhMzAzZDk0ODExNjFiYTMxYWYxZjJlYTg0Yjk2ZTU2Iiwic2Vxbm8iOjQ3NTkxMH0sInByZXYiOiI3MDFhZmMxMTU4YTQ1NDMzODVmYzFmNzRlMzIxZmE1OTcxNjViN2Y2ZmEzNmI1N2E3ODdhZmQzODZhNjMyZTQxIiwic2Vxbm8iOjE0LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQOyGH77giaTdq78UqAuh1rZbfoREwpKpEWMuHTw6TATKTBfvPf+t04C12iXiqTRDXCinHNWJlFNnEs87jDyw8Ayoc2lnX3R5cGUgo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jalberts
