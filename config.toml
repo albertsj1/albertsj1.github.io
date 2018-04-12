@@ -14,7 +14,7 @@ enableRobotsTXT = true
 enableEmoji = true
 
 [outputs]
-  home = ["HTML", "AMP"]
+  home = ["HTML"]
 
 [indexes]
   tag = "tags"
