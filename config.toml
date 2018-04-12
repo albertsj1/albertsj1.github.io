@@ -21,7 +21,7 @@ enableEmoji = true
   topic = "topics"
 
 [params]
-  brand = "Random Shit"
+  brand = ""
   disqus = "alberts"
   googleAnalytics = "UA-113453795-1"
   nodate = true
@@ -29,7 +29,6 @@ enableEmoji = true
   sidebartitle = "John Alberts' Blog"
   description = "Random Thoughts"
   AuthorName = "John"
-  logo = "/img/me.jpg"
   highlightjs = "androidstudio"
 
 [social]

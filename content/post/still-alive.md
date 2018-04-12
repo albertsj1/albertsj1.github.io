@@ -1,7 +1,6 @@
 +++
 title = "Still Alive"
 date = "2018-04-11T20:27:14-07:00"
-draft = true
 tags = ["general"]
 topics = []
 description = "I'm still around"
