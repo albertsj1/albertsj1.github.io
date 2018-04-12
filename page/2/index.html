@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Random Thoughts">
+  <meta name="generator" content="Hugo 0.38.2" />
+
+  <title>John Alberts&#39; Blog</title>
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="http://www.alberts.me/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="http://www.alberts.me/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="http://www.alberts.me/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="http://www.alberts.meimg/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="http://www.alberts.me/">Random Shit</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="">Subscribe</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="http://feeds.feedburner.com/JohnAlbertsBlog"><i class='fa fa-feed fa-fw'></i>  FeedBurner</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://feedburner.google.com/fb/a/mailverify?uri=JohnAlbertsBlog&amp;loc=en_US"><i class='fa fa-updates fa-fw'></i>  Email Updates</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/alberts" target="_blank"><i class="fa fa-twitter-square fa-fw"></i>Twitter</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/johnmalberts" target="_blank"><i class="fa fa-linkedin-square fa-fw"></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://news.ycombinator.com/user?id=jalberts72" target="_blank"><i class="fa fa-hacker-news fa-fw"></i>Hacker News</a>
+    </li>
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/albertsj1" target="_blank"><i class="fa fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://bitbucket.org/jalberts" target="_blank"><i class="fa fa-bitbucket-square fa-fw"></i>Bitbucket</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://steamcommunity.com/id/john_alberts" target="_blank"><i class="fa fa-steam-square fa-fw"></i>Steam</a>
+    </li>
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="http://last.fm/user/albertsj1" target="_blank"><i class="fa fa-lastfm-square fa-fw"></i>Last.fm</a>
+    </li>
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://keybase.io/jalberts" target="_blank"><i class="fa fa-key fa-fw"></i>Keybase</a>
+    </li>
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small></small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>John Alberts&#39; Blog</h1>
+  <h2></h2>
+</div>
+
+<div class="content">
+  
+    <article>
+  <header>
+    <h2><a href="http://www.alberts.me/post/new-ohai-plugin-for-linux-vserver/">New Ohai Plugin for Linux VServer</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>20 Jun 2011, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+
+</div>
+
+  </header>
+
+  <p>
+  Today I posted my first Ohai plugin to Github and put a link on the Opscode Community Plugins wiki page. I know not a whole lot of people useVServer, but hopefully some will find it useful. :)
+#opschef
+  </p>
+
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://www.alberts.me/post/fixing-pianobar-libao-so-2-error-on-ubuntu-maverick/">Fixing pianobar libao.so.2 error on Ubuntu Maverick</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>22 Oct 2010, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="http://www.alberts.metags/pianobar">pianobar</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  For anyone using Pianobar and upgrading to Ubuntu Maverick, Pianobar would no longer run and would give the error:
+pianobar: error while loading shared libraries: libao.so.2: cannot open shared object file: No such file or directory  The solution I&rsquo;ve found is to make sure you have libao-dev installed and then run:
+sudo ln -s /usr/lib/libao.so{.4.0.0,.2}  
+  </p>
+
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://www.alberts.me/post/installing-rubygems-on-centos-5/">Installing RubyGems on Centos 5</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>27 Oct 2009, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="http://www.alberts.metags/gems">gems</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://www.alberts.metags/ruby">ruby</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://www.alberts.metags/scripting">scripting</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  This should apply to RHEL5 as well, but I haven&rsquo;t verified yet.
+The easiest solution I&rsquo;ve found is to simply install Ruby and it&rsquo;s dependencies and then install RubyGems from source.
+I&rsquo;ve written a small script which installs Ruby and it&rsquo;s dependencies. It then grabs the RubyGems source tarball and installs Gems from source. As I wrote this to get a working Chef install, it also adds an opscode gems source.
+  </p>
+
+  
+  <footer>
+    <a href="http://www.alberts.me/post/installing-rubygems-on-centos-5/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://www.alberts.me/post/changing-the-from-field-when-sending-email/">Changing the from field when sending email</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>10 Sep 2009, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+
+</div>
+
+  </header>
+
+  <p>
+  This is simple, but I always forget how to do it when I need it and it&rsquo;s hard to find on google for some reason.
+echo &quot;hi&quot; | mail -s &quot;My Subject&quot; to@someone.com -- -f from@someone.com  
+  </p>
+
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://www.alberts.me/post/dress-up-your-firefox/">Dress-up your Firefox</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>07 Sep 2009, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="http://www.alberts.metags/extensions">extensions</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://www.alberts.metags/firefox">firefox</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  I just stumbled across a Mozilla Labs project called Personas. It&rsquo;s light-weight theming for Firefox that can be changed without restarting the browser. After you install Personas, you get a new menu entry Tools-&gt;Personas for Firefox, where you can quickly change the persona you are using. From what I can tell, Personas seem to change the your browser toolbar and menu font colors and usually add a lightweight background picture. According to the website, the project has been going since Dec 2007, so there&rsquo;s a lot of Personas to choose from.
+  </p>
+
+  
+  <footer>
+    <a href="http://www.alberts.me/post/dress-up-your-firefox/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://www.alberts.me/post/compiling-pure-ftpd-with-mysql-support-in-rhel5-x86_64/">Compiling Pure-FTPD with MySQL Support in RHEL5 x86_64</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>12 Aug 2009, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+
+</div>
+
+  </header>
+
+  <p>
+  I really had a hard time getting pure-ftpd 1.0.22 to compile properly witih mysql support on a RHEL5 x86_64 server. It turns out that the mysql libraries path in the configure script is incorrect. I&rsquo;m not sure if this is just a problem with my particular configuration or with the way pure-ftpd tries to figure out where the mysql libraries are. In any case, I modified the configure script to use mysql_config with appropriate options to set the mysql include paths and lib paths as appropriate.
+  </p>
+
+  
+  <footer>
+    <a href="http://www.alberts.me/post/compiling-pure-ftpd-with-mysql-support-in-rhel5-x86_64/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://www.alberts.me/post/balance-through-extremism-%c2%bb-redhat-perl-what-a-tragedy/">Balance Through Extremism » Redhat perl. What a tragedy.</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>11 Mar 2009, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="http://www.alberts.metags/bugs">bugs</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://www.alberts.metags/performance">performance</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://www.alberts.metags/perl">perl</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  Balance Through Extremism » Redhat perl. What a tragedy..
+Wow, I wonder if any of our server have been bitten by this nasty Perl bug. It&rsquo;s hard to believe that RedHat has taken so long to provide a fix for this problem.
+  </p>
+
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://www.alberts.me/post/grooveshark-listen-to-free-music/">Grooveshark -- Listen to Free Music</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>11 Mar 2009, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="http://www.alberts.metags/music">music</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  Grooveshark &ndash; Listen to Free Music.
+Just found this website tonight for playing music online for free. It&rsquo;s a community based service where you can have friends to share music with. It&rsquo;s kind of like Last.fm andPandora, but with a much nicer interface. It seems to load very quickly and the music seems like decent quality.
+  </p>
+
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://www.alberts.me/post/new-gentoo-home-page-coming-soon/">New Gentoo Home Page Coming Soon?</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>27 Jan 2009, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="http://www.alberts.metags/gentoo">Gentoo</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  I saw a posting today on one of the Gentoo listservs about the recent lack of newsletters and website updates. Unfortunately, the lack of updates isn&rsquo;t unusual, but I did pickup an interesting bit of information.
+It looks like there is a new index page coming soon to the Gentoo website. It looks like it&rsquo;s just a matter of when it gets committed. The new page appears to provide automated news updates with information such as:
+  </p>
+
+  
+  <footer>
+    <a href="http://www.alberts.me/post/new-gentoo-home-page-coming-soon/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://www.alberts.me/post/combine-your-partition-space-with-mhddfs/">Combine your partition space with mhddfs.</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>19 Jan 2009, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="http://www.alberts.metags/filesystems">filesystems</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://www.alberts.metags/fuse">fuse</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://www.alberts.metags/gentoo">Gentoo</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://www.alberts.metags/linux">Linux</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://www.alberts.metags/mhddfs">mhddfs</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://www.alberts.metags/tips">tips</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  As I was browsing the Gentoo forums today, I came across a very interesting post.
+A user had 2 partitions on different hard drives that he wanted to combine the space on. Ok, well the interesting part was one persons reply about a new fuse filesystem called mhddfs. He pointed out an article on debian.net that explained a bit about this new filesystem and how to use it.
+Sure, there&rsquo;s multiple ways to combine the two drives, but this one is pretty intesting.
+  </p>
+
+  
+  <footer>
+    <a href="http://www.alberts.me/post/combine-your-partition-space-with-mhddfs/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+
+  
+
+
+<nav class="pagination" role="pagination">
+  
+  <a href="http://www.alberts.me/"><i class="fa fa-chevron-left"></i></a>
+  
+  <span>&nbsp;2 / 9&nbsp;</span>
+  
+  <a href="http://www.alberts.me/page/3/"><i class="fa fa-chevron-right"></i></a>
+  
+</nav>
+
+
+
+</div>
+
+</div>
+</div>
+<script src="http://www.alberts.mejs/ui.js"></script>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-113453795-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+
+
+</body>
+</html>
+

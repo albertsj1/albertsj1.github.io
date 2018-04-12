@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Random Thoughts">
+  <meta name="generator" content="Hugo 0.38.2" />
+
+  <title>John Alberts&#39; Blog</title>
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="http://www.alberts.me/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="http://www.alberts.me/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="http://www.alberts.me/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="http://www.alberts.meimg/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="http://www.alberts.me/">Random Shit</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="">Subscribe</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="http://feeds.feedburner.com/JohnAlbertsBlog"><i class='fa fa-feed fa-fw'></i>  FeedBurner</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://feedburner.google.com/fb/a/mailverify?uri=JohnAlbertsBlog&amp;loc=en_US"><i class='fa fa-updates fa-fw'></i>  Email Updates</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/alberts" target="_blank"><i class="fa fa-twitter-square fa-fw"></i>Twitter</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/johnmalberts" target="_blank"><i class="fa fa-linkedin-square fa-fw"></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://news.ycombinator.com/user?id=jalberts72" target="_blank"><i class="fa fa-hacker-news fa-fw"></i>Hacker News</a>
+    </li>
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/albertsj1" target="_blank"><i class="fa fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://bitbucket.org/jalberts" target="_blank"><i class="fa fa-bitbucket-square fa-fw"></i>Bitbucket</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://steamcommunity.com/id/john_alberts" target="_blank"><i class="fa fa-steam-square fa-fw"></i>Steam</a>
+    </li>
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="http://last.fm/user/albertsj1" target="_blank"><i class="fa fa-lastfm-square fa-fw"></i>Last.fm</a>
+    </li>
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://keybase.io/jalberts" target="_blank"><i class="fa fa-key fa-fw"></i>Keybase</a>
+    </li>
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small></small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>John Alberts&#39; Blog</h1>
+  <h2></h2>
+</div>
+
+<div class="content">
+  
+    <article>
+  <header>
+    <h2><a href="http://www.alberts.me/post/never-pay-federal-income-tax-again/">Never pay federal income tax again?</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>03 Dec 2006, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+
+</div>
+
+  </header>
+
+  <p>
+  If this documentary is correct, Americans should never have to pay federal income tax again. Digg this up and let&rsquo;s get this on the home page. I, for one, would love to not have to file!
+Wow, this is some interesting stuff. I watched about half of the video already. They sure make it sound like the Federal Income Tax is a complete scam on the American public. Of course, I never went to law school and I have to rely on hearsay and videos for my opinion.
+  </p>
+
+  
+  <footer>
+    <a href="http://www.alberts.me/post/never-pay-federal-income-tax-again/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://www.alberts.me/post/oh-well/">Oh Well</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>26 Nov 2006, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+
+</div>
+
+  </header>
+
+  <p>
+  It seems that Wordpress.com really won&rsquo;t let me customize the themes very much. I can&rsquo;t install any addons either. I really like the admin interface, and the free blog of course. I&rsquo;m thinking that maybe I&rsquo;ll keep my personal blog here and create a seperate blog elsewhere for the Tips and Tricks. That way I can customize the look and feel to better suit it for the tips. Hopefully it&rsquo;ll make it easier for me to post the tips, categorize them, format them better and provide better search capability.
+  </p>
+
+  
+  <footer>
+    <a href="http://www.alberts.me/post/oh-well/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://www.alberts.me/post/finally/">Finally</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>25 Nov 2006, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+
+</div>
+
+  </header>
+
+  <p>
+  I finally hope to start using this blog. At the very least, I want to start putting Linux tips and tricks in here. Most will probably be from the Gentoo Weekly Newsletter, while others may be original. :)
+  </p>
+
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://www.alberts.me/post/searching-for-ebuilds-in-overlays-that-are-not-locally-available/">Searching For Ebuilds In Overlays That Are Not Locally Available</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>25 Nov 2006, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+
+</div>
+
+  </header>
+
+  <p>
+  With the diverse array of overlays now available to the community, one of the issues a person might have is finding that overlay that is just right for the package they are looking to install. Unfortunately, the default search capabilities of portage are only able to search though overlays that have already been installed on your system. Stefan Schweizer has written an excellent article at his Planet Gentoo blog this week detailing the workings of a tool that makes searching through remote overlays a much easier task than ever before.
+  </p>
+
+  
+  <footer>
+    <a href="http://www.alberts.me/post/searching-for-ebuilds-in-overlays-that-are-not-locally-available/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://www.alberts.me/post/the-search-for-a-good-desktop-blog-editor/">The Search For a Good Desktop Blog Editor</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>25 Nov 2006, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+
+</div>
+
+  </header>
+
+  <p>
+  Now that I have decided to start blogging regularly, I&rsquo;ve been looking for a good blogging editor. I&rsquo;ve tried some of the post editors that go into the Gnome and KDE panels. They are nice for quick posts, but I am looking for something more full featured.
+As far as full featured blogging editors go, so far I&rsquo;ve only tried ones that work in Windows. Even though I love Linux, I still spend most of my time in Windows.
+  </p>
+
+  
+  <footer>
+    <a href="http://www.alberts.me/post/the-search-for-a-good-desktop-blog-editor/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://www.alberts.me/post/using-a-32-bit-mplayer-with-64-bit-kmplayer/">Using a 32-bit mplayer with 64-bit kmplayer</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>25 Nov 2006, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+
+</div>
+
+  </header>
+
+  <p>
+  On amd64 systems, you can use media-video/mplayer-bin to play multimedia files that require 32-bit only codecs (win32codecs), but mplayer doesn&rsquo;t look as good as the 64-bit native version and it doesn&rsquo;t integrate very well with the system. KDE users can emerge kmplayer - a KDE based &ldquo;front end&rdquo;. If you use konqueror, kmplayer adds a plugin to the browser. For this tip to work, you will need to unmerge your native mplayer, if you have it.
+  </p>
+
+  
+  <footer>
+    <a href="http://www.alberts.me/post/using-a-32-bit-mplayer-with-64-bit-kmplayer/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://www.alberts.me/post/298-of-windows-xp-users-consider-a-move-to-linux-over-vista/">29.8% of Windows XP users consider a move to Linux over Vista</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>01 Nov 2006, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+
+</div>
+
+  </header>
+
+  <p>
+  A recent poll shows a good percentage of tech-savvy XP users considering a move to Linux over an upgrade to Vista. It seems Microsoft are pushing users away with more looking at using Linux than legally upgrading.
+read more | digg story
+  </p>
+
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://www.alberts.me/post/tv-new-geek-based-sitcom-airs-first-on-the-web-today/">TV: New geek-based sitcom; airs first on the web TODAY!</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>24 May 2006, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+
+</div>
+
+  </header>
+
+  <p>
+  UK\&rsquo;s Channel 4 is airing a new comedy, \&ldquo;The I.T. Crowd\&ldquo;, on the web a week before it\&rsquo;s TV broadcast. The I.T. Crowd is a new sitcom from Graham Linehan (Father Ted, Black Books) and producer Ash Atalla (The Office). Sounds promising!
+read more | digg story
+  </p>
+
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://www.alberts.me/post/very-cool-ajax-framework/">Very Cool Ajax Framework</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>09 May 2006, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+
+</div>
+
+  </header>
+
+  <p>
+  This almost seems too easy to be true, but it looks like this is a framework for using Ajax in your webpages without using complicated javascript.
+http://zk1.sourceforge.net/
+  </p>
+
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://www.alberts.me/post/vonage-to-reserve-a-portion-of-common-stock-for-customers/">Vonage to Reserve a Portion of Common Stock for Customers</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>08 May 2006, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+
+</div>
+
+  </header>
+
+  <p>
+  Vonage announced the launch of a Directed Share Program as part of its proposed initial public offering (IPO) of common stock, which will allow eligible customers to purchase shares at the IPO price.
+Hmm, been with Vonage since 2003. Should I invest?
+read more | digg story
+  </p>
+
+  
+</article>
+
+  
+
+  
+
+
+<nav class="pagination" role="pagination">
+  
+  <a href="http://www.alberts.me/page/6/"><i class="fa fa-chevron-left"></i></a>
+  
+  <span>&nbsp;7 / 9&nbsp;</span>
+  
+  <a href="http://www.alberts.me/page/8/"><i class="fa fa-chevron-right"></i></a>
+  
+</nav>
+
+
+
+</div>
+
+</div>
+</div>
+<script src="http://www.alberts.mejs/ui.js"></script>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-113453795-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+
+
+</body>
+</html>
+

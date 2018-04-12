@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Random Thoughts">
+  <meta name="generator" content="Hugo 0.38.2" />
+
+  <title>John Alberts&#39; Blog</title>
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="http://www.alberts.me/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="http://www.alberts.me/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="http://www.alberts.me/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="http://www.alberts.meimg/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="http://www.alberts.me/">Random Shit</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="">Subscribe</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="http://feeds.feedburner.com/JohnAlbertsBlog"><i class='fa fa-feed fa-fw'></i>  FeedBurner</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://feedburner.google.com/fb/a/mailverify?uri=JohnAlbertsBlog&amp;loc=en_US"><i class='fa fa-updates fa-fw'></i>  Email Updates</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/alberts" target="_blank"><i class="fa fa-twitter-square fa-fw"></i>Twitter</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/johnmalberts" target="_blank"><i class="fa fa-linkedin-square fa-fw"></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://news.ycombinator.com/user?id=jalberts72" target="_blank"><i class="fa fa-hacker-news fa-fw"></i>Hacker News</a>
+    </li>
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/albertsj1" target="_blank"><i class="fa fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://bitbucket.org/jalberts" target="_blank"><i class="fa fa-bitbucket-square fa-fw"></i>Bitbucket</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://steamcommunity.com/id/john_alberts" target="_blank"><i class="fa fa-steam-square fa-fw"></i>Steam</a>
+    </li>
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="http://last.fm/user/albertsj1" target="_blank"><i class="fa fa-lastfm-square fa-fw"></i>Last.fm</a>
+    </li>
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://keybase.io/jalberts" target="_blank"><i class="fa fa-key fa-fw"></i>Keybase</a>
+    </li>
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small></small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>John Alberts&#39; Blog</h1>
+  <h2></h2>
+</div>
+
+<div class="content">
+  
+    <article>
+  <header>
+    <h2><a href="http://www.alberts.me/post/daniel-to-the-rescue/">Daniel to the rescue?</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>11 Jan 2008, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+
+</div>
+
+  </header>
+
+  <p>
+  I just saw that Daniel posted an offer to help Gentoo in it&rsquo;s time of need. I really hope that the trustees and council agree and choose to help.
+  </p>
+
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://www.alberts.me/post/gentoo-linux-founder-offers-to-help-fix-recent-problems/">Gentoo Linux Founder Offers To Help Fix Recent Problems</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>11 Jan 2008, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+
+</div>
+
+  </header>
+
+  <p>
+  There&rsquo;s a poll in the Gentoo forums regarding Daniel Robbins offer today to help get Gentoo Linux back on it&rsquo;s feet. Gentoo is in serious need of a leader that is not afraid to take action. Please follow the link and vote yes.
+read more | digg story
+  </p>
+
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://www.alberts.me/post/gwn-to-be-revived-soon/">GWN to be revived soon?</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>10 Jan 2008, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+
+</div>
+
+  </header>
+
+  <p>
+  Finally, some news on the dev list about the GWN. You need to read through quite a few posts to get the whole story.
+Wolf31o2 sparked the conversation with a rather grim update on the GWN status and why he hasn&rsquo;t put any time into the GWN lately.
+ The GWN is currently in a permanent state of hiatus. I have nointentions on spending another minute working on the GWN. While many,many improvements have been made in the processes for getting theautomated data, getting articles has been pulling teeth, at best.
+  </p>
+
+  
+  <footer>
+    <a href="http://www.alberts.me/post/gwn-to-be-revived-soon/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://www.alberts.me/post/finding-gentoo/">Finding Gentoo</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>18 Dec 2007, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="http://www.alberts.metags/developers">developers</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://www.alberts.metags/gentoo">Gentoo</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://www.alberts.metags/gwn">gwn</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://www.alberts.metags/information">information</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://www.alberts.metags/stale">stale</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  This is more or less a follow-up to my previous blog post Good ole Gentoo. Where art thou? Anyone can just complain about the status of things, so I thought I would provide a little help with finding out more about Gentoo and what&rsquo;s going on with the distro. So, you&rsquo;re a long time Gentoo user getting tired of the old stale web page that shows a 2 month old GWN as the latest news.
+  </p>
+
+  
+  <footer>
+    <a href="http://www.alberts.me/post/finding-gentoo/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://www.alberts.me/post/holy-crap-wlw-ftw/">Holy Crap! WLW FTW</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>14 Dec 2007, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+
+</div>
+
+  </header>
+
+  <p>
+  I just realized the Windows Live Writer works with other blogs, such as WordPress, etc. I thought it only supported MS blogging services. This is very cool. It seems to be a nice blog editor.
+I wonder if it will copy and upload this mythtv picture to my server or steal the bandwidth from gentoo-wiki?
+This didn&rsquo;t work on my personal wordpress install, I wonder if it will publish to my wordpress.
+  </p>
+
+  
+  <footer>
+    <a href="http://www.alberts.me/post/holy-crap-wlw-ftw/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://www.alberts.me/post/top-best-50-ubuntu-opensource-applications-for-design/">Top Best 50 Ubuntu Opensource Applications For Design </a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>14 Dec 2007, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+
+</div>
+
+  </header>
+
+  <p>
+  List of the 50 best opensource applications for Ubuntu, Xubuntu, Kubuntu and Fluxbuntu.
+I hate when people limit the title of their articles about Linux to only include Ubuntu*. Still, this is a pretty good list of apps for design.
+read more | digg story
+  </p>
+
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://www.alberts.me/post/omg-no-internet/">OMG, No Internet</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>13 Dec 2007, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+
+</div>
+
+  </header>
+
+  <p>
+  Well, my internet has been out for about a day now. This really sucks. Last night, I wasn&rsquo;t quite sure what to do without the internet. I spent most of my night trying to see how many open wireless AP&rsquo;s were around in my area.
+Hmm, what to do tonight.
+Tags: other
+  </p>
+
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://www.alberts.me/post/good-ole-gentoo-where-art-thou/">Good ole Gentoo.  Where art thou?</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>11 Dec 2007, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+
+</div>
+
+  </header>
+
+  <p>
+  I remember when I first started using Gentoo (back in the Gentoo 1.4 days), the community activity was just amazing. Each and every day or week, there was always something new and exciting going on in the Gentoo community. I looked forward to the GWN (Gentoo Weekly Newsletter) coming out each week, so I could try to catch up on what I might have missed or not even realized was happening.
+  </p>
+
+  
+  <footer>
+    <a href="http://www.alberts.me/post/good-ole-gentoo-where-art-thou/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://www.alberts.me/post/the-least-used-page-on-microsoftcom/">The least used page on microsoft.com</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>11 Dec 2007, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+
+</div>
+
+  </header>
+
+  <p>
+  a guide no one has ever used. Does Microsoft seriously think ANYONE would ever follow this guide? All I have to say is, &ldquo;Nice try Microsoft.&rdquo;.
+read more | digg story
+  </p>
+
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="http://www.alberts.me/post/the-most-insane-freakin-trailer-ive-ever-seen/">The Most Insane Freakin&#39; Trailer I&#39;ve Ever Seen!</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>09 Dec 2007, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+
+</div>
+
+  </header>
+
+  <p>
+  High school girl, ninja, yakuza… a fucking drill bra! Instant win.
+Now this reminds me of the recent Planet Terror movie. Looks so stupid it&rsquo;s probably pretty entertaining. :)
+read more | digg story
+  </p>
+
+  
+</article>
+
+  
+
+  
+
+
+<nav class="pagination" role="pagination">
+  
+  <a href="http://www.alberts.me/page/4/"><i class="fa fa-chevron-left"></i></a>
+  
+  <span>&nbsp;5 / 9&nbsp;</span>
+  
+  <a href="http://www.alberts.me/page/6/"><i class="fa fa-chevron-right"></i></a>
+  
+</nav>
+
+
+
+</div>
+
+</div>
+</div>
+<script src="http://www.alberts.mejs/ui.js"></script>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-113453795-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+
+
+</body>
+</html>
+
