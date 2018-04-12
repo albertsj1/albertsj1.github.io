@@ -21,7 +21,7 @@ enableEmoji = true
   topic = "topics"
 
 [params]
-  brand = ""
+  brand = "Home"
   disqus = "alberts"
   googleAnalytics = "UA-113453795-1"
   nodate = true
