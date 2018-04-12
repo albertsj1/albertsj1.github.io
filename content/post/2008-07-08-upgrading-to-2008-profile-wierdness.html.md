@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2008-07-08 
-layout: post
 slug: upgrading-to-2008-profile-wierdness
 title: Upgrading to 2008 profile wierdness
 categories:

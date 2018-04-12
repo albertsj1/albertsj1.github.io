@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2006-01-17 
-layout: post
 slug: nubuntu-stable-is-out
 title: nUbuntu Stable is OUT!!!
 ---

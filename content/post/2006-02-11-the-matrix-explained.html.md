@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2006-02-11 
-layout: post
 slug: the-matrix-explained
 title: 'The Matrix: Explained'
 ---

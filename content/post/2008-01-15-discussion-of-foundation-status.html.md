@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2008-01-15 
-layout: post
 slug: discussion-of-foundation-status
 title: Discussion of Foundation Status
 categories:

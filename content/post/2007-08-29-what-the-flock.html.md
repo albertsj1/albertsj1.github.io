@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2007-08-29 
-layout: post
 slug: what-the-flock
 title: New NightSources
 categories:

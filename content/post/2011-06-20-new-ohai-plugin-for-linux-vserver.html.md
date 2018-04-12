@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2011-06-20 
-layout: post
 slug: new-ohai-plugin-for-linux-vserver
 title: New Ohai Plugin for Linux VServer
 categories:

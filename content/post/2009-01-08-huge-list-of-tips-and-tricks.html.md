@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2009-01-08 
-layout: post
 slug: huge-list-of-tips-and-tricks
 title: Huge List of Tips and Tricks
 categories:

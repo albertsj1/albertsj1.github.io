@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2007-12-14 
-layout: post
 slug: holy-crap-wlw-ftw
 title: Holy Crap! WLW FTW
 ---

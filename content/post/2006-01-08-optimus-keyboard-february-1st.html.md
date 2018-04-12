@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2006-01-08 
-layout: post
 slug: optimus-keyboard-february-1st
 title: Optimus Keyboard February 1st!
 ---

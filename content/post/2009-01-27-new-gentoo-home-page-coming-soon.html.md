@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2009-01-27 
-layout: post
 slug: new-gentoo-home-page-coming-soon
 title: New Gentoo Home Page Coming Soon?
 categories:

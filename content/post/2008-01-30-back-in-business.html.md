@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2008-01-30 
-layout: post
 slug: back-in-business
 title: Back in Business
 categories:

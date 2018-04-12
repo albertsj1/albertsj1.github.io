@@ -1,5 +1,5 @@
 baseurl = "http://www.alberts.me"
-theme = "redlounge"
+theme = "blackburn"
 languageCode = "en-us"
 title = "John Alberts' Blog"
 author = "John Alberts"
@@ -7,44 +7,57 @@ disqusShortname = "alberts"
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
-[indexes]
-  category = "categories"
 canonifyurls = true
+paginate = 10
+disableKinds = ["RSS"]
+enableRobotsTXT = true
+enableEmoji = true
 
-[Params]
+[outputs]
+  home = ["HTML", "AMP"]
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[params]
+  brand = "Random Shit"
+  disqus = "alberts"
+  googleAnalytics = "UA-113453795-1"
   nodate = true
   socialsharing = true
   sidebartitle = "John Alberts' Blog"
   description = "Random Thoughts"
   AuthorName = "John"
+  logo = "/img/me.jpg"
+  highlightjs = "androidstudio"
+
+[social]
   github = "albertsj1"
   bitbucket = "jalberts"
   twitter = "alberts"
   email = "john@alberts.me"
   linkedin = "johnmalberts"
-  logo = "/img/me.jpg"
+  lastfm = "albertsj1"
+  hackernews = "jalberts72"
+  keybase = "jalberts"
+  steam = "john_alberts"
 
-[[menu.social]]
-  pre = "<i class='fa fa-twitter'></i>"
-  url = "http://www.twitter.com/alberts"
-  identifier = "twitter"
-    
-[[menu.social]]
-  pre = "<i class='fa fa-github'></i>"
-  url = "http://github.com/albertsj1"
-  identifier = "github"
+[menu]
 
-[[menu.social]]
-  pre = "<i class='fa fa-linkedin'></i>"
-  url = "http://www.linkedin.com/in/johnmalberts/en"
-  identifier = "linkedin"
-
-[[menu.main]]
-    name = "FeedBurner"
-    identifier = "FeedBurner"
-    url = "http://feeds.feedburner.com/JohnAlbertsBlog"
-    
-[[menu.main]]
-    name = "Get Email Updates"
-    url = "https://feedburner.google.com/fb/a/mailverify?uri=JohnAlbertsBlog&amp;loc=en_US"
-    identifier = "Get-Email-Updates"
+  [[menu.main]]
+    name = "Subscribe"
+    weight = 1
+  [[menu.main]]
+      name = "  FeedBurner"
+      pre = "<i class='fa fa-feed fa-fw'></i>"
+      weight = 10
+      identifier = "FeedBurner"
+      url = "http://feeds.feedburner.com/JohnAlbertsBlog"
+      
+  [[menu.main]]
+      name = "  Email Updates"
+      pre = "<i class='fa fa-updates fa-fw'></i>"
+      weight = 20
+      url = "https://feedburner.google.com/fb/a/mailverify?uri=JohnAlbertsBlog&amp;loc=en_US"
+      identifier = "Get-Email-Updates"

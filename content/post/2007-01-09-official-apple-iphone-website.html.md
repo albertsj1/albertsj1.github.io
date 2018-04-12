@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2007-01-09 
-layout: post
 slug: official-apple-iphone-website
 title: Official Apple iPhone Website
 ---

@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2008-12-31 
-layout: post
 slug: quick-and-dirty-linux-load-testing
 title: Quick and Dirty Linux Load Testing
 categories:

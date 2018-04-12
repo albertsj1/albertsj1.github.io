@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2006-12-03 
-layout: post
 slug: never-pay-federal-income-tax-again
 title: Never pay federal income tax again?
 ---

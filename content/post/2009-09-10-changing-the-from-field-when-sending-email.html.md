@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2009-09-10 
-layout: post
 slug: changing-the-from-field-when-sending-email
 title: Changing the from field when sending email
 categories:

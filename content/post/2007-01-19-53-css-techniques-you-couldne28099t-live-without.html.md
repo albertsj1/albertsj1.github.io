@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2007-01-19 
-layout: post
 slug: 53-css-techniques-you-couldn%e2%80%99t-live-without
 title: 53 CSS-Techniques You Couldn’t Live Without
 ---

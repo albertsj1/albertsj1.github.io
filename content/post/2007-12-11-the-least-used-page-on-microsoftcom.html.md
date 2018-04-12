@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2007-12-11 
-layout: post
 slug: the-least-used-page-on-microsoftcom
 title: The least used page on microsoft.com
 ---

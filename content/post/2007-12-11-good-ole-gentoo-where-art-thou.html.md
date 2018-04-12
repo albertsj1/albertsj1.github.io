@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2007-12-11 
-layout: post
 slug: good-ole-gentoo-where-art-thou
 title: Good ole Gentoo.  Where art thou?
 categories:

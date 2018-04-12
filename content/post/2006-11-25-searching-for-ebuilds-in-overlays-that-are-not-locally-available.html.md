@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2006-11-25 
-layout: post
 slug: searching-for-ebuilds-in-overlays-that-are-not-locally-available
 title: Searching For Ebuilds In Overlays That Are Not Locally Available
 categories:

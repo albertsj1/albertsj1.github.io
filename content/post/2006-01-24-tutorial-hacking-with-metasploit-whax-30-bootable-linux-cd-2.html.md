@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2006-01-24 
-layout: post
 slug: tutorial-hacking-with-metasploit-whax-30-bootable-linux-cd-2
 title: 'Tutorial: Hacking with Metasploit & Whax 3.0 (Bootable Linux CD)'
 ---

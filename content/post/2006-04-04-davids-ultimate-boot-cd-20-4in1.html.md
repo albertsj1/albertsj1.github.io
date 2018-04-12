@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2006-04-04 
-layout: post
 slug: davids-ultimate-boot-cd-20-4in1
 title: David's Ultimate Boot CD 2.0 4in1
 ---

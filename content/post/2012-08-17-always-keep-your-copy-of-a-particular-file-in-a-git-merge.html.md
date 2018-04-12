@@ -5,7 +5,6 @@ tags:
   - configuration management
 comments: true
 date: 2012-08-17 
-layout: post
 slug: always-keep-your-copy-of-a-particular-file-in-a-git-merge
 title: Always keep your copy of a particular file in a git merge
 categories:

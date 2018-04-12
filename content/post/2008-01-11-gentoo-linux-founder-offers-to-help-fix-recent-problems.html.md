@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2008-01-11 
-layout: post
 slug: gentoo-linux-founder-offers-to-help-fix-recent-problems
 title: Gentoo Linux Founder Offers To Help Fix Recent Problems
 ---

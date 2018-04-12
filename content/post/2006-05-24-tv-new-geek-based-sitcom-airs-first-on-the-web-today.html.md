@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2006-05-24 
-layout: post
 slug: tv-new-geek-based-sitcom-airs-first-on-the-web-today
 title: 'TV: New geek-based sitcom; airs first on the web TODAY!'
 ---

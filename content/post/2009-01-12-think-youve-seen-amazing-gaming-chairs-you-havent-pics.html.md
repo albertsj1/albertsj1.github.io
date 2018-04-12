@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2009-01-12 
-layout: post
 slug: think-youve-seen-amazing-gaming-chairs-you-havent-pics
 title: Think You've Seen Amazing Gaming Chairs? You Haven't. [PICS]
 ---

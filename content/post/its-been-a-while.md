@@ -3,7 +3,6 @@ Categories = ["Personal"]
 Description = "It's been a while since my last post"
 Tags = ["personal"]
 date = "2015-12-29T10:25:51-08:00"
-menu = "main"
 title = "It's been a while"
 
 +++

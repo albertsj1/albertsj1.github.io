@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2009-01-19 
-layout: post
 slug: combine-your-partition-space-with-mhddfs
 title: Combine your partition space with mhddfs.
 categories:

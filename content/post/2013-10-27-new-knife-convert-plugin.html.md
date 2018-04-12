@@ -1,6 +1,5 @@
 ---
 title: New knife-convert Knife Plugin
-layout: post
 tags:
   - chef
   - knife

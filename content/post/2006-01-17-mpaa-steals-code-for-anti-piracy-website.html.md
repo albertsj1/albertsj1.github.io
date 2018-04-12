@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2006-01-17 
-layout: post
 slug: mpaa-steals-code-for-anti-piracy-website
 title: MPAA Steals Code for Anti Piracy Website
 ---

@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2009-01-10 
-layout: post
 slug: linux-2628s-five-best-features
 title: Linux 2.6.28's five best features
 ---

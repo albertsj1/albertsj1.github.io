@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2006-05-09 
-layout: post
 slug: very-cool-ajax-framework
 title: Very Cool Ajax Framework
 ---

@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2007-01-30 
-layout: post
 slug: the-gentoo-debate-continues
 title: The Gentoo Debate Continues
 categories:

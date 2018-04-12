@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2008-01-15 
-layout: post
 slug: problems-at-gentoo-wiki-article
 title: '"Problems at Gentoo" Wiki Article'
 categories:

@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2007-12-09 
-layout: post
 slug: the-most-insane-freakin-trailer-ive-ever-seen
 title: The Most Insane Freakin' Trailer I've Ever Seen!
 ---

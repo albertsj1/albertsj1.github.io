@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2006-01-15 
-layout: post
 slug: video-312mph-502kmh-japanese-linear-motor-maglev-train
 title: (Video) 312mph (502kmh) Japanese Linear Motor MAGLEV TRAIN
 ---

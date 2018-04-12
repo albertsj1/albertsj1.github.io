@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2008-02-22 
-layout: post
 slug: powerful-css-techniques-for-effective-coding
 title: Powerful CSS-Techniques For Effective Coding
 categories:

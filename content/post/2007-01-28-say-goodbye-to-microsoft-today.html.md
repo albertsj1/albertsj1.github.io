@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2007-01-28 
-layout: post
 slug: say-goodbye-to-microsoft-today
 title: Say goodbye to Microsoft today ...
 categories:

@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2009-03-11 
-layout: post
 slug: balance-through-extremism-%c2%bb-redhat-perl-what-a-tragedy
 title: Balance Through Extremism » Redhat perl. What a tragedy.
 categories:

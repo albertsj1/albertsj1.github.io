@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2007-12-18 
-layout: post
 slug: finding-gentoo
 title: Finding Gentoo
 categories:

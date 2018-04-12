@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2008-01-10 
-layout: post
 slug: gwn-to-be-revived-soon
 title: GWN to be revived soon?
 categories:

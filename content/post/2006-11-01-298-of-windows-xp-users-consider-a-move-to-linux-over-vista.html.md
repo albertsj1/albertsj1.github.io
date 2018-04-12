@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2006-11-01 
-layout: post
 slug: 298-of-windows-xp-users-consider-a-move-to-linux-over-vista
 title: 29.8% of Windows XP users consider a move to Linux over Vista
 ---

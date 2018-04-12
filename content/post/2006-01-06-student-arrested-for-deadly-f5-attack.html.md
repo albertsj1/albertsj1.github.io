@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2006-01-06 
-layout: post
 slug: student-arrested-for-deadly-f5-attack
 title: Student arrested for deadly F5 attack
 ---

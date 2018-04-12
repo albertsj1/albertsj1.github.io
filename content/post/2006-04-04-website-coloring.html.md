@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2006-04-04 
-layout: post
 slug: website-coloring
 title: Website Coloring
 ---

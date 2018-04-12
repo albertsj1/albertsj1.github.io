@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2006-01-12 
-layout: post
 slug: hard-drive-recovery-utilities-when-you-cant-afford-to-lose-that-data
 title: 'Hard drive recovery utilities: when you can''t afford to lose that data'
 ---

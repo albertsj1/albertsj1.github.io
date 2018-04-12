@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2012-03-01 
-layout: post
 slug: using-pagerdutys-nagios-integration-without-the-extra-load
 title: Using Pagerduty's Nagios integration without the extra load
 categories:

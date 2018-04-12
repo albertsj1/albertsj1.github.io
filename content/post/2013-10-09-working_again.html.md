@@ -1,6 +1,5 @@
 ---
 title: Docpad working again
-layout: post
 tags:
   - docpad
   - personal

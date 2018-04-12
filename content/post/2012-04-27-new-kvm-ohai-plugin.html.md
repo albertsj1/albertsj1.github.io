@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2012-04-27 
-layout: post
 slug: new-kvm-ohai-plugin
 title: New KVM Ohai Plugin
 categories:

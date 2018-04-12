@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2007-01-26 
-layout: post
 slug: new-blog-editors-part-2
 title: New Blog Editors - Part 2
 ---

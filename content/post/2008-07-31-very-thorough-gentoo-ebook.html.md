@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2008-07-31 
-layout: post
 slug: very-thorough-gentoo-ebook
 title: Very Thorough Gentoo Ebook
 categories:

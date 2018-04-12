@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2007-01-24 
-layout: post
 slug: a-work-in-progress
 title: A Work In Progress
 ---

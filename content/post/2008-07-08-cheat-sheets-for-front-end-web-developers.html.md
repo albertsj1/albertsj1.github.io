@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2008-07-08 
-layout: post
 slug: cheat-sheets-for-front-end-web-developers
 title: Cheat Sheets for Front-end Web Developers
 categories:

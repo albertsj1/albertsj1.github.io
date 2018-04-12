@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2007-12-14 
-layout: post
 slug: top-best-50-ubuntu-opensource-applications-for-design
 title: 'Top Best 50 Ubuntu Opensource Applications For Design '
 ---

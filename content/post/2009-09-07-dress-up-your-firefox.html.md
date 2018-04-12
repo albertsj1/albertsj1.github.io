@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2009-09-07 
-layout: post
 slug: dress-up-your-firefox
 title: Dress-up your Firefox
 categories:

@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2006-05-08 
-layout: post
 slug: vonage-to-reserve-a-portion-of-common-stock-for-customers
 title: Vonage to Reserve a Portion of Common Stock for Customers
 ---

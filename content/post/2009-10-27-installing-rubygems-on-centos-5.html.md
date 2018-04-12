@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2009-10-27 
-layout: post
 slug: installing-rubygems-on-centos-5
 title: Installing RubyGems on Centos 5
 categories:

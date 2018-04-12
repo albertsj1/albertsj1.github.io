@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2006-11-25 
-layout: post
 slug: the-search-for-a-good-desktop-blog-editor
 title: The Search For a Good Desktop Blog Editor
 categories:

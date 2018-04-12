@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2005-10-25 
-layout: post
 slug: first-post
 title: First Post!
 ---

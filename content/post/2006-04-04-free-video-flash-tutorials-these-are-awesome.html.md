@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2006-04-04 
-layout: post
 slug: free-video-flash-tutorials-these-are-awesome
 title: Free video 'flash' tutorials- These are AWESOME
 ---

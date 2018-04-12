@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2008-03-19 
-layout: post
 slug: google-code-university-free-training-from-google
 title: Google Code University - Free Training from Google
 ---

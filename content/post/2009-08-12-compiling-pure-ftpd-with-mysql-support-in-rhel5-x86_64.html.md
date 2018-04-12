@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2009-08-12 
-layout: post
 slug: compiling-pure-ftpd-with-mysql-support-in-rhel5-x86_64
 title: Compiling Pure-FTPD with MySQL Support in RHEL5 x86_64
 categories:

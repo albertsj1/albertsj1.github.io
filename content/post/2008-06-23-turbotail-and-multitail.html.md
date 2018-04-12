@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2008-06-23 
-layout: post
 slug: turbotail-and-multitail
 title: Turbotail and multitail
 categories:

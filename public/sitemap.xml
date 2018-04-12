@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>http://www.alberts.me/</loc>
-    <lastmod>2015-12-29T10:25:51-08:00</lastmod>
-    <priority>0</priority>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>http://www.alberts.me/post/its-been-a-while/</loc>
@@ -88,7 +83,7 @@
   </url>
   
   <url>
-    <loc>http://www.alberts.me/post/balance-through-extremism-%C2%BB-redhat-perl-what-a-tragedy/</loc>
+    <loc>http://www.alberts.me/post/balance-through-extremism-%c2%bb-redhat-perl-what-a-tragedy/</loc>
     <lastmod>2009-03-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -298,7 +293,7 @@
   </url>
   
   <url>
-    <loc>http://www.alberts.me/post/53-css-techniques-you-couldn%E2%80%99t-live-without/</loc>
+    <loc>http://www.alberts.me/post/53-css-techniques-you-couldn%e2%80%99t-live-without/</loc>
     <lastmod>2007-01-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -445,6 +440,299 @@
   <url>
     <loc>http://www.alberts.me/post/first-post/</loc>
     <lastmod>2005-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/bugs/</loc>
+    <lastmod>2009-03-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/chef/</loc>
+    <lastmod>2013-10-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/configuration-management/</loc>
+    <lastmod>2012-08-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/conky/</loc>
+    <lastmod>2009-01-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/cpan/</loc>
+    <lastmod>2009-01-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/css-techniques/</loc>
+    <lastmod>2008-02-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/developers/</loc>
+    <lastmod>2007-12-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/docpad/</loc>
+    <lastmod>2013-09-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/ext3/</loc>
+    <lastmod>2008-12-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/extensions/</loc>
+    <lastmod>2009-09-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/filesystems/</loc>
+    <lastmod>2009-01-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/firefox/</loc>
+    <lastmod>2009-09-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/foundation/</loc>
+    <lastmod>2008-01-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/funtoo/</loc>
+    <lastmod>2009-01-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/fuse/</loc>
+    <lastmod>2009-01-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/gems/</loc>
+    <lastmod>2009-10-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/general/</loc>
+    <lastmod>2015-03-01T22:10:39-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/gentoo/</loc>
+    <lastmod>2009-01-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/git/</loc>
+    <lastmod>2012-08-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/gwn/</loc>
+    <lastmod>2007-12-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/information/</loc>
+    <lastmod>2007-12-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/</loc>
+    <lastmod>2015-12-29T10:25:51-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/knife/</loc>
+    <lastmod>2013-10-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/linux/</loc>
+    <lastmod>2009-01-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/linux-tips/</loc>
+    <lastmod>2009-01-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/load-testing/</loc>
+    <lastmod>2008-12-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/mhddfs/</loc>
+    <lastmod>2009-01-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/moc/</loc>
+    <lastmod>2009-01-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/music/</loc>
+    <lastmod>2009-03-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/music-player/</loc>
+    <lastmod>2009-01-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/nagios/</loc>
+    <lastmod>2012-03-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/pagerduty/</loc>
+    <lastmod>2012-03-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/performance/</loc>
+    <lastmod>2009-03-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/perl/</loc>
+    <lastmod>2009-03-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/personal/</loc>
+    <lastmod>2015-12-29T10:25:51-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/pianobar/</loc>
+    <lastmod>2010-10-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/plugins/</loc>
+    <lastmod>2013-10-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/post/</loc>
+    <lastmod>2015-12-29T10:25:51-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/programming/</loc>
+    <lastmod>2009-01-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/ruby/</loc>
+    <lastmod>2009-10-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/scripting/</loc>
+    <lastmod>2009-10-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/site/</loc>
+    <lastmod>2013-04-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/stale/</loc>
+    <lastmod>2007-12-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/</loc>
+    <lastmod>2009-03-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/tips/</loc>
+    <lastmod>2009-01-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/topics/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/trustees/</loc>
+    <lastmod>2008-01-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/unattended/</loc>
+    <lastmod>2009-01-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.alberts.me/tags/website/</loc>
+    <lastmod>2008-12-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

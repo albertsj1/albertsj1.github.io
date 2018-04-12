@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2009-01-03 
-layout: post
 slug: funtoo-articles
 title: Funtoo Articles
 categories:

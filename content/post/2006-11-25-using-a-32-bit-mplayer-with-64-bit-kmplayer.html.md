@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2006-11-25 
-layout: post
 slug: using-a-32-bit-mplayer-with-64-bit-kmplayer
 title: Using a 32-bit mplayer with 64-bit kmplayer
 categories:

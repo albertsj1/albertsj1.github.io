@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2008-12-23 
-layout: post
 slug: quickly-get-up-to-5-more-disk-space-from-your-ext3-volumes
 title: Quickly get up to 5% more disk space from your ext3 volumes
 categories:

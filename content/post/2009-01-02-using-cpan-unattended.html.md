@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2009-01-02 
-layout: post
 slug: using-cpan-unattended
 title: Using CPAN Unattended
 categories:

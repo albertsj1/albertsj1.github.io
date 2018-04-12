@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2009-03-11 
-layout: post
 slug: grooveshark-listen-to-free-music
 title: Grooveshark -- Listen to Free Music
 categories:

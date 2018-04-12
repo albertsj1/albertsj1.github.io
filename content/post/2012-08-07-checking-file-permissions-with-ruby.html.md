@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2012-08-07 
-layout: post
 slug: checking-file-permissions-with-ruby
 title: Checking file permissions with Ruby
 categories:

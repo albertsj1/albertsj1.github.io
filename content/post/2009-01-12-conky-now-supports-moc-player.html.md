@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2009-01-12 
-layout: post
 slug: conky-now-supports-moc-player
 title: Conky now supports MOC player
 categories:

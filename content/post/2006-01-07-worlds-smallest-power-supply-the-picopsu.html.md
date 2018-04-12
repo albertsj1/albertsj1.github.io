@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2006-01-07 
-layout: post
 slug: worlds-smallest-power-supply-the-picopsu
 title: World's smallest power supply - the picoPSU
 ---

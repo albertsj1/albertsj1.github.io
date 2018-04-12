@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2006-01-24 
-layout: post
 slug: restaurant-sued-for-playing-copyrighted-music-2
 title: Restaurant Sued For Playing Copyrighted Music
 ---

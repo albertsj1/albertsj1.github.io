@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2008-01-11 
-layout: post
 slug: daniel-to-the-rescue
 title: Daniel to the rescue?
 categories:

@@ -2,7 +2,6 @@
 author: alberts
 comments: true
 date: 2008-12-11 
-layout: post
 slug: new-stats-plugin
 title: New Stats Plugin
 categories:
