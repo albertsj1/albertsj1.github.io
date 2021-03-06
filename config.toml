@@ -16,10 +16,6 @@ enableEmoji = true
 [outputs]
   home = ["HTML"]
 
-[indexes]
-  tag = "tags"
-  topic = "topics"
-
 [params]
   brand = "Home"
   disqus = "alberts"
@@ -40,23 +36,36 @@ enableEmoji = true
   lastfm = "albertsj1"
   hackernews = "jalberts72"
   keybase = "jalberts"
-  steam = "john_alberts"
+  steam = "barn"
 
 [menu]
+  [[menu.main]]
+    name = "Tags"
+    pre = "<i class='fa fa-tags fa-fw'></i>"
+    weight = 1
+    identifier = "Tags"
+    url = "/tags/"
+
+  [[menu.main]]
+    name = "Categories"
+    pre = "<i class='fa fa-categories fa-fw'></i>"
+    weight = 2
+    identifier = "Categories"
+    url = "/categories/"
 
   [[menu.main]]
     name = "Subscribe"
-    weight = 1
+    weight = 10
   [[menu.main]]
       name = "  FeedBurner"
       pre = "<i class='fa fa-feed fa-fw'></i>"
-      weight = 10
+      weight = 100
       identifier = "FeedBurner"
       url = "http://feeds.feedburner.com/JohnAlbertsBlog"
-      
+
   [[menu.main]]
       name = "  Email Updates"
       pre = "<i class='fa fa-updates fa-fw'></i>"
-      weight = 20
+      weight = 101
       url = "https://feedburner.google.com/fb/a/mailverify?uri=JohnAlbertsBlog&amp;loc=en_US"
       identifier = "Get-Email-Updates"

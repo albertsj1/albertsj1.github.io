@@ -1,743 +1,464 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>http://www.alberts.me/post/still-alive/</loc>
-    <lastmod>2018-04-11T20:27:14-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/its-been-a-while/</loc>
-    <lastmod>2015-12-29T10:25:51-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/now-with-more-hugo/</loc>
-    <lastmod>2015-03-01T22:10:39-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/2013-10-27-new-knife-convert-plugin.html/</loc>
-    <lastmod>2013-10-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/2013-10-09-working_again.html/</loc>
-    <lastmod>2013-09-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/2013-05-31-tags.html/</loc>
-    <lastmod>2013-05-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/2013-04-22-new-site.html/</loc>
-    <lastmod>2013-04-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/always-keep-your-copy-of-a-particular-file-in-a-git-merge/</loc>
-    <lastmod>2012-08-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/checking-file-permissions-with-ruby/</loc>
-    <lastmod>2012-08-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/new-kvm-ohai-plugin/</loc>
-    <lastmod>2012-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/using-pagerdutys-nagios-integration-without-the-extra-load/</loc>
-    <lastmod>2012-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/new-ohai-plugin-for-linux-vserver/</loc>
-    <lastmod>2011-06-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/fixing-pianobar-libao-so-2-error-on-ubuntu-maverick/</loc>
-    <lastmod>2010-10-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/installing-rubygems-on-centos-5/</loc>
-    <lastmod>2009-10-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/changing-the-from-field-when-sending-email/</loc>
-    <lastmod>2009-09-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/dress-up-your-firefox/</loc>
-    <lastmod>2009-09-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/compiling-pure-ftpd-with-mysql-support-in-rhel5-x86_64/</loc>
-    <lastmod>2009-08-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/balance-through-extremism-%c2%bb-redhat-perl-what-a-tragedy/</loc>
-    <lastmod>2009-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/grooveshark-listen-to-free-music/</loc>
-    <lastmod>2009-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/new-gentoo-home-page-coming-soon/</loc>
-    <lastmod>2009-01-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/combine-your-partition-space-with-mhddfs/</loc>
-    <lastmod>2009-01-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/conky-now-supports-moc-player/</loc>
-    <lastmod>2009-01-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/think-youve-seen-amazing-gaming-chairs-you-havent-pics/</loc>
-    <lastmod>2009-01-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/linux-2628s-five-best-features/</loc>
-    <lastmod>2009-01-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/huge-list-of-tips-and-tricks/</loc>
-    <lastmod>2009-01-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/funtoo-articles/</loc>
-    <lastmod>2009-01-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/using-cpan-unattended/</loc>
-    <lastmod>2009-01-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/quick-and-dirty-linux-load-testing/</loc>
-    <lastmod>2008-12-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/quickly-get-up-to-5-more-disk-space-from-your-ext3-volumes/</loc>
-    <lastmod>2008-12-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/new-stats-plugin/</loc>
-    <lastmod>2008-12-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/gmn-late/</loc>
-    <lastmod>2008-11-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/very-thorough-gentoo-ebook/</loc>
-    <lastmod>2008-07-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/cheat-sheets-for-front-end-web-developers/</loc>
-    <lastmod>2008-07-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/upgrading-to-2008-profile-wierdness/</loc>
-    <lastmod>2008-07-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/new-job/</loc>
-    <lastmod>2008-06-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/turbotail-and-multitail/</loc>
-    <lastmod>2008-06-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/google-code-university-free-training-from-google/</loc>
-    <lastmod>2008-03-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/powerful-css-techniques-for-effective-coding/</loc>
-    <lastmod>2008-02-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/back-in-business/</loc>
-    <lastmod>2008-01-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/problems-at-gentoo-wiki-article/</loc>
-    <lastmod>2008-01-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/discussion-of-foundation-status/</loc>
-    <lastmod>2008-01-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/daniel-to-the-rescue/</loc>
-    <lastmod>2008-01-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/gentoo-linux-founder-offers-to-help-fix-recent-problems/</loc>
-    <lastmod>2008-01-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/gwn-to-be-revived-soon/</loc>
-    <lastmod>2008-01-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/finding-gentoo/</loc>
-    <lastmod>2007-12-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/holy-crap-wlw-ftw/</loc>
-    <lastmod>2007-12-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/top-best-50-ubuntu-opensource-applications-for-design/</loc>
-    <lastmod>2007-12-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/omg-no-internet/</loc>
-    <lastmod>2007-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/good-ole-gentoo-where-art-thou/</loc>
-    <lastmod>2007-12-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/the-least-used-page-on-microsoftcom/</loc>
-    <lastmod>2007-12-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/the-most-insane-freakin-trailer-ive-ever-seen/</loc>
-    <lastmod>2007-12-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/what-the-flock/</loc>
-    <lastmod>2007-08-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/what-the-flock-2/</loc>
-    <lastmod>2007-08-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/the-gentoo-debate-continues/</loc>
-    <lastmod>2007-01-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/say-goodbye-to-microsoft-today/</loc>
-    <lastmod>2007-01-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/wetpaint-wiki-create-a-free-wiki-many-looks-no-code-required/</loc>
-    <lastmod>2007-01-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/new-blog-editors/</loc>
-    <lastmod>2007-01-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/new-blog-editors-part-2/</loc>
-    <lastmod>2007-01-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/a-work-in-progress/</loc>
-    <lastmod>2007-01-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/53-css-techniques-you-couldn%e2%80%99t-live-without/</loc>
-    <lastmod>2007-01-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/official-apple-iphone-website/</loc>
-    <lastmod>2007-01-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/never-pay-federal-income-tax-again/</loc>
-    <lastmod>2006-12-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/oh-well/</loc>
-    <lastmod>2006-11-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/finally/</loc>
-    <lastmod>2006-11-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/searching-for-ebuilds-in-overlays-that-are-not-locally-available/</loc>
-    <lastmod>2006-11-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/the-search-for-a-good-desktop-blog-editor/</loc>
-    <lastmod>2006-11-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/using-a-32-bit-mplayer-with-64-bit-kmplayer/</loc>
-    <lastmod>2006-11-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/298-of-windows-xp-users-consider-a-move-to-linux-over-vista/</loc>
-    <lastmod>2006-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/tv-new-geek-based-sitcom-airs-first-on-the-web-today/</loc>
-    <lastmod>2006-05-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/very-cool-ajax-framework/</loc>
-    <lastmod>2006-05-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/vonage-to-reserve-a-portion-of-common-stock-for-customers/</loc>
-    <lastmod>2006-05-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/davids-ultimate-boot-cd-20-4in1/</loc>
-    <lastmod>2006-04-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/free-video-flash-tutorials-these-are-awesome/</loc>
-    <lastmod>2006-04-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/website-coloring/</loc>
-    <lastmod>2006-04-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/the-matrix-explained/</loc>
-    <lastmod>2006-02-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/restaurant-sued-for-playing-copyrighted-music-2/</loc>
-    <lastmod>2006-01-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/restaurant-sued-for-playing-copyrighted-music/</loc>
-    <lastmod>2006-01-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/tutorial-hacking-with-metasploit-whax-30-bootable-linux-cd-2/</loc>
-    <lastmod>2006-01-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/tutorial-hacking-with-metasploit-whax-30-bootable-linux-cd/</loc>
-    <lastmod>2006-01-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/awesome-firefox-xul-example/</loc>
-    <lastmod>2006-01-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/mpaa-steals-code-for-anti-piracy-website/</loc>
-    <lastmod>2006-01-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/nubuntu-stable-is-out/</loc>
-    <lastmod>2006-01-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/video-312mph-502kmh-japanese-linear-motor-maglev-train/</loc>
-    <lastmod>2006-01-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/hard-drive-recovery-utilities-when-you-cant-afford-to-lose-that-data/</loc>
-    <lastmod>2006-01-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/optimus-keyboard-february-1st/</loc>
-    <lastmod>2006-01-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/worlds-smallest-power-supply-the-picopsu/</loc>
-    <lastmod>2006-01-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/student-arrested-for-deadly-f5-attack/</loc>
-    <lastmod>2006-01-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/lastfm/</loc>
-    <lastmod>2005-12-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/post/first-post/</loc>
-    <lastmod>2005-10-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/bugs/</loc>
-    <lastmod>2009-03-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/chef/</loc>
-    <lastmod>2013-10-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/configuration-management/</loc>
-    <lastmod>2012-08-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/conky/</loc>
-    <lastmod>2009-01-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/cpan/</loc>
-    <lastmod>2009-01-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/css-techniques/</loc>
-    <lastmod>2008-02-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/developers/</loc>
-    <lastmod>2007-12-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/docpad/</loc>
-    <lastmod>2013-09-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/ext3/</loc>
-    <lastmod>2008-12-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/extensions/</loc>
-    <lastmod>2009-09-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/filesystems/</loc>
-    <lastmod>2009-01-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/firefox/</loc>
-    <lastmod>2009-09-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/foundation/</loc>
-    <lastmod>2008-01-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/funtoo/</loc>
-    <lastmod>2009-01-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/fuse/</loc>
-    <lastmod>2009-01-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/gems/</loc>
-    <lastmod>2009-10-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
   <url>
     <loc>http://www.alberts.me/tags/general/</loc>
     <lastmod>2018-04-11T20:27:14-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/gentoo/</loc>
-    <lastmod>2009-01-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/git/</loc>
-    <lastmod>2012-08-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/gwn/</loc>
-    <lastmod>2007-12-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/information/</loc>
-    <lastmod>2007-12-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://www.alberts.me/</loc>
     <lastmod>2018-04-11T20:27:14-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/knife/</loc>
-    <lastmod>2013-10-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/linux/</loc>
-    <lastmod>2009-01-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/linux-tips/</loc>
-    <lastmod>2009-01-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/load-testing/</loc>
-    <lastmod>2008-12-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/mhddfs/</loc>
-    <lastmod>2009-01-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/moc/</loc>
-    <lastmod>2009-01-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/music/</loc>
-    <lastmod>2009-03-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/music-player/</loc>
-    <lastmod>2009-01-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/nagios/</loc>
-    <lastmod>2012-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/pagerduty/</loc>
-    <lastmod>2012-03-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/performance/</loc>
-    <lastmod>2009-03-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/perl/</loc>
-    <lastmod>2009-03-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/personal/</loc>
-    <lastmod>2015-12-29T10:25:51-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/pianobar/</loc>
-    <lastmod>2010-10-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/plugins/</loc>
-    <lastmod>2013-10-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://www.alberts.me/post/</loc>
     <lastmod>2018-04-11T20:27:14-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/programming/</loc>
-    <lastmod>2009-01-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/ruby/</loc>
-    <lastmod>2009-10-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/scripting/</loc>
-    <lastmod>2009-10-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>http://www.alberts.me/post/still-alive/</loc>
+    <lastmod>2018-04-11T20:27:14-07:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/</loc>
+    <lastmod>2018-04-11T20:27:14-07:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/categories/</loc>
+    <lastmod>2015-12-29T10:25:51-08:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/its-been-a-while/</loc>
+    <lastmod>2015-12-29T10:25:51-08:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/categories/personal/</loc>
+    <lastmod>2015-12-29T10:25:51-08:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/personal/</loc>
+    <lastmod>2015-12-29T10:25:51-08:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/categories/general/</loc>
+    <lastmod>2015-03-01T22:10:39-08:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/now-with-more-hugo/</loc>
+    <lastmod>2015-03-01T22:10:39-08:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/chef/</loc>
+    <lastmod>2013-10-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/knife/</loc>
+    <lastmod>2013-10-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/2013-10-27-new-knife-convert-plugin.html/</loc>
+    <lastmod>2013-10-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/plugins/</loc>
+    <lastmod>2013-10-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/docpad/</loc>
+    <lastmod>2013-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/2013-10-09-working_again.html/</loc>
+    <lastmod>2013-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/2013-05-31-tags.html/</loc>
+    <lastmod>2013-05-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/2013-04-22-new-site.html/</loc>
+    <lastmod>2013-04-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://www.alberts.me/tags/site/</loc>
     <lastmod>2013-04-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/stale/</loc>
-    <lastmod>2007-12-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/</loc>
+  </url><url>
+    <loc>http://www.alberts.me/post/always-keep-your-copy-of-a-particular-file-in-a-git-merge/</loc>
+    <lastmod>2012-08-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/configuration-management/</loc>
+    <lastmod>2012-08-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/categories/configuration-management/</loc>
+    <lastmod>2012-08-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/git/</loc>
+    <lastmod>2012-08-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/categories/git/</loc>
+    <lastmod>2012-08-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/checking-file-permissions-with-ruby/</loc>
+    <lastmod>2012-08-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/categories/ruby/</loc>
+    <lastmod>2012-08-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/categories/chef/</loc>
+    <lastmod>2012-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/new-kvm-ohai-plugin/</loc>
+    <lastmod>2012-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/categories/ohai/</loc>
+    <lastmod>2012-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/categories/monitoring/</loc>
+    <lastmod>2012-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/categories/nagios/</loc>
+    <lastmod>2012-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/nagios/</loc>
+    <lastmod>2012-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/pagerduty/</loc>
+    <lastmod>2012-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/using-pagerdutys-nagios-integration-without-the-extra-load/</loc>
+    <lastmod>2012-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/categories/linux/</loc>
+    <lastmod>2011-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/new-ohai-plugin-for-linux-vserver/</loc>
+    <lastmod>2011-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/fixing-pianobar-libao-so-2-error-on-ubuntu-maverick/</loc>
+    <lastmod>2010-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/pianobar/</loc>
+    <lastmod>2010-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/gems/</loc>
+    <lastmod>2009-10-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/categories/gentoo/</loc>
+    <lastmod>2009-10-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/installing-rubygems-on-centos-5/</loc>
+    <lastmod>2009-10-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/ruby/</loc>
+    <lastmod>2009-10-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/scripting/</loc>
+    <lastmod>2009-10-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/categories/tips-and-tricks/</loc>
+    <lastmod>2009-10-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/changing-the-from-field-when-sending-email/</loc>
+    <lastmod>2009-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/dress-up-your-firefox/</loc>
+    <lastmod>2009-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/extensions/</loc>
+    <lastmod>2009-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/firefox/</loc>
+    <lastmod>2009-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/categories/web/</loc>
+    <lastmod>2009-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/compiling-pure-ftpd-with-mysql-support-in-rhel5-x86_64/</loc>
+    <lastmod>2009-08-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/balance-through-extremism-%c2%bb-redhat-perl-what-a-tragedy/</loc>
     <lastmod>2009-03-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>http://www.alberts.me/tags/bugs/</loc>
+    <lastmod>2009-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/categories/cool-websites/</loc>
+    <lastmod>2009-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/grooveshark-listen-to-free-music/</loc>
+    <lastmod>2009-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/music/</loc>
+    <lastmod>2009-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/performance/</loc>
+    <lastmod>2009-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/perl/</loc>
+    <lastmod>2009-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/gentoo/</loc>
+    <lastmod>2009-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/new-gentoo-home-page-coming-soon/</loc>
+    <lastmod>2009-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/combine-your-partition-space-with-mhddfs/</loc>
+    <lastmod>2009-01-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/filesystems/</loc>
+    <lastmod>2009-01-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/fuse/</loc>
+    <lastmod>2009-01-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/linux/</loc>
+    <lastmod>2009-01-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/mhddfs/</loc>
+    <lastmod>2009-01-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://www.alberts.me/tags/tips/</loc>
     <lastmod>2009-01-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/topics/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.alberts.me/tags/trustees/</loc>
-    <lastmod>2008-01-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>http://www.alberts.me/tags/conky/</loc>
+    <lastmod>2009-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/conky-now-supports-moc-player/</loc>
+    <lastmod>2009-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/moc/</loc>
+    <lastmod>2009-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/music-player/</loc>
+    <lastmod>2009-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/think-youve-seen-amazing-gaming-chairs-you-havent-pics/</loc>
+    <lastmod>2009-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/linux-2628s-five-best-features/</loc>
+    <lastmod>2009-01-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/huge-list-of-tips-and-tricks/</loc>
+    <lastmod>2009-01-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/linux-tips/</loc>
+    <lastmod>2009-01-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/programming/</loc>
+    <lastmod>2009-01-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/funtoo/</loc>
+    <lastmod>2009-01-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/funtoo-articles/</loc>
+    <lastmod>2009-01-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/cpan/</loc>
+    <lastmod>2009-01-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://www.alberts.me/tags/unattended/</loc>
     <lastmod>2009-01-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>http://www.alberts.me/post/using-cpan-unattended/</loc>
+    <lastmod>2009-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/load-testing/</loc>
+    <lastmod>2008-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/quick-and-dirty-linux-load-testing/</loc>
+    <lastmod>2008-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/ext3/</loc>
+    <lastmod>2008-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/quickly-get-up-to-5-more-disk-space-from-your-ext3-volumes/</loc>
+    <lastmod>2008-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/new-stats-plugin/</loc>
+    <lastmod>2008-12-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://www.alberts.me/tags/website/</loc>
     <lastmod>2008-12-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url><url>
+    <loc>http://www.alberts.me/post/gmn-late/</loc>
+    <lastmod>2008-11-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/very-thorough-gentoo-ebook/</loc>
+    <lastmod>2008-07-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/cheat-sheets-for-front-end-web-developers/</loc>
+    <lastmod>2008-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/upgrading-to-2008-profile-wierdness/</loc>
+    <lastmod>2008-07-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/new-job/</loc>
+    <lastmod>2008-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/turbotail-and-multitail/</loc>
+    <lastmod>2008-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/categories/work/</loc>
+    <lastmod>2008-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/google-code-university-free-training-from-google/</loc>
+    <lastmod>2008-03-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/css-techniques/</loc>
+    <lastmod>2008-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/powerful-css-techniques-for-effective-coding/</loc>
+    <lastmod>2008-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/back-in-business/</loc>
+    <lastmod>2008-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/problems-at-gentoo-wiki-article/</loc>
+    <lastmod>2008-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/discussion-of-foundation-status/</loc>
+    <lastmod>2008-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/foundation/</loc>
+    <lastmod>2008-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/trustees/</loc>
+    <lastmod>2008-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/daniel-to-the-rescue/</loc>
+    <lastmod>2008-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/gentoo-linux-founder-offers-to-help-fix-recent-problems/</loc>
+    <lastmod>2008-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/gwn-to-be-revived-soon/</loc>
+    <lastmod>2008-01-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/developers/</loc>
+    <lastmod>2007-12-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/finding-gentoo/</loc>
+    <lastmod>2007-12-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/gwn/</loc>
+    <lastmod>2007-12-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/information/</loc>
+    <lastmod>2007-12-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/tags/stale/</loc>
+    <lastmod>2007-12-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/holy-crap-wlw-ftw/</loc>
+    <lastmod>2007-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/top-best-50-ubuntu-opensource-applications-for-design/</loc>
+    <lastmod>2007-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/omg-no-internet/</loc>
+    <lastmod>2007-12-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/good-ole-gentoo-where-art-thou/</loc>
+    <lastmod>2007-12-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/the-least-used-page-on-microsoftcom/</loc>
+    <lastmod>2007-12-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/the-most-insane-freakin-trailer-ive-ever-seen/</loc>
+    <lastmod>2007-12-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/what-the-flock/</loc>
+    <lastmod>2007-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/what-the-flock-2/</loc>
+    <lastmod>2007-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/the-gentoo-debate-continues/</loc>
+    <lastmod>2007-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/say-goodbye-to-microsoft-today/</loc>
+    <lastmod>2007-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/wetpaint-wiki-create-a-free-wiki-many-looks-no-code-required/</loc>
+    <lastmod>2007-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/new-blog-editors/</loc>
+    <lastmod>2007-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/new-blog-editors-part-2/</loc>
+    <lastmod>2007-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/a-work-in-progress/</loc>
+    <lastmod>2007-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/53-css-techniques-you-couldn%e2%80%99t-live-without/</loc>
+    <lastmod>2007-01-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/official-apple-iphone-website/</loc>
+    <lastmod>2007-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/never-pay-federal-income-tax-again/</loc>
+    <lastmod>2006-12-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/oh-well/</loc>
+    <lastmod>2006-11-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/finally/</loc>
+    <lastmod>2006-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/searching-for-ebuilds-in-overlays-that-are-not-locally-available/</loc>
+    <lastmod>2006-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/the-search-for-a-good-desktop-blog-editor/</loc>
+    <lastmod>2006-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/using-a-32-bit-mplayer-with-64-bit-kmplayer/</loc>
+    <lastmod>2006-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/298-of-windows-xp-users-consider-a-move-to-linux-over-vista/</loc>
+    <lastmod>2006-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/tv-new-geek-based-sitcom-airs-first-on-the-web-today/</loc>
+    <lastmod>2006-05-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/very-cool-ajax-framework/</loc>
+    <lastmod>2006-05-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/vonage-to-reserve-a-portion-of-common-stock-for-customers/</loc>
+    <lastmod>2006-05-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/davids-ultimate-boot-cd-20-4in1/</loc>
+    <lastmod>2006-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/free-video-flash-tutorials-these-are-awesome/</loc>
+    <lastmod>2006-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/website-coloring/</loc>
+    <lastmod>2006-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/the-matrix-explained/</loc>
+    <lastmod>2006-02-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/restaurant-sued-for-playing-copyrighted-music-2/</loc>
+    <lastmod>2006-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/restaurant-sued-for-playing-copyrighted-music/</loc>
+    <lastmod>2006-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/tutorial-hacking-with-metasploit-whax-30-bootable-linux-cd-2/</loc>
+    <lastmod>2006-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/tutorial-hacking-with-metasploit-whax-30-bootable-linux-cd/</loc>
+    <lastmod>2006-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/awesome-firefox-xul-example/</loc>
+    <lastmod>2006-01-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/mpaa-steals-code-for-anti-piracy-website/</loc>
+    <lastmod>2006-01-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/nubuntu-stable-is-out/</loc>
+    <lastmod>2006-01-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/video-312mph-502kmh-japanese-linear-motor-maglev-train/</loc>
+    <lastmod>2006-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/hard-drive-recovery-utilities-when-you-cant-afford-to-lose-that-data/</loc>
+    <lastmod>2006-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/optimus-keyboard-february-1st/</loc>
+    <lastmod>2006-01-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/worlds-smallest-power-supply-the-picopsu/</loc>
+    <lastmod>2006-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/student-arrested-for-deadly-f5-attack/</loc>
+    <lastmod>2006-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/lastfm/</loc>
+    <lastmod>2005-12-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://www.alberts.me/post/first-post/</loc>
+    <lastmod>2005-10-25T00:00:00+00:00</lastmod>
   </url>
-  
 </urlset>
