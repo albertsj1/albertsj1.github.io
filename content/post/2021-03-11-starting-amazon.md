@@ -2,7 +2,6 @@
 title = "Starting at Amazon"
 slug = "starting-at-amazon"
 date = "2021-03-11T08:40:45-06:00"
-draft = true
 tags = ["work", "amazon"]
 categories = ["work"]
 description = "I started a new job on the Amazon FireTV Telemetry team."
