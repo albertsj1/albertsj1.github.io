@@ -7,7 +7,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://alberts.me',
+  site: 'https://www.alberts.me',
 
   //site: 'https://albertsj1.github.io',
   //base: '/alberts.me',
