@@ -1,0 +1,116 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+---
+
+<BaseLayout title="About | John Alberts" description="About John Alberts - Senior DevOps Engineer with 20+ years of experience in AWS, CI/CD, and cloud automation">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="About"
+				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
+			>
+				<img
+					src="/assets/john-alberts.jpg"
+					alt="John Alberts at work - Senior DevOps Engineer"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Background</h2>
+				<div class="content">
+					<p>
+						I am a seasoned IT professional with over 20 years of experience bridging the gap between complex technical concepts and practical, scalable solutions. Throughout my career, I've developed a versatile skill set through senior level roles at companies such as: <strong>Amazon</strong>, <strong>Twitch</strong>, <strong>Samsung Electronics America</strong>, <strong>Lexipol</strong>, and <strong>Ex Libris</strong>.
+					</p>
+					<p>
+						My journey has not only deepened my expertise in DevOps, Cloud Computing, and Automation but also enriched my understanding of different business environments and challenges. I specialize in AWS Infrastructure, Infrastructure as Code, CI/CD pipelines, Containers, Observability, and Linux system administration.
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Certifications</h2>
+				<div class="content">
+					<ul>
+						<li><strong>AWS DevOps Engineer - Professional</strong></li>
+						<li><strong>AWS Certified Solutions Architect - Professional</strong></li>
+						<li><strong>HashiCorp Certified Terraform Associate</strong></li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Core Skills</h2>
+				<div class="content">
+					<ul>
+						<li><strong>Cloud Platforms:</strong> AWS Infrastructure, Cloud Computing</li>
+						<li><strong>DevOps:</strong> CI/CD Pipelines, Infrastructure as Code (IaC)</li>
+						<li><strong>Tools & Technologies:</strong> Terraform, CloudFormation, Github, Bitbucket, Containers</li>
+						<li><strong>System Administration:</strong> Linux, Observability, Automation</li>
+						<li><strong>Specialties:</strong> Cloud Migration, Orchestration, and Automation, System Engineering</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
