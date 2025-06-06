@@ -12,7 +12,7 @@ export const siteConfig = {
   
   // Social Media & Professional Links
   social: {
-    linkedin: 'https://linkedin.com/in/johnalberts',
+    linkedin: 'https://linkedin.com/in/johnmalberts',
     github: 'https://github.com/jalberts',
     email: 'mailto:john@alberts.me',
   },
