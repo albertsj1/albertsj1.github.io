@@ -14,7 +14,7 @@ export const siteConfig = {
   social: {
     linkedin: 'https://linkedin.com/in/johnmalberts',
     github: 'https://github.com/albertsj1',
-    email: 'mailto:john@alberts.me',
+    email: 'john@alberts.me',
   },
   
   // Site URLs (for deployment)
